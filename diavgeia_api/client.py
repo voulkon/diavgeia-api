@@ -1,0 +1,87 @@
+import requests
+from requests.auth import HTTPBasicAuth
+from .exceptions import DiavgeiaAPIError, DiavgeiaNetworkError
+from ._config import (
+    BASE_URL,
+    DEFAULT_HEADERS,
+    TYPES,
+    DECISIONS,
+    ORGANIZATIONS,
+    SEARCH,
+    SIGNERS,
+    POSITIONS,
+    DICTIONARIES,
+    UNITS,
+)
+from typing import Type, TypeVar, Optional
+from pydantic import BaseModel
+from .models.dictionaries import DictionariesListResponse, DictionaryValuesResponse
+from loguru import logger
+
+T = TypeVar("T", bound=BaseModel)
+
+
+class DiavgeiaClient:
+    """
+    Parameters
+    ----------
+    username, password : optional
+        If both are provided the client sends Basic‑Auth on every request.
+    base_url : str
+        Override only for testing or if the service changes host.
+    """
+
+    def __init__(
+        self,
+        username: Optional[str] = None,
+        password: Optional[str] = None,
+        *,
+        base_url: str = BASE_URL,
+        session: Optional[requests.Session] = None,
+    ):
+        self.base_url = base_url.rstrip("/")
+        self.session = session or requests.Session()
+        self.session.headers.update(DEFAULT_HEADERS)
+
+        if username and password:
+            # requests will add the correct `Authorization: Basic …` header
+            self.session.auth = HTTPBasicAuth(username, password)
+        elif username or password:
+            raise ValueError("Both username and password must be provided, or neither.")
+
+    def build_url(self, *parts: str) -> str:
+        return "/".join([self.base_url.rstrip("/")] + [p.strip("/") for p in parts])
+
+    def _get_and_parse(
+        self,
+        model: Type[T],
+        *url_parts: str,
+        params: Optional[dict] = None,
+    ) -> T:
+        raw = self._request("GET", self.build_url(*url_parts), params=params)
+        return model(**raw)
+
+    # main low‑level request wrapper
+    def _request(self, method: str, url: str, **kwargs):
+        try:
+            resp = self.session.request(method, url, **kwargs)
+        except requests.RequestException as exc:
+            raise DiavgeiaNetworkError(f"Network error: {exc}") from exc
+
+        if not resp.ok:
+            raise DiavgeiaAPIError(resp.status_code, resp.text)
+        return resp.json()
+
+    def _get_and_parse(self, model: Type[T], *path_parts: str, params=None) -> T:
+        raw = self._request("GET", self.build_url(*path_parts), params=params)
+        # You can insert logging/debugging here
+        print(f"[DEBUG] Raw response for {'/'.join(path_parts)}: {raw}")
+        return model(**raw)
+
+    def get_dictionaries(self) -> DictionariesListResponse:
+        """Return the list of available dictionaries."""
+        return self._get_and_parse(DictionariesListResponse, DICTIONARIES)
+
+    def get_dictionary(self, uid: str) -> DictionaryValuesResponse:
+        """Return all items for a specific dictionary."""
+        return self._get_and_parse(DictionaryValuesResponse, DICTIONARIES, uid)

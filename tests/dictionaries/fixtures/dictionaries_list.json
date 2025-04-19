@@ -1,0 +1,48 @@
+{
+    "dictionaries": [
+        {
+            "uid": "THK",
+            "label": "Τύπος Θεματικής Κατηγορίας"
+        },
+        {
+            "uid": "CURRENCY",
+            "label": "Currencies available"
+        },
+        {
+            "uid": "FEKTYPES",
+            "label": "Τύποι τευχών ΦΕΚ"
+        },
+        {
+            "uid": "ORG_CATEGORY",
+            "label": "Κατηγορίες οργανισμών"
+        },
+        {
+            "uid": "ORG_UNIT_CATEGORY",
+            "label": "Τύποι Οργανωτικών μονάδων"
+        },
+        {
+            "uid": "EE_MEMBER",
+            "label": "Κράτος - μέλος της ΕΕ"
+        },
+        {
+            "uid": "CPV",
+            "label": "Κωδικοί CPV"
+        },
+        {
+            "uid": "KANONISTIKI_PRAXI_TYPE",
+            "label": "Τύποι Κανονιστικών Πράξεων"
+        },
+        {
+            "uid": "XOROTAXIKI_PRAXI_TYPE",
+            "label": "Τύποι Πράξεων Χωροταξικού - Πολεοδομικού Περιεχομένου"
+        },
+        {
+            "uid": "ADMIN_STRUCTURE_KALLIKRATIS",
+            "label": "Δομή Καλλικρατικών Περιφερειών και Δήμων"
+        },
+        {
+            "uid": "ORG_DOMAIN",
+            "label": "Πεδίο αρμοδιότητος φορέα"
+        }
+    ]
+}

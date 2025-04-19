@@ -1,0 +1,70 @@
+{
+    "name": "FEKTYPES",
+    "items": [
+        {
+            "uid": "fektype_A",
+            "label": "(Α) - Τεύχος Πρώτο",
+            "parent": null
+        },
+        {
+            "uid": "fektype_B",
+            "label": "(Β) - Τεύχος Δεύτερο",
+            "parent": null
+        },
+        {
+            "uid": "fektype_C",
+            "label": "(Γ) - Τεύχος Τρίτο",
+            "parent": null
+        },
+        {
+            "uid": "fektype_D",
+            "label": "(Δ) - Τεύχος Τέταρτο",
+            "parent": null
+        },
+        {
+            "uid": "fektype_AAP",
+            "label": "(Α.Α.Π) - Τεύχος Αναγκαστικών Απαλλοτριώσεων και Πολεοδομικών Θεμάτων",
+            "parent": null
+        },
+        {
+            "uid": "fektype_EBI",
+            "label": "(Ε.Β.Ι.) - Τεύχος Εμπορικής και Βιομηχανικής Ιδιοκτησίας",
+            "parent": null
+        },
+        {
+            "uid": "fektype_ASEP",
+            "label": "(Α.Σ.Ε.Π.) - Τεύχος Προκηρύξεων Ανωτάτου Συμβουλίου Επιλογής Προσωπικού",
+            "parent": null
+        },
+        {
+            "uid": "fektype_DDS",
+            "label": "(Δ.Δ.Σ.) - Τεύχος Διακηρύξεων Δημοσίων Συμβάσεων",
+            "parent": null
+        },
+        {
+            "uid": "fektype_AED",
+            "label": "(Α.Ε.Δ.) - Τεύχος Ανωτάτου Ειδικού Δικαστηρίου",
+            "parent": null
+        },
+        {
+            "uid": "fektype_OPK",
+            "label": "(Ο.Π.Κ.) - Τεύχος Οικονομικών των Πολιτικών Κομμάτων και Συνασπισμών Πολιτικών Κομμάτων",
+            "parent": null
+        },
+        {
+            "uid": "fektype_NPDD",
+            "label": "(Ν.Π.Δ.Δ) - Τεύχος Νομικών Προσώπων Δημοσίου Δικαίου",
+            "parent": null
+        },
+        {
+            "uid": "fektype_APS",
+            "label": "(Α.Π.Σ.) - Τεύχος Αναπτυξιακών Πράξεων",
+            "parent": null
+        },
+        {
+            "uid": "fektype_APPENDIX",
+            "label": "(ΠΑΡΑΡΤΗΜΑ) - Τεύχος Παράρτημα",
+            "parent": null
+        }
+    ]
+}

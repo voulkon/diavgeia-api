@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "pytest (unit + live)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "args": [
+                "--live"
+            ]
+        },
+        {
+            "name": "pytest (Poetry)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "POETRY_ACTIVE": "1"
+            },
+            "args": []
+        }
+    ]
+}
