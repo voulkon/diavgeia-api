@@ -21,7 +21,7 @@ def test_a_decisions_version_live(
 ):
     ...
     # dictionary_result now performed a real call
-    assert one_decisions_version_fetched_result.version_id == decisions_version_id
+    assert one_decisions_version_fetched_result.versionId == decisions_version_id
 
 
 @pytest.mark.integration

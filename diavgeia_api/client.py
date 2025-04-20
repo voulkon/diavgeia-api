@@ -17,12 +17,7 @@ from typing import Type, TypeVar, Optional
 from pydantic import BaseModel
 from .models.dictionaries import DictionariesListResponse, DictionaryValuesResponse
 from .models.decisions import (
-    DecisionAPI,
-    DecisionListAPI,
-    Attachment,
     Decision,
-    PageInfo,
-    DecisionList,
     DecisionVersions,
 )
 from loguru import logger
