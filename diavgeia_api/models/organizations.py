@@ -1,5 +1,5 @@
-from typing import List, Optional, Union
-from pydantic import BaseModel, HttpUrl
+from typing import List, Optional
+from pydantic import BaseModel, HttpUrl, field_validator
 from enum import Enum
 import datetime
 
@@ -37,7 +37,7 @@ class Organization(BaseModel):
 
     uid: str
     latinName: str
-    abbreviation: str
+    abbreviation: Optional[str] = None
     label: str
     status: OrganizationStatus
     category: str
@@ -45,13 +45,31 @@ class Organization(BaseModel):
     fekNumber: Optional[str] = None
     fekIssue: Optional[str] = None
     fekYear: Optional[str] = None
-    website: Optional[HttpUrl] = None
-    organizationDomains: List[str]
+    organizationDomains: Optional[List[str]] = None
+    # website: Optional[HttpUrl] = None
+    # Receiving API is not actually validating this field as a URL, so it can be any string.
+    # I even found den gnvr;izv:
+    #     "odeManagerEmail": "tkerodopis@yeka.gr",
+    # "website": "http://den gnvr;izv",
+    # "supervisorId": "100081533",
+    # "supervisorLabel": "ΥΠΟΥΡΓΕΙΟ ΕΡΓΑΣΙΑΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ",
+    # "organizationDomains": []
+    #  Input should be a valid URL, invalid international domain name [type=url_parsing, input_value='http://den gnvr;izv', input_type=str]
+    website: Optional[str] = None
+
     supervisorOrgUid: Optional[str] = None
     supervisorOrgName: Optional[str] = None
 
     class ConfigDict:
         use_enum_values = True
+
+    @field_validator("website", mode="before")
+    @classmethod
+    def empty_str_to_none(cls, v):
+        """Convert empty string for website to None before validation."""
+        if isinstance(v, str) and v == "":
+            return None
+        return v
 
 
 class OrganizationsResponse(BaseModel):

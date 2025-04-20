@@ -50,7 +50,7 @@ def test_get_organizations_mocked(client, params, expected_response_fixture, req
             url=expected_url,
             json=expected_response,
             status=200,
-            match_querystring=False,
+            # match_querystring=False,
         )
 
         # Call the client method
@@ -63,7 +63,7 @@ def test_get_organizations_mocked(client, params, expected_response_fixture, req
 
 @pytest.mark.integration
 @pytest.mark.parametrize("params, expected_response_fixture", ORG_TEST_CASES)
-@pytest.mark.skipif("not config.getoption('--live')", reason="Needs --live flag to run")
+# @pytest.mark.skipif("not config.getoption('--live')", reason="Needs --live flag to run")
 def test_get_organizations_live(client, params, expected_response_fixture):
     """Tests get_organizations with live API calls."""
     # Call the client method against the live API

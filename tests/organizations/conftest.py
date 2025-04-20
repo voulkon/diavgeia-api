@@ -30,7 +30,7 @@ def organizations_inactive_ministry_expected_response():
 
 
 @pytest.fixture
-def organizations_default_expected_response():
+def organizations_no_params_expected_response():
     """Expected response for default call (no params)"""
 
     return load_json_fixture(HERE, "organizations_no_params.json")
