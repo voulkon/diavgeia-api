@@ -1,6 +1,8 @@
 from pathlib import Path
 import pytest
+import responses
 from tests.utils import load_json_fixture
+from diavgeia_api._config import ORGANIZATIONS
 
 # Keep other necessary imports like responses, urllib.parse, ORGANIZATIONS if needed elsewhere
 
@@ -34,3 +36,53 @@ def organizations_no_params_expected_response():
     """Expected response for default call (no params)"""
 
     return load_json_fixture(HERE, "organizations_no_params.json")
+
+
+@pytest.fixture
+def a_dummy_org_id():
+    """Returns a dummy organization ID for testing."""
+    #     {
+    #     "uid": "6174",
+    #     "label": "ΔΗΜΟΣ ΛΗΜΝΟΥ",
+    #     "abbreviation": null,
+    #     "latinName": "dimos_limnou",
+    #     "status": "active",
+    #     "category": "MUNICIPALITY",
+    #     "vatNumber": "800189144",
+    #     "fekNumber": "87",
+    #     "fekIssue": "fektype_A",
+    #     "fekYear": "2010",
+    #     "odeManagerEmail": "dlimnou@gmail.com",
+    #     "website": "http://www.limnos.gov.gr",
+    #     "supervisorId": "5003",
+    #     "supervisorLabel": "ΠΕΡΙΦΕΡΕΙΑ ΒΟΡΕΙΟΥ ΑΙΓΑΙΟΥ",
+    #     "organizationDomains": []
+    # },
+    return "6174"
+
+
+@pytest.fixture
+def an_orgs_expected_response():
+    """Expected response for default call (no params)"""
+
+    return load_json_fixture(HERE, "an_org.json")
+
+
+@pytest.fixture
+def an_org_expected_result(client, an_orgs_expected_response, a_dummy_org_id, live):
+    ...
+    if not live:
+        with responses.RequestsMock() as rs:
+            rs.add(
+                method=responses.GET,
+                url=client.build_url(ORGANIZATIONS, a_dummy_org_id),
+                json=an_orgs_expected_response,
+                status=200,
+            )
+            # The call must happen *inside* the context manager when mocking
+            result = client.get_organization(organization_id=a_dummy_org_id)
+    else:
+        # If live, make the call outside the responses context
+        result = client.get_organization(organization_id=a_dummy_org_id)
+
+    return result

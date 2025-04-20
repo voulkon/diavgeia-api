@@ -63,7 +63,7 @@ def test_get_organizations_mocked(client, params, expected_response_fixture, req
 
 @pytest.mark.integration
 @pytest.mark.parametrize("params, expected_response_fixture", ORG_TEST_CASES)
-# @pytest.mark.skipif("not config.getoption('--live')", reason="Needs --live flag to run")
+@pytest.mark.skipif("not config.getoption('--live')", reason="Needs --live flag to run")
 def test_get_organizations_live(client, params, expected_response_fixture):
     """Tests get_organizations with live API calls."""
     # Call the client method against the live API
@@ -87,3 +87,14 @@ def test_get_organizations_live(client, params, expected_response_fixture):
     # Verify we got results when we should
     if not params or params.get("status") == OrganizationStatus.ACTIVE:
         assert len(result.organizations) > 0
+
+
+@pytest.mark.integration
+@pytest.mark.skipif(
+    "not config.getoption('--live')",
+    reason="Run with --live to hit the real API",
+)
+def test_get_organization(an_org_expected_result, a_dummy_org_id):
+    assert an_org_expected_result.uid == a_dummy_org_id
+    # assert an_org_expected_result.label == "ΔΗΜΟΣ ΛΗΜΝΟΥ"
+    # assert an_org_expected_result.category == "MUNICIPALITY"

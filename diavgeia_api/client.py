@@ -20,7 +20,11 @@ from .models.decisions import (
     Decision,
     DecisionVersions,
 )
-from .models.organizations import OrganizationsResponse, OrganizationStatus
+from .models.organizations import (
+    OrganizationsResponse,
+    OrganizationStatus,
+    Organization,
+)
 from loguru import logger
 
 T = TypeVar("T", bound=BaseModel)
@@ -130,3 +134,17 @@ class DiavgeiaClient:
         return self._get_and_parse(
             OrganizationsResponse, ORGANIZATIONS, params=params if params else None
         )
+
+    def get_organization(
+        self,
+        organization_id: str,
+    ) -> Organization:
+        """
+        Returns details of a specific organization.
+
+        Parameters
+        ----------
+        organization_id : str
+            The unique identifier of the organization.
+        """
+        return self._get_and_parse(Organization, ORGANIZATIONS, organization_id)

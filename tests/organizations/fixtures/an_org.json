@@ -1,0 +1,17 @@
+{
+    "uid": "6174",
+    "label": "ΔΗΜΟΣ ΛΗΜΝΟΥ",
+    "abbreviation": null,
+    "latinName": "dimos_limnou",
+    "status": "active",
+    "category": "MUNICIPALITY",
+    "vatNumber": "800189144",
+    "fekNumber": "87",
+    "fekIssue": "fektype_A",
+    "fekYear": "2010",
+    "odeManagerEmail": "dlimnou@gmail.com",
+    "website": "http://www.limnos.gov.gr",
+    "supervisorId": "5003",
+    "supervisorLabel": "ΠΕΡΙΦΕΡΕΙΑ ΒΟΡΕΙΟΥ ΑΙΓΑΙΟΥ",
+    "organizationDomains": []
+}
