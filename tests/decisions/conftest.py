@@ -74,7 +74,7 @@ def one_decisions_version_fetched_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(DECISIONS, decisions_version_id),
+                url=client.build_url(DECISIONS, "v", decisions_version_id),
                 json=one_decisions_expected_response,
                 status=200,
             )
