@@ -16,6 +16,14 @@ from ._config import (
 from typing import Type, TypeVar, Optional
 from pydantic import BaseModel
 from .models.dictionaries import DictionariesListResponse, DictionaryValuesResponse
+from .models.decisions import (
+    DecisionAPI,
+    DecisionListAPI,
+    Attachment,
+    Decision,
+    PageInfo,
+    DecisionList,
+)
 from loguru import logger
 
 T = TypeVar("T", bound=BaseModel)
@@ -85,3 +93,7 @@ class DiavgeiaClient:
     def get_dictionary(self, uid: str) -> DictionaryValuesResponse:
         """Return all items for a specific dictionary."""
         return self._get_and_parse(DictionaryValuesResponse, DICTIONARIES, uid)
+
+    def get_a_decision(self, uid: str) -> Decision:
+        """Return a specific decision's details."""
+        return self._get_and_parse(Decision, DECISIONS, uid)

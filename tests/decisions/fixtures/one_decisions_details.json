@@ -1,0 +1,55 @@
+{
+    "protocolNumber": "Ε2281",
+    "subject": "ΑΝΑΛΗΨΗ ΓΙΑ ΥΛΙΚΑ ΚΑΘΑΡΙΟΤΗΤΑΣ",
+    "issueDate": 1744848000000,
+    "organizationId": "100048574",
+    "signerIds": [
+        "100064303"
+    ],
+    "unitIds": [
+        "100062183"
+    ],
+    "decisionTypeId": "Β.1.3",
+    "thematicCategoryIds": [
+        "24"
+    ],
+    "extraFieldValues": {
+        "financialYear": 2025,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": "42431",
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+            "amount": 4139.16,
+            "currency": "EUR"
+        },
+        "amountWithKae": [
+            {
+                "sponsorAFMName": {
+                    "afm": "996887930",
+                    "afmType": "EL",
+                    "afmCountry": "EL",
+                    "enterName": false,
+                    "name": "ΠΡΟΕΔΡΙΑ ΤΗΣ ΚΥΒΕΡΝΗΣΗΣ"
+                },
+                "kae": "2410202001",
+                "amountWithVAT": 4139.16
+            }
+        ],
+        "relatedPartialADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+    },
+    "privateData": false,
+    "ada": "Ψ11446ΜΓΨ7-ΠΚΛ",
+    "publishTimestamp": 1744887202831,
+    "submissionTimestamp": 1744887202831,
+    "versionId": "1f4c7ef1-ec60-460e-84d2-a8929d70adc4",
+    "status": "PUBLISHED",
+    "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ11446ΜΓΨ7-ΠΚΛ",
+    "documentUrl": "https://diavgeia.gov.gr/doc/Ψ11446ΜΓΨ7-ΠΚΛ",
+    "documentChecksum": null,
+    "attachments": [],
+    "warnings": null,
+    "correctedVersionId": null
+}
