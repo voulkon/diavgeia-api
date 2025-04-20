@@ -85,3 +85,33 @@ def one_decisions_version_fetched_result(
         result = client.get_a_decisions_specific_version(decisions_version_id)
 
     return result
+
+
+@pytest.fixture
+def one_decisions_version_log_fetched_result(
+    client,
+    decisions_uid,
+    one_decisions_expected_response,
+    live,
+):
+    """
+    Calls client.get_a_decisions_specific_version(decisions_uid) once and returns its result.
+
+    •  If NOT live: stubs the HTTP call with responses
+    •  If live: hits the real API (no stub)
+    """
+    if not live:
+        with responses.RequestsMock() as rs:
+            rs.add(
+                method=responses.GET,
+                url=client.build_url(DECISIONS, decisions_uid, "versionlog"),
+                json=one_decisions_expected_response,
+                status=200,
+            )
+            # The call must happen *inside* the context manager when mocking
+            result = client.get_a_decisions_version_log(decisions_uid)
+    else:
+        # If live, make the call outside the responses context
+        result = client.get_a_decisions_version_log(decisions_uid)
+
+    return result

@@ -23,6 +23,7 @@ from .models.decisions import (
     Decision,
     PageInfo,
     DecisionList,
+    DecisionVersions,
 )
 from loguru import logger
 
@@ -101,3 +102,9 @@ class DiavgeiaClient:
     def get_a_decisions_specific_version(self, versionId: str) -> Decision:
         """Returns details of a specific version of a decision."""
         return self._get_and_parse(Decision, DECISIONS, "v", versionId)
+
+    def get_a_decisions_version_log(self, decisions_uid: str) -> DecisionVersions:
+        """Returns details of a specific version of a decision."""
+        return self._get_and_parse(
+            DecisionVersions, DECISIONS, decisions_uid, "versionlog"
+        )

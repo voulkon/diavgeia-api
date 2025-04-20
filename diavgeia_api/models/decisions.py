@@ -85,3 +85,18 @@ class PageInfo(BaseModel):
 class DecisionList(BaseModel):
     decisions: List[Decision]
     info: PageInfo
+
+
+class Version(BaseModel):
+    versionId: str
+    creator: str
+    versionTimestamp: datetime
+    description: Optional[str] = None
+    status: str
+    correctedVersionId: Optional[str]
+
+
+class DecisionVersions(BaseModel):
+    ada: str
+    organizationId: str
+    versions: List[Version]
