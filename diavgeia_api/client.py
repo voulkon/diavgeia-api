@@ -20,6 +20,7 @@ from .models.decisions import (
     Decision,
     DecisionVersions,
 )
+from .models.organizations import OrganizationsResponse, OrganizationStatus
 from loguru import logger
 
 T = TypeVar("T", bound=BaseModel)
@@ -102,4 +103,30 @@ class DiavgeiaClient:
         """Returns details of a specific version of a decision."""
         return self._get_and_parse(
             DecisionVersions, DECISIONS, decisions_uid, "versionlog"
+        )
+
+    def get_organizations(
+        self,
+        status: Optional[OrganizationStatus] = None,
+        category: Optional[str] = None,
+    ) -> OrganizationsResponse:
+        """
+        Returns a list of registered organizations.
+
+        Parameters
+        ----------
+        status : OrganizationStatus, optional
+            Filter by organization status (active, inactive, pending). Defaults to active if not provided by the API.
+        category : str, optional
+            Filter by organization category code (from ORG_CATEGORY dictionary).
+        """
+        params = {}
+        if status:
+            params["status"] = status.value  # Use the enum's value
+        if category:
+            params["category"] = category
+
+        # Pass params only if it's not empty, otherwise pass None
+        return self._get_and_parse(
+            OrganizationsResponse, ORGANIZATIONS, params=params if params else None
         )

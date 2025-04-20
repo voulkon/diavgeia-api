@@ -8,7 +8,7 @@ class Attachment(BaseModel):
     description: Optional[str] = None
     filename: str
     mimeType: str
-    checksum: str  # SHA-1 hash of the attachment file
+    checksum: str
 
 
 class Decision(BaseModel):
