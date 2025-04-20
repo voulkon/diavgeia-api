@@ -3,6 +3,15 @@ from typing import List, Optional
 from datetime import datetime
 
 
+# Normalized models for typical usage
+class Attachment(BaseModel):
+    id: str
+    description: Optional[str] = None
+    filename: str
+    mime_type: str = Field(..., alias="mimeType")
+    checksum: str  # SHA-1 hash of the attachment file
+
+
 # Exact JSON structure models
 class DecisionAPI(BaseModel):
     protocolNumber: Optional[str] = None
@@ -26,7 +35,7 @@ class DecisionAPI(BaseModel):
     )
     url: Optional[str] = None  # API URL of this decision
     # Attachments: list of attached documents (each with id, description, filename, etc.)&#8203;:contentReference[oaicite:10]{index=10}
-    attachments: List[dict] = []  # (Exact structure as dict to mirror raw JSON)
+    attachments: List[Attachment] = []  # (Exact structure as dict to mirror raw JSON)
     warnings: Optional[str] = None
     extraFieldValues: Optional[dict] = (
         None  # Additional fields (vary by decision type)&#8203;:contentReference[oaicite:11]{index=11}
@@ -36,15 +45,6 @@ class DecisionAPI(BaseModel):
 class DecisionListAPI(BaseModel):
     decisions: List[DecisionAPI]
     info: dict  # Contains pagination info: page, size, total, order, etc.&#8203;:contentReference[oaicite:12]{index=12}&#8203;:contentReference[oaicite:13]{index=13}
-
-
-# Normalized models for typical usage
-class Attachment(BaseModel):
-    id: str
-    description: Optional[str] = None
-    filename: str
-    mime_type: str = Field(..., alias="mimeType")
-    checksum: str  # SHA-1 hash of the attachment file
 
 
 class Decision(BaseModel):

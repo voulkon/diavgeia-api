@@ -83,7 +83,7 @@ class DiavgeiaClient:
     def _get_and_parse(self, model: Type[T], *path_parts: str, params=None) -> T:
         raw = self._request("GET", self.build_url(*path_parts), params=params)
         # You can insert logging/debugging here
-        print(f"[DEBUG] Raw response for {'/'.join(path_parts)}: {raw}")
+        logger.debug(f"Raw response for {'/'.join(path_parts)}: {raw}")
         return model(**raw)
 
     def get_dictionaries(self) -> DictionariesListResponse:
@@ -97,3 +97,7 @@ class DiavgeiaClient:
     def get_a_decision(self, uid: str) -> Decision:
         """Return a specific decision's details."""
         return self._get_and_parse(Decision, DECISIONS, uid)
+
+    def get_a_decisions_specific_version(self, versionId: str) -> Decision:
+        """Returns details of a specific version of a decision."""
+        return self._get_and_parse(Decision, DECISIONS, "v", versionId)
