@@ -98,3 +98,14 @@ def test_get_organization(an_org_expected_result, a_dummy_org_id):
     assert an_org_expected_result.uid == a_dummy_org_id
     # assert an_org_expected_result.label == "ΔΗΜΟΣ ΛΗΜΝΟΥ"
     # assert an_org_expected_result.category == "MUNICIPALITY"
+
+
+@pytest.mark.integration
+@pytest.mark.skipif(
+    "not config.getoption('--live')",
+    reason="Run with --live to hit the real API",
+)
+def test_get_organizations_units(an_orgs_units_expected_result, a_dummy_org_id):
+    assert an_orgs_units_expected_result.units[0].uid == "93542"
+    # assert an_org_expected_result.label == "ΔΗΜΟΣ ΛΗΜΝΟΥ"
+    # assert an_org_expected_result.category == "MUNICIPALITY"

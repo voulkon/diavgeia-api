@@ -1,0 +1,334 @@
+{
+    "units": [
+        {
+            "uid": "93542",
+            "label": "ΓΡΑΦΕΙΟ ΑΝΤΙΔΗΜΑΡΧΟΥ",
+            "abbreviation": null,
+            "category": "OFFICE",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81204",
+            "label": "ΓΡΑΦΕΙΟ ΔΗΜΑΡΧΟΥ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81223",
+            "label": "ΓΡΑΦΕΙΟ ΠΡΟΝΟΙΑΣ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100085039",
+            "label": "ΔΗΜΟΤΙΚΗ ΕΠΙΤΡΟΠΗ",
+            "abbreviation": null,
+            "category": "COMMITTEE",
+            "unitDomains": [
+                "GovermentPolitics"
+            ],
+            "active": true,
+            "activeFrom": 1704412800000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "85138",
+            "label": "ΔΗΜΟΤΙΚΗ ΕΠΙΤΡΟΠΗ ΔΙΑΒΟΥΛΕΥΣΗΣ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100092255",
+            "label": "ΔΗΜΟΤΙΚΗ ΚΟΙΝΟΤΗΤΑ ΑΓΙΟΥ ΔΗΜΗΤΡΙΟΥ",
+            "abbreviation": null,
+            "category": "ORG_UNIT_OTHER",
+            "unitDomains": [
+                "GovermentPolitics"
+            ],
+            "active": true,
+            "activeFrom": 1722384000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100092719",
+            "label": "ΔΗΜΟΤΙΚΗ ΚΟΙΝΟΤΗΤΑ ΠΑΝΑΓΙΑΣ",
+            "abbreviation": null,
+            "category": "DECENTRALISED_AGENCY",
+            "unitDomains": [
+                "Governance"
+            ],
+            "active": true,
+            "activeFrom": 1724803200000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81215",
+            "label": "ΔΗΜΟΤΙΚΟ ΣΥΜΒΟΥΛΙΟ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81278",
+            "label": "ΔΗΜΟΤΟΛΟΓΙΑ-ΜΗΤΡΩΑ ΑΡΡΕΝΩΝ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "89436",
+            "label": "ΔΙΕΥΘΥΝΣΗ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΚΑΙ ΠΟΙΟΤΗΤΑΣ ΖΩΗΣ",
+            "abbreviation": null,
+            "category": "ADMINISTRATION",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81224",
+            "label": "ΕΚΤΕΛΕΣΤΙΚΗ ΕΠΙΤΡΟΠΗ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100003135",
+            "label": "ΕΝΔΟΔΗΜΟΤΙΚΗΣ ΑΠΟΚΕΝΤΡΩΣΗΣ (ΔΗΜΟΤΙΚΗΣ ΕΝΟΤΗΤΑΣ ΜΟΥΔΡΟΥ)",
+            "abbreviation": "ΕΝΔΟΔΗΜΟΤΙΚΗΣ ΑΠΟΚΕΝΤΡΩΣΗΣ ΜΟΥΔΡΟΥ",
+            "category": "DECENTRALISED_AGENCY",
+            "unitDomains": [
+                "LocalGovernance"
+            ],
+            "active": true,
+            "activeFrom": 1410220800000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100003132",
+            "label": "ΕΝΔΟΔΗΜΟΤΙΚΗΣ ΑΠΟΚΕΝΤΡΩΣΗΣ (ΔΗΜΟΤΙΚΩΝ ΕΝΟΤΗΤΩΝ ΝΕΑΣ ΚΟΥΤΑΛΗΣ ΚΑΙ ΑΤΣΙΚΗΣ)",
+            "abbreviation": "ΕΝΔΟΔΗΜΟΤΙΚΗΣ ΑΠΟΚΕΝΤΡΩΣΗΣ",
+            "category": "DECENTRALISED_AGENCY",
+            "unitDomains": [
+                "LocalGovernance"
+            ],
+            "active": true,
+            "activeFrom": 1410220800000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "84951",
+            "label": "ΕΞΥΠΗΡΕΤΗΣΗ ΤΟΥ ΔΗΜΟΤΗ",
+            "abbreviation": null,
+            "category": "SECTOR",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81208",
+            "label": "ΕΠΙΤΡΟΠΗ ΠΟΙΟΤΗΤΑΣ ΖΩΗΣ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100060801",
+            "label": "ΚΟΙΝΟΤΗΤΑ ΑΤΣΙΚΗΣ",
+            "abbreviation": null,
+            "category": "ORG_UNIT_OTHER",
+            "unitDomains": [
+                "LocalGovernance"
+            ],
+            "active": true,
+            "activeFrom": 1596240000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100051829",
+            "label": "ΚΟΙΝΟΤΗΤΑ ΚΑΣΠΑΚΑ",
+            "abbreviation": null,
+            "category": "DECENTRALISED_AGENCY",
+            "unitDomains": null,
+            "active": true,
+            "activeFrom": 1569801600000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100051523",
+            "label": "ΚΟΙΝΟΤΗΤΑ ΚΟΝΤΙΑ",
+            "abbreviation": null,
+            "category": "DECENTRALISED_AGENCY",
+            "unitDomains": [
+                "LocalGovernance"
+            ],
+            "active": true,
+            "activeFrom": 1569456000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100060800",
+            "label": "ΚΟΙΝΟΤΗΤΑ ΛΙΒΑΔΟΧΩΡΙΟΥ",
+            "abbreviation": null,
+            "category": "ORG_UNIT_OTHER",
+            "unitDomains": [
+                "LocalGovernance"
+            ],
+            "active": true,
+            "activeFrom": 1596240000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100067844",
+            "label": "ΚΟΙΝΟΤΗΤΑ ΜΟΥΔΡΟΥ",
+            "abbreviation": null,
+            "category": "DECENTRALISED_AGENCY",
+            "unitDomains": [
+                "PeopleSocietiesLiving"
+            ],
+            "active": true,
+            "activeFrom": 1629331200000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "87264",
+            "label": "ΚΟΙΝΟΤΗΤΑ ΜΥΡΙΝΑΣ",
+            "abbreviation": null,
+            "category": "TEAM",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100050211",
+            "label": "ΚΟΙΝΟΤΗΤΑ ΝΕΑΣ ΚΟΥΤΑΛΗΣ",
+            "abbreviation": null,
+            "category": "DECENTRALISED_AGENCY",
+            "unitDomains": [
+                "Governance"
+            ],
+            "active": true,
+            "activeFrom": 1567296000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "100051509",
+            "label": "ΚΟΙΝΟΤΗΤΑ ΠΛΑΤΕΟΣ",
+            "abbreviation": null,
+            "category": "DECENTRALISED_AGENCY",
+            "unitDomains": [
+                "LocalGovernance"
+            ],
+            "active": true,
+            "activeFrom": 1569456000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81214",
+            "label": "ΟΙΚΟΝΟΜΙΚΗ ΕΠΙΤΡΟΠΗ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81216",
+            "label": "ΟΙΚΟΝΟΜΙΚΗ ΥΠΗΡΕΣΙΑ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81219",
+            "label": "ΠΟΛΕΟΔΟΜΙΑ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81217",
+            "label": "ΤΕΧΝΙΚΗ ΥΠΗΡΕΣΙΑ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        },
+        {
+            "uid": "81220",
+            "label": "ΤΜΗΜΑ ΑΝΘΡΩΠΙΝΟΥ ΔΥΝΑΜΙΚΟΥ ΚΑΙ ΔΙΟΙΚΗΤΙΚΗΣ ΜΕΡΙΜΝΑΣ",
+            "abbreviation": null,
+            "category": "UNIT",
+            "unitDomains": [],
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "parentId": "6174"
+        }
+    ]
+}

@@ -90,7 +90,7 @@ class Unit(BaseModel):
     activeFrom: Optional[datetime.datetime] = None
     activeUntil: Optional[datetime.datetime] = None
     category: str
-    unitDomains: List[str]
+    unitDomains: Optional[List[str]] = None
     parentId: str
 
 
