@@ -40,10 +40,13 @@ class ExtraFieldValues(BaseModel):
 
     financialYear: Optional[int] = None
     budgettype: Optional[str] = None
+    entryNumber: str
+    recalledExpenseDecision: Optional[bool] = None
     amountWithVAT: Optional[Amount] = None
     amountWithKae: Optional[List[AmountWithKAE]] = None
     partialead: Optional[bool] = None
     relatedDecisions: List[Any] = Field(default_factory=list)
+    documentType: Optional[str] = None
 
 
 class Decision(BaseModel):
@@ -67,7 +70,7 @@ class Decision(BaseModel):
     url: Optional[str] = None
     attachments: List[Attachment] = []
     warnings: Optional[str] = None
-    extraFieldValues: Optional[dict] = None
+    extraFieldValues: Optional[ExtraFieldValues] = None
 
 
 class PageInfo(BaseModel):
