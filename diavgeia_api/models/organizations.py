@@ -98,3 +98,44 @@ class UnitsResponse(BaseModel):
     """Response model for listing organizational units."""
 
     units: List[Unit]
+
+
+# --- Models for /organizations/:org/signers endpoint ---
+
+
+class SignerUnit(BaseModel):
+    """Represents a unit associated with a signer."""
+
+    uid: str
+    positionId: str
+    positionLabel: str
+
+
+class Signer(BaseModel):
+    """Represents a single signer. Uses API field names directly."""
+
+    uid: str
+    firstName: str
+    lastName: str
+    active: bool
+    activeFrom: Optional[datetime.datetime] = None
+    activeUntil: Optional[datetime.datetime] = None
+    organizationId: str
+    hasOrganizationSignRights: bool
+    units: List[SignerUnit]
+
+    @field_validator("activeFrom", "activeUntil", mode="before")
+    @classmethod
+    def timestamp_ms_to_datetime(cls, v):
+        """Convert timestamp in milliseconds to datetime object."""
+        if v is not None:
+            # Convert milliseconds to seconds
+            return datetime.datetime.fromtimestamp(v / 1000, tz=datetime.timezone.utc)
+        return None
+
+
+class SignersResponse(BaseModel):
+    """Response model for listing signers of an org."""
+
+    # The list should contain Signer objects, not Unit objects.
+    signers: List[Signer]

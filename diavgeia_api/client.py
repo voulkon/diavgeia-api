@@ -24,8 +24,8 @@ from .models.organizations import (
     OrganizationsResponse,
     OrganizationStatus,
     Organization,
-    Unit,
     UnitsResponse,
+    SignersResponse,
 )
 from loguru import logger
 
@@ -165,4 +165,20 @@ class DiavgeiaClient:
         """
         return self._get_and_parse(
             UnitsResponse, ORGANIZATIONS, organization_id, "units"
+        )
+
+    def get_organization_signers(
+        self,
+        organization_id: str,
+    ) -> SignersResponse:
+        """
+        Returns units of a specific organization.
+
+        Parameters
+        ----------
+        organization_id : str
+            The unique identifier of the organization.
+        """
+        return self._get_and_parse(
+            SignersResponse, ORGANIZATIONS, organization_id, "signers"
         )

@@ -76,6 +76,13 @@ def an_orgs_units_expected_response():
 
 
 @pytest.fixture
+def an_orgs_signers_expected_response():
+    """Expected response for default call (no params)"""
+
+    return load_json_fixture(HERE, "an_orgs_signers.json")
+
+
+@pytest.fixture
 def an_org_expected_result(client, an_orgs_expected_response, a_dummy_org_id, live):
     ...
     if not live:
@@ -113,5 +120,27 @@ def an_orgs_units_expected_result(
     else:
         # If live, make the call outside the responses context
         result = client.get_organization_units(organization_id=a_dummy_org_id)
+
+    return result
+
+
+@pytest.fixture
+def an_orgs_signers_expected_result(
+    client, an_orgs_signers_expected_response, a_dummy_org_id, live
+):
+    ...
+    if not live:
+        with responses.RequestsMock() as rs:
+            rs.add(
+                method=responses.GET,
+                url=client.build_url(ORGANIZATIONS, a_dummy_org_id, "signers"),
+                json=an_orgs_signers_expected_response,
+                status=200,
+            )
+            # The call must happen *inside* the context manager when mocking
+            result = client.get_organization_signers(organization_id=a_dummy_org_id)
+    else:
+        # If live, make the call outside the responses context
+        result = client.get_organization_signers(organization_id=a_dummy_org_id)
 
     return result

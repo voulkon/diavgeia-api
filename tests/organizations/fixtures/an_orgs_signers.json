@@ -1,0 +1,531 @@
+{
+    "signers": [
+        {
+            "uid": "135003",
+            "firstName": "ΟΛΓΑ",
+            "lastName": "ΒΟΥΛΓΑΡΟΠΟΥΛΟΥ",
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81217",
+                    "positionId": "POS_10138",
+                    "positionLabel": "Προϊστάμενος Διεύθυνσης"
+                }
+            ]
+        },
+        {
+            "uid": "100084253",
+            "firstName": "ΕΛΕΟΝΩΡΑ",
+            "lastName": "ΓΕΩΡΓΑ",
+            "active": true,
+            "activeFrom": 1703980800000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": true,
+            "units": [
+                {
+                    "uid": "6174",
+                    "positionId": "POS_10091",
+                    "positionLabel": "Δήμαρχος"
+                }
+            ]
+        },
+        {
+            "uid": "100067845",
+            "firstName": "ΔΗΜΗΤΡΙΟΣ",
+            "lastName": "ΓΡΑΤΣΩΝΗΣ",
+            "active": true,
+            "activeFrom": 1629331200000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100067844",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100065969",
+            "firstName": "ΚΛΕΟΠΑΤΡΑ",
+            "lastName": "ΔΑΝΙΗΛ",
+            "active": true,
+            "activeFrom": 1617235200000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81219",
+                    "positionId": "100046608",
+                    "positionLabel": "Αναπληρωτής Προϊστάμενος"
+                }
+            ]
+        },
+        {
+            "uid": "100060802",
+            "firstName": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+            "lastName": "ΔΗΜΟΣ",
+            "active": true,
+            "activeFrom": 1596412800000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100060800",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100085038",
+            "firstName": "ΙΩΑΝΝΑ-ΕΛΠΙΔΑ",
+            "lastName": "ΔΙΑΜΑΤΑΡΗ",
+            "active": true,
+            "activeFrom": 1704412800000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": true,
+            "units": [
+                {
+                    "uid": "6174",
+                    "positionId": "POS_10092",
+                    "positionLabel": "Αντιδήμαρχος"
+                }
+            ]
+        },
+        {
+            "uid": "100092221",
+            "firstName": "ΑΝΤΩΝΙΟΣ",
+            "lastName": "ΖΟΥΠΑΝΤΗΣ",
+            "active": true,
+            "activeFrom": 1722297600000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100067844",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "132570",
+            "firstName": "ΔΗΜΗΤΡΙΟΣ",
+            "lastName": "ΚΑΖΑΝΑΣ",
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81216",
+                    "positionId": "POS_10073",
+                    "positionLabel": "Αναπληρωτής Προϊστάμενος Διεύθυνσης"
+                }
+            ]
+        },
+        {
+            "uid": "100089888",
+            "firstName": "ΒΑΓΙΑΝΟΣ",
+            "lastName": "ΚΑΛΛΙΓΕΡΗΣ",
+            "active": true,
+            "activeFrom": 1712016000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "87264",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "120196",
+            "firstName": "ΒΑΓΙΑΝΟΣ",
+            "lastName": "ΚΑΛΛΙΓΕΡΗΣ",
+            "active": true,
+            "activeFrom": 1704412800000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "87264",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100082996",
+            "firstName": "ΙΩΑΝΝΗΣ",
+            "lastName": "ΚΑΛΛΙΜΑΝΗΣ",
+            "active": true,
+            "activeFrom": 1695340800000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81219",
+                    "positionId": "POS_10055",
+                    "positionLabel": "Υπεύθυνος Μονάδας"
+                }
+            ]
+        },
+        {
+            "uid": "100051527",
+            "firstName": "ΑΝΑΣΤΑΣΙΟΣ",
+            "lastName": "ΚΑΠΩΝΗΣ",
+            "active": true,
+            "activeFrom": 1569456000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100051523",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100085037",
+            "firstName": "ΤΡΙΑΝΤΑΦΥΛΛΟΣ",
+            "lastName": "ΚΑΤΗΣ",
+            "active": true,
+            "activeFrom": 1704412800000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81215",
+                    "positionId": "POS_10007",
+                    "positionLabel": "Πρόεδρος Δ.Σ."
+                }
+            ]
+        },
+        {
+            "uid": "100092418",
+            "firstName": "ΝΙΚΟΛΑΟΣ",
+            "lastName": "ΚΟΥΚΟΥΛΗΘΡΑΣ",
+            "active": true,
+            "activeFrom": 1723075200000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100060801",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "115911",
+            "firstName": "ΝΙΚΟΛΑΟΣ",
+            "lastName": "ΜΠΟΣΚΟΓΛΟΥ",
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81219",
+                    "positionId": "POS_10075",
+                    "positionLabel": "Με εξουσιοδότηση"
+                }
+            ]
+        },
+        {
+            "uid": "100050215",
+            "firstName": "Παρασκευή",
+            "lastName": "Μοσχάκη",
+            "active": true,
+            "activeFrom": 1567296000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "87264",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "115915",
+            "firstName": "ΟΥΡΑΝΙΑ",
+            "lastName": "ΠΑΡΔΑΛΗ",
+            "active": true,
+            "activeFrom": 1262304000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81219",
+                    "positionId": "POS_10075",
+                    "positionLabel": "Με εξουσιοδότηση"
+                }
+            ]
+        },
+        {
+            "uid": "100092256",
+            "firstName": "ΑΓΓΕΛΟΣ",
+            "lastName": "ΠΑΤΡΩΝΙΑΣ",
+            "active": true,
+            "activeFrom": 1722384000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100092255",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100092720",
+            "firstName": "ΦΩΤΙΟΣ",
+            "lastName": "ΠΟΡΤΗΣ",
+            "active": true,
+            "activeFrom": 1724803200000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100092719",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100089889",
+            "firstName": "ΝΙΚΟΛΑΟΣ",
+            "lastName": "ΠΡΟΒΑΤΙΔΗΣ",
+            "active": true,
+            "activeFrom": 1712016000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100050211",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100085042",
+            "firstName": "ΧΡΗΣΤΟΣ",
+            "lastName": "ΠΥΡΟΜΑΓΛΟΥ",
+            "active": true,
+            "activeFrom": 1704412800000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": true,
+            "units": [
+                {
+                    "uid": "6174",
+                    "positionId": "POS_10092",
+                    "positionLabel": "Αντιδήμαρχος"
+                }
+            ]
+        },
+        {
+            "uid": "100003142",
+            "firstName": "ΓΕΩΡΓΙΟΣ",
+            "lastName": "ΣΑΚΑΡΙΚΟΣ",
+            "active": true,
+            "activeFrom": 1704412800000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81215",
+                    "positionId": "POS_10077",
+                    "positionLabel": "Αντιπρόεδρος Δ.Σ."
+                }
+            ]
+        },
+        {
+            "uid": "100014425",
+            "firstName": "ΞΕΝΟΦΩΝ",
+            "lastName": "ΣΑΜΙΩΤΗΣ",
+            "active": true,
+            "activeFrom": 1440115200000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81217",
+                    "positionId": "POS_10128",
+                    "positionLabel": "Α/Α (Αντι Αυτού) Προϊσταμένου Διεύθυνσης"
+                }
+            ]
+        },
+        {
+            "uid": "100060803",
+            "firstName": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+            "lastName": "ΣΑΡΑΝΤΗΣ",
+            "active": true,
+            "activeFrom": 1596240000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100060801",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100051830",
+            "firstName": "ΧΡΗΣΤΟΣ",
+            "lastName": "ΣΕΪΤΑΝΙΔΗΣ",
+            "active": true,
+            "activeFrom": 1569801600000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100051829",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100092419",
+            "firstName": "ΓΑΒΡΙΗΛ",
+            "lastName": "ΣΩΤΗΡΕΛΗΣ",
+            "active": true,
+            "activeFrom": 1723075200000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "100051509",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100085041",
+            "firstName": "ΕΥΑΓΓΕΛΟΣ",
+            "lastName": "ΧΑΣΑΠΗΣ",
+            "active": true,
+            "activeFrom": 1704412800000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": true,
+            "units": [
+                {
+                    "uid": "6174",
+                    "positionId": "POS_10092",
+                    "positionLabel": "Αντιδήμαρχος"
+                }
+            ]
+        },
+        {
+            "uid": "100012333",
+            "firstName": "ΣΤΕΛΛΑ",
+            "lastName": "ΧΑΤΖΗΔΗΜΗΤΡΙΟΥ",
+            "active": true,
+            "activeFrom": 1428278400000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81219",
+                    "positionId": "POS_10075",
+                    "positionLabel": "Με εξουσιοδότηση"
+                }
+            ]
+        },
+        {
+            "uid": "100049044",
+            "firstName": "ΕΥΑΓΓΕΛΟΣ",
+            "lastName": "ΧΡΙΣΤΟΦΙΔΕΛΛΗΣ",
+            "active": true,
+            "activeFrom": 1567296000000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81215",
+                    "positionId": "POS_10007",
+                    "positionLabel": "Πρόεδρος Δ.Σ."
+                }
+            ]
+        },
+        {
+            "uid": "100054880",
+            "firstName": "ΕΥΑΓΓΕΛΟΣ",
+            "lastName": "ΧΡΙΣΤΟΦΙΔΕΛΛΗΣ",
+            "active": true,
+            "activeFrom": 1572566400000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "85138",
+                    "positionId": "POS_10036",
+                    "positionLabel": "Πρόεδρος"
+                }
+            ]
+        },
+        {
+            "uid": "100041928",
+            "firstName": "ΣΤΑΜΑΤΙΑ",
+            "lastName": "ΨΩΜΟΤΡΑΓΟΥ",
+            "active": true,
+            "activeFrom": 1533081600000,
+            "activeUntil": null,
+            "organizationId": "6174",
+            "hasOrganizationSignRights": false,
+            "units": [
+                {
+                    "uid": "81216",
+                    "positionId": "POS_10023",
+                    "positionLabel": "Αναπληρωτής Tμηματάρχης"
+                }
+            ]
+        }
+    ]
+}
