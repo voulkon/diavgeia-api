@@ -28,6 +28,7 @@ from .models.organizations import (
     SignersResponse,
     PositionsResponse,
 )
+from .models.types import TypeSummaries, TypeSummary, TypeDetails
 from loguru import logger
 
 T = TypeVar("T", bound=BaseModel)
@@ -182,18 +183,36 @@ class DiavgeiaClient:
             SignersResponse, ORGANIZATIONS, organization_id, SIGNERS
         )
 
-    def get_organization_positions(
+    def get_all_types(
         self,
-        organization_id: str,
-    ) -> PositionsResponse:
+    ) -> TypeSummaries:
         """
-        Returns positions of a specific organization.
+        Returns all existing types.
 
         Parameters
         ----------
         organization_id : str
             The unique identifier of the organization.
         """
-        return self._get_and_parse(
-            PositionsResponse, ORGANIZATIONS, organization_id, POSITIONS
-        )
+        return self._get_and_parse(TypeSummaries, TYPES)
+
+    def get_a_types_summary(
+        self,
+        types_uid: str,
+    ) -> TypeSummary:
+        ...
+        return self._get_and_parse(TypeSummary, TYPES, types_uid)
+
+    def get_a_types_details(
+        self,
+        types_uid: str,
+    ) -> TypeDetails:
+        """
+        Returns details of a type.
+
+        Parameters
+        ----------
+        types_uid : str
+            The unique identifier of the types_uid.
+        """
+        return self._get_and_parse(TypeDetails, TYPES, types_uid, "details")
