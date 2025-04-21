@@ -164,9 +164,7 @@ class DiavgeiaClient:
         organization_id : str
             The unique identifier of the organization.
         """
-        return self._get_and_parse(
-            UnitsResponse, ORGANIZATIONS, organization_id, "units"
-        )
+        return self._get_and_parse(UnitsResponse, ORGANIZATIONS, organization_id, UNITS)
 
     def get_organization_signers(
         self,
@@ -181,7 +179,7 @@ class DiavgeiaClient:
             The unique identifier of the organization.
         """
         return self._get_and_parse(
-            SignersResponse, ORGANIZATIONS, organization_id, "signers"
+            SignersResponse, ORGANIZATIONS, organization_id, SIGNERS
         )
 
     def get_organization_positions(
@@ -197,5 +195,5 @@ class DiavgeiaClient:
             The unique identifier of the organization.
         """
         return self._get_and_parse(
-            PositionsResponse, ORGANIZATIONS, organization_id, "positions"
+            PositionsResponse, ORGANIZATIONS, organization_id, POSITIONS
         )
