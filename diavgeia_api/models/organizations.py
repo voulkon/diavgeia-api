@@ -139,3 +139,19 @@ class SignersResponse(BaseModel):
 
     # The list should contain Signer objects, not Unit objects.
     signers: List[Signer]
+
+
+# --- Models for /organizations/:org/positions endpoint ---
+
+
+class Position(BaseModel):
+    """Represents a single organizational position. Uses API field names directly."""
+
+    uid: str
+    label: str
+
+
+class PositionsResponse(BaseModel):
+    """Response model for listing organizational positions."""
+
+    positions: List[Position]

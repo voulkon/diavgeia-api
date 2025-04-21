@@ -119,3 +119,20 @@ def test_get_organizations_units(an_orgs_units_expected_result, a_dummy_org_id):
 def test_get_organizations_signers(an_orgs_signers_expected_result, a_dummy_org_id):
     ...
     assert an_orgs_signers_expected_result.signers[0].organizationId == a_dummy_org_id
+
+
+@pytest.mark.integration
+@pytest.mark.skipif(
+    "not config.getoption('--live')",
+    reason="Run with --live to hit the real API",
+)
+def test_get_organizations_positions(an_orgs_positions_expected_result, a_dummy_org_id):
+
+    label_to_look_for = "Δήμαρχος"
+    label_exists_in_response = any(
+        label_to_look_for.lower() in position.label.lower()
+        for position in an_orgs_positions_expected_result.positions
+    )
+    assert (
+        label_exists_in_response
+    ), f"Label '{label_to_look_for}' not found in positions."

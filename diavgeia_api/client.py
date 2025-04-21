@@ -26,6 +26,7 @@ from .models.organizations import (
     Organization,
     UnitsResponse,
     SignersResponse,
+    PositionsResponse,
 )
 from loguru import logger
 
@@ -172,7 +173,7 @@ class DiavgeiaClient:
         organization_id: str,
     ) -> SignersResponse:
         """
-        Returns units of a specific organization.
+        Returns signers of a specific organization.
 
         Parameters
         ----------
@@ -181,4 +182,20 @@ class DiavgeiaClient:
         """
         return self._get_and_parse(
             SignersResponse, ORGANIZATIONS, organization_id, "signers"
+        )
+
+    def get_organization_positions(
+        self,
+        organization_id: str,
+    ) -> PositionsResponse:
+        """
+        Returns positions of a specific organization.
+
+        Parameters
+        ----------
+        organization_id : str
+            The unique identifier of the organization.
+        """
+        return self._get_and_parse(
+            PositionsResponse, ORGANIZATIONS, organization_id, "positions"
         )
