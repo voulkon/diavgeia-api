@@ -124,3 +124,15 @@ def complex_searches_fetched_result(
         result = client.search_decisions(**complex_search_criteria)
 
     return result
+
+
+# @pytest.fixture
+# def edge_case_that_breaks_my_model(
+#     client,
+# ):
+#     result = client.search_decisions(
+#         org="6115;dimosthivas",
+#         from_date="2023-01-01",
+#         to_date="2025-04-01",
+#     )
+#     return result

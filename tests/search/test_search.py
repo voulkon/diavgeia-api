@@ -96,3 +96,9 @@ def test_search_response_matches_expected(fetched_result, expected_response):
     assert fetched_result.info.total == expected_response["info"]["total"]
 
     assert len(fetched_result.decisions) == len(expected_response["decisions"])
+
+
+# def test_edge_case(edge_case_that_breaks_my_model):
+#     ...
+#     ...
+#     ...

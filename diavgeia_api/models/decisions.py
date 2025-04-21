@@ -40,12 +40,12 @@ class ExtraFieldValues(BaseModel):
 
     financialYear: Optional[int] = None
     budgettype: Optional[str] = None
-    entryNumber: str
+    entryNumber: Optional[str] = None
     recalledExpenseDecision: Optional[bool] = None
     amountWithVAT: Optional[Amount] = None
     amountWithKae: Optional[List[AmountWithKAE]] = None
     partialead: Optional[bool] = None
-    relatedDecisions: List[Any] = Field(default_factory=list)
+    relatedDecisions: Optional[List[Any]] = None
     documentType: Optional[str] = None
 
 
