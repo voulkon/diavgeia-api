@@ -11,7 +11,7 @@ def test_default_headers():
 
 def test_base_url_override():
     c = DiavgeiaClient(base_url="http://example.com")
-    assert c.build_url("foo") == "http://example.com/foo"
+    assert c._build_url("foo") == "http://example.com/foo"
 
 
 def test_basic_auth():
@@ -19,6 +19,6 @@ def test_basic_auth():
     assert isinstance(c.session.auth, requests.auth.HTTPBasicAuth)
 
 
-def test_build_url_helper():
+def test__build_url_helper():
     c = DiavgeiaClient()
-    assert c.build_url("decisions", "ADA123") == f"{BASE_URL}/decisions/ADA123"
+    assert c._build_url("decisions", "ADA123") == f"{BASE_URL}/decisions/ADA123"

@@ -41,7 +41,7 @@ def all_types_expected_result(client, all_types_expected_response, live):
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(
+                url=client._build_url(
                     TYPES,
                 ),
                 json=all_types_expected_response,
@@ -63,7 +63,7 @@ def details_of_a_type_result(client, details_of_a_type, type_to_target, live):
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(TYPES, type_to_target, "details"),
+                url=client._build_url(TYPES, type_to_target, "details"),
                 json=details_of_a_type,
                 status=200,
             )

@@ -30,10 +30,10 @@ def simple_searches_fetched_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                # TODO: Not sure if the build_url(SEARCH, **simple_search_criteria) will work
+                # TODO: Not sure if the _build_url(SEARCH, **simple_search_criteria) will work
                 # Gotta check how it gets passed up to this point:
-                # self.build_url(*path_parts)
-                url=client.build_url(SEARCH, **simple_search_criteria),
+                # self._build_url(*path_parts)
+                url=client._build_url(SEARCH, **simple_search_criteria),
                 json=simple_searches_expected_response,
                 status=200,
             )
@@ -110,10 +110,10 @@ def complex_searches_fetched_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                # TODO: Not sure if the build_url(SEARCH, **simple_search_criteria) will work
+                # TODO: Not sure if the _build_url(SEARCH, **simple_search_criteria) will work
                 # Gotta check how it gets passed up to this point:
-                # self.build_url(*path_parts)
-                url=client.build_url(SEARCH, **complex_search_criteria),
+                # self._build_url(*path_parts)
+                url=client._build_url(SEARCH, **complex_search_criteria),
                 json=complex_searches_expected_response,
                 status=200,
             )

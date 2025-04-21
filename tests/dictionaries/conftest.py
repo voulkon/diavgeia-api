@@ -42,7 +42,7 @@ def all_dictionaries_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(DICTIONARIES),
+                url=client._build_url(DICTIONARIES),
                 json=all_dictionaries_expected_response,
                 status=200,
             )
@@ -70,7 +70,7 @@ def specific_dictionarys_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(DICTIONARIES, uid),
+                url=client._build_url(DICTIONARIES, uid),
                 json=one_dictionarys_dictionary,
                 status=200,
             )

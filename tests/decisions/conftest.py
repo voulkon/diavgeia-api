@@ -44,7 +44,7 @@ def one_decisions_fetched_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(DECISIONS, decisions_uid),
+                url=client._build_url(DECISIONS, decisions_uid),
                 json=one_decisions_expected_response,
                 status=200,
             )
@@ -74,7 +74,7 @@ def one_decisions_version_fetched_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(DECISIONS, "v", decisions_version_id),
+                url=client._build_url(DECISIONS, "v", decisions_version_id),
                 json=one_decisions_expected_response,
                 status=200,
             )
@@ -104,7 +104,7 @@ def one_decisions_version_log_fetched_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(DECISIONS, decisions_uid, "versionlog"),
+                url=client._build_url(DECISIONS, decisions_uid, "versionlog"),
                 json=one_decisions_expected_response,
                 status=200,
             )

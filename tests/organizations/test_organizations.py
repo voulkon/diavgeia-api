@@ -36,7 +36,7 @@ def test_get_organizations_mocked(client, params, expected_response_fixture, req
 
     with responses.RequestsMock() as rs:
         # Build URL based on params
-        base_url = client.build_url(ORGANIZATIONS)
+        base_url = client._build_url(ORGANIZATIONS)
         expected_url = base_url
         if params:
             encoded_params = {

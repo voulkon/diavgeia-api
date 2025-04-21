@@ -62,7 +62,7 @@ class DiavgeiaClient:
         elif username or password:
             raise ValueError("Both username and password must be provided, or neither.")
 
-    def build_url(self, *parts: str) -> str:
+    def _build_url(self, *parts: str) -> str:
         return "/".join([self.base_url.rstrip("/")] + [p.strip("/") for p in parts])
 
     def _get_and_parse(
@@ -71,7 +71,7 @@ class DiavgeiaClient:
         *url_parts: str,
         params: Optional[dict] = None,
     ) -> T:
-        raw = self._request("GET", self.build_url(*url_parts), params=params)
+        raw = self._request("GET", self._build_url(*url_parts), params=params)
         return model(**raw)
 
     # main low‑level request wrapper
@@ -86,7 +86,7 @@ class DiavgeiaClient:
         return resp.json()
 
     def _get_and_parse(self, model: Type[T], *path_parts: str, params=None) -> T:
-        raw = self._request("GET", self.build_url(*path_parts), params=params)
+        raw = self._request("GET", self._build_url(*path_parts), params=params)
         # You can insert logging/debugging here
         # logger.debug(f"Raw response for {'/'.join(path_parts)}: {raw}")
         return model(**raw)
@@ -183,6 +183,23 @@ class DiavgeiaClient:
             SignersResponse, ORGANIZATIONS, organization_id, SIGNERS
         )
 
+    # TODO: Add a test for this method
+    def get_organization_positions(
+        self,
+        organization_id: str,
+    ) -> PositionsResponse:
+        """
+        Returns positions of a specific organization.
+
+        Parameters
+        ----------
+        organization_id : str
+            The unique identifier of the organization.
+        """
+        return self._get_and_parse(
+            PositionsResponse, ORGANIZATIONS, organization_id, POSITIONS
+        )
+
     def get_all_types(
         self,
     ) -> TypeSummaries:
@@ -200,7 +217,15 @@ class DiavgeiaClient:
         self,
         types_uid: str,
     ) -> TypeSummary:
-        ...
+        """
+        Returns a summary of a specific type.
+
+        Parameters
+        ----------
+        types_uid : str
+            The unique identifier of the type.
+        """
+
         return self._get_and_parse(TypeSummary, TYPES, types_uid)
 
     def get_a_types_details(

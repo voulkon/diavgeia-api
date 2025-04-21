@@ -96,7 +96,7 @@ def an_org_expected_result(client, an_orgs_expected_response, a_dummy_org_id, li
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(ORGANIZATIONS, a_dummy_org_id),
+                url=client._build_url(ORGANIZATIONS, a_dummy_org_id),
                 json=an_orgs_expected_response,
                 status=200,
             )
@@ -118,7 +118,7 @@ def an_orgs_units_expected_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(ORGANIZATIONS, a_dummy_org_id, "units"),
+                url=client._build_url(ORGANIZATIONS, a_dummy_org_id, "units"),
                 json=an_orgs_units_expected_response,
                 status=200,
             )
@@ -140,7 +140,7 @@ def an_orgs_signers_expected_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(ORGANIZATIONS, a_dummy_org_id, "signers"),
+                url=client._build_url(ORGANIZATIONS, a_dummy_org_id, "signers"),
                 json=an_orgs_signers_expected_response,
                 status=200,
             )
@@ -162,7 +162,7 @@ def an_orgs_positions_expected_result(
         with responses.RequestsMock() as rs:
             rs.add(
                 method=responses.GET,
-                url=client.build_url(ORGANIZATIONS, a_dummy_org_id, "positions"),
+                url=client._build_url(ORGANIZATIONS, a_dummy_org_id, "positions"),
                 json=an_orgs_positions_expected_response,
                 status=200,
             )
