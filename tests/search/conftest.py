@@ -49,7 +49,7 @@ def simple_searches_fetched_result(
 @pytest.fixture
 def complex_search_criteria() -> str:
     complex_search_criteria = {
-        "org": "ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ;nosokomeio_limnou;51611",
+        "org": "nosokomeio_limnou;51611",
         # {
         #     "uid": "99221771",
         #     "label": "ΓΕΝΙΚΟ ΝΟΣΟΚΟΜΕΙΟ - ΚΕΝΤΡΟ ΥΓΕΙΑΣ ΛΗΜΝΟΥ",
@@ -84,8 +84,43 @@ def complex_search_criteria() -> str:
         #     "supervisorLabel": "ΔΗΜΟΣ ΛΗΜΝΟΥ",
         #     "organizationDomains": []
         # },
-        "type": "2.4.2;2.4.4",
+        # "type": "2.4.2;2.4.4",
+        "from_date": "2023-04-20",
+        "to_date": "2025-04-21",
         "from_issue_date": "2023-04-20",
         "to_issue_date": "2025-04-21",
     }
     return complex_search_criteria
+
+
+@pytest.fixture
+def complex_searches_expected_response():
+    return load_json_fixture(HERE, "complex_search_result.json")
+
+
+@pytest.fixture
+def complex_searches_fetched_result(
+    client,
+    complex_search_criteria,
+    complex_searches_expected_response,
+    live,
+):
+    ...
+    if not live:
+        with responses.RequestsMock() as rs:
+            rs.add(
+                method=responses.GET,
+                # TODO: Not sure if the build_url(SEARCH, **simple_search_criteria) will work
+                # Gotta check how it gets passed up to this point:
+                # self.build_url(*path_parts)
+                url=client.build_url(SEARCH, **complex_search_criteria),
+                json=complex_searches_expected_response,
+                status=200,
+            )
+            # The call must happen *inside* the context manager when mocking
+            result = client.search_decisions(**complex_search_criteria)
+    else:
+        # If live, make the call outside the responses context
+        result = client.search_decisions(**complex_search_criteria)
+
+    return result

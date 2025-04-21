@@ -1,0 +1,4458 @@
+{
+    "decisions": [
+        {
+            "protocolNumber": "ΑΔΣ 13/2023",
+            "subject": "3η Αναµόρφωση Προϋπολογισµού ∆ηµοτικού Λιµενικού Ταµείου έτους 2023.",
+            "issueDate": "2023-07-07T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100058315"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Α.2",
+            "thematicCategoryIds": [
+                "24"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-11-03T11:22:07.374000+00:00",
+            "publishTimestamp": "2023-07-20T06:44:27.267000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΥΩΚΟΕΥΖ-86Ο",
+            "versionId": "f0ba3bda-1e31-4844-909f-c9ab07b3477e",
+            "correctedVersionId": "d0c42a6b-d40d-4e3c-a0e0-fb7abe842698",
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΥΩΚΟΕΥΖ-86Ο",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΥΩΚΟΕΥΖ-86Ο",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "fek": {},
+                "kanonistikipraxiaa": null,
+                "kanonistikipraxitype": null,
+                "co_competent": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8586/11-10-2023",
+            "subject": "ΟΔΟΙΟΠΟΡΙΚΑ ΕΞΟΔΑ ΜΕΤΑΚΙΝΙΣΗΣ ΥΠΑΛΛΗΛΩΝ",
+            "issueDate": "2023-10-16T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-16T05:54:08.361000+00:00",
+            "publishTimestamp": "2023-10-16T05:54:08.361000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΩΧΜ9469ΗΖΞ-7Γ4",
+            "versionId": "de98d2af-f585-4f57-b16e-57e0e6ef7dc7",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΩΧΜ9469ΗΖΞ-7Γ4",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΩΧΜ9469ΗΖΞ-7Γ4",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "417",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 5000.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8585/11-10-2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΕΙΔΩΝ ΣΥΝΤΗΡΗΣΗΣ ΚΑΙ ΕΠΙΣΚΕΥΗΣ ΛΟΙΠΟΥ ΕΞΟΠΛΙΣΜΟΥ",
+            "issueDate": "2023-10-16T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-16T04:45:51.171000+00:00",
+            "publishTimestamp": "2023-10-16T04:44:11.555000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6Ο2Η469ΗΖΞ-ΗΘΔ",
+            "versionId": "3f1d49d0-e5c2-444c-a383-f2896f78819a",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6Ο2Η469ΗΖΞ-ΗΘΔ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6Ο2Η469ΗΖΞ-ΗΘΔ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "416",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 5000.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8584/11-10-2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΜΗΧΑΝΟΓΡΑΦΙΚΩΝ ΥΛΙΚΩΝ",
+            "issueDate": "2023-10-12T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-12T10:35:50.990000+00:00",
+            "publishTimestamp": "2023-10-12T10:35:50.990000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΣΞΒ469ΗΖΞ-ΜΑ3",
+            "versionId": "84974439-1f87-44e2-abd5-a65f53f93443",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΣΞΒ469ΗΖΞ-ΜΑ3",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΣΞΒ469ΗΖΞ-ΜΑ3",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "415",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 10000.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8583/11-10-2023",
+            "subject": "ΑΝΑΤΡΟΠΗ",
+            "issueDate": "2023-10-11T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-11T09:34:13.904000+00:00",
+            "publishTimestamp": "2023-10-11T09:34:13.904000+00:00",
+            "status": "PUBLISHED",
+            "ada": "911Α469ΗΖΞ-Λ36",
+            "versionId": "b43efd7f-b1c0-4061-af76-9c021de2c0a5",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/911Α469ΗΖΞ-Λ36",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/911Α469ΗΖΞ-Λ36",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "414",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 471.83,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8582/11-10-2023",
+            "subject": "ΑΝΑΤΡΟΠΗ",
+            "issueDate": "2023-10-11T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-11T09:30:28.263000+00:00",
+            "publishTimestamp": "2023-10-11T09:30:28.263000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΩΝΑΙ469ΗΖΞ-4ΘΗ",
+            "versionId": "142be4d4-a305-4b0c-8cac-5bb01f578bd8",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΩΝΑΙ469ΗΖΞ-4ΘΗ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΩΝΑΙ469ΗΖΞ-4ΘΗ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "413",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 588.38,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8581/11-10-2023",
+            "subject": "ΑΝΑΤΡΟΠΗ",
+            "issueDate": "2023-10-11T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-11T09:12:34.971000+00:00",
+            "publishTimestamp": "2023-10-11T09:12:34.971000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΒΟ4469ΗΖΞ-ΑΒΗ",
+            "versionId": "b66d2ce2-86b1-4761-8fef-0e7b2299add2",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΒΟ4469ΗΖΞ-ΑΒΗ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΒΟ4469ΗΖΞ-ΑΒΗ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "412",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 11879.36,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8580/11-10-2023",
+            "subject": "ΑΝΑΤΡΟΠΗ",
+            "issueDate": "2023-10-11T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-11T08:53:53.163000+00:00",
+            "publishTimestamp": "2023-10-11T08:53:53.163000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΑΟΔ469ΗΖΞ-6ΞΖ",
+            "versionId": "3533f47b-5ba6-464f-8022-08ad31556601",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΑΟΔ469ΗΖΞ-6ΞΖ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΑΟΔ469ΗΖΞ-6ΞΖ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "411",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 3802.91,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8579/11-10-2023",
+            "subject": "ΑΝΑΤΡΟΠΗ",
+            "issueDate": "2023-10-11T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-11T08:50:44.320000+00:00",
+            "publishTimestamp": "2023-10-11T08:50:44.320000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΦΛΛ469ΗΖΞ-Π56",
+            "versionId": "d2bd0183-4d0d-4ed3-b06d-8a90cdfc4e2f",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΦΛΛ469ΗΖΞ-Π56",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΦΛΛ469ΗΖΞ-Π56",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "410",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 2605.44,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8578/11-10-2023",
+            "subject": "ΑΝΑΤΡΟΠΗ",
+            "issueDate": "2023-10-11T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-11T08:45:32.029000+00:00",
+            "publishTimestamp": "2023-10-11T08:45:32.029000+00:00",
+            "status": "PUBLISHED",
+            "ada": "68ΑΟ469ΗΖΞ-ΓΑΘ",
+            "versionId": "2ea7f30f-c3db-4973-944f-99242796ec43",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/68ΑΟ469ΗΖΞ-ΓΑΘ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/68ΑΟ469ΗΖΞ-ΓΑΘ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Πρόγραμμα Δημοσίων Επενδύσεων",
+                "entryNumber": "409",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 270.72,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8357/5-10-2023",
+            "subject": "ΑΝΑΤΡΟΠΗ",
+            "issueDate": "2023-10-11T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-11T07:43:49.587000+00:00",
+            "publishTimestamp": "2023-10-11T07:43:49.587000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ4ΓΓ469ΗΖΞ-1Α7",
+            "versionId": "5a403ec9-de6d-46ec-9c18-88246fad4cac",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ4ΓΓ469ΗΖΞ-1Α7",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ4ΓΓ469ΗΖΞ-1Α7",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "408",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 103.24,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8356/5-10-2023",
+            "subject": "ΑΝΑΤΡΟΠΗ",
+            "issueDate": "2023-10-11T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-11T07:40:40.478000+00:00",
+            "publishTimestamp": "2023-10-11T07:40:40.478000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΗΜΖ469ΗΖΞ-ΗΥΘ",
+            "versionId": "3ee05838-a2e9-4420-a560-d826439df642",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΗΜΖ469ΗΖΞ-ΗΥΘ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΗΜΖ469ΗΖΞ-ΗΥΘ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "407",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 12.82,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8355/5-10-2023",
+            "subject": "ΑΝΑΤΡΟΠΗ",
+            "issueDate": "2023-10-11T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-11T07:36:23.146000+00:00",
+            "publishTimestamp": "2023-10-11T07:36:23.146000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΙΖΚ469ΗΖΞ-ΤΤ1",
+            "versionId": "7c42f6ee-97f9-402a-97ea-f45f625249f3",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΙΖΚ469ΗΖΞ-ΤΤ1",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΙΖΚ469ΗΖΞ-ΤΤ1",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "406",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 40.59,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8106/10-10-2023",
+            "subject": "Έγκριση – προϋπολογιστικά – υπερωριών, νυχτερινών και εξαιρέσιμων ημερών εργασίας μηνός ΟΚΤΩΒΡΙΟΥ 2023 μόνιμου προσωπικού και προσωπικού ιδιωτικού δικαίου πλην ιατρών σύμφωνα με το Ν 4354/2015",
+            "issueDate": "2023-10-10T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-10T11:18:22.937000+00:00",
+            "publishTimestamp": "2023-10-10T11:18:22.937000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΕΥΙ469ΗΖΞ-Ρ56",
+            "versionId": "56ca9486-81a8-47c7-add8-86c760729076",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΕΥΙ469ΗΖΞ-Ρ56",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΕΥΙ469ΗΖΞ-Ρ56",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "8354/5-10-2023",
+            "subject": "ΑΜΟΙΒΕΣ ΝΟΜΙΚΩΝ ΠΟΥ ΕΚΤΕΛΟΥΝ ΕΙΔΙΚΕΣ ΥΠΞΡΕΣΙΕΣ ΜΕ ΤΗΝ ΙΔΙΟΤΗΤΑ ΤΟΥ ΕΛΕΥΘΕΡΟΥ ΕΠΑΓΓΕΛΜΑΤΙΑ",
+            "issueDate": "2023-10-10T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-10T10:24:21.550000+00:00",
+            "publishTimestamp": "2023-10-10T10:24:21.550000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΨΕ1469ΗΖΞ-ΙΜΓ",
+            "versionId": "6c1618c0-3f66-478b-82d1-2502ace563b3",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΨΕ1469ΗΖΞ-ΙΜΓ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΨΕ1469ΗΖΞ-ΙΜΓ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "405",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 297.6,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8107/10-10-2023",
+            "subject": "Έγκριση (απολογιστικά) υπερωριών, νυχτερινών και εξαιρέσιμων ημερών εργασίας μηνός ΑΥΓΟΥΣΤΟΥ 2023 μόνιμου προσωπικού, φαρμακοποιού και προσωπικού ιδιωτικού δικαίου πλην ιατρών σύμφωνα με το Ν 4354/2015",
+            "issueDate": "2023-10-10T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-10T10:20:48.563000+00:00",
+            "publishTimestamp": "2023-10-10T10:20:48.563000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ9ΨΨ469ΗΖΞ-ΝΟ4",
+            "versionId": "c8e62703-318b-4b98-a40b-c0e2a7a74355",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ9ΨΨ469ΗΖΞ-ΝΟ4",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ9ΨΨ469ΗΖΞ-ΝΟ4",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "8352/5-10-2023",
+            "subject": "ΑΜΟΙΒΕΣ ΙΔΙΩΤΙΚΩΝ ΓΡΑΦΕΙΩΝ ΚΑΙ ΙΔΙΩΤΩΝ",
+            "issueDate": "2023-10-10T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-10T10:19:23.527000+00:00",
+            "publishTimestamp": "2023-10-10T10:19:23.527000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΒΚ9469ΗΖΞ-Τ0Η",
+            "versionId": "02f58a82-c19e-4b9d-868a-829a970ab946",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΒΚ9469ΗΖΞ-Τ0Η",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΒΚ9469ΗΖΞ-Τ0Η",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "404",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 7347.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8108/10-10-2023",
+            "subject": "Έγκριση – προϋπολογιστικά – του προγράμματος εφημεριών των γιατρών του Γ.Ν.-Κ.Υ. Λήμνου για τον μήνα ΟΚΤΩΒΡΙΟ 2023",
+            "issueDate": "2023-10-10T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-10T10:06:36.396000+00:00",
+            "publishTimestamp": "2023-10-10T10:06:36.396000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9Ο6Β469ΗΖΞ-Θ6Ν",
+            "versionId": "e0a21033-0848-4be2-ac43-9a6ce3cb4f17",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9Ο6Β469ΗΖΞ-Θ6Ν",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9Ο6Β469ΗΖΞ-Θ6Ν",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "8109/10-10-2023",
+            "subject": "Έγκριση εφημεριών γιατρών  Ε.Σ.Υ., επικουρικών, ειδικευόμενων και αγροτικών γιατρών μηνός  ΑΥΓΟΥΣΤΟΥ 2023",
+            "issueDate": "2023-10-10T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-10T09:53:16.559000+00:00",
+            "publishTimestamp": "2023-10-10T09:53:16.559000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΖΤΩ469ΗΖΞ-ΑΜΣ",
+            "versionId": "cf4b5bed-4db4-4d56-909e-44e95b002d85",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΖΤΩ469ΗΖΞ-ΑΜΣ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΖΤΩ469ΗΖΞ-ΑΜΣ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "8290/10-10-2023",
+            "subject": "Έγκριση της ορθής επανάληψης του πρακτικού της επιτροπής της Ανοικτής Πρόσκλησης ενδιαφέροντος για τη συλλογή προσφορών για την ανάδειξη αναδόχου για «ΠΡΟΜΗΘΕΙΑ ΓΑΝΤΙΩΝ Μ.Χ» του Γενικού  Νοσοκομείου – Κέντρου Υγείας Λήμνου",
+            "issueDate": "2023-10-10T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-10T09:28:06.700000+00:00",
+            "publishTimestamp": "2023-10-10T09:28:06.700000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΚΣΩ469ΗΖΞ-ΚΞΝ",
+            "versionId": "895620bd-8e5d-4801-a43d-b42e46d66a49",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΚΣΩ469ΗΖΞ-ΚΞΝ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΚΣΩ469ΗΖΞ-ΚΞΝ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "8511/10-10-2023",
+            "subject": "ΔΗΜΟΣΙΟΣ ΑΝΟΙΚΤΟΣ ΠΛΕΙΟΔΟΤΙΚΟΣ ΔΙΑΓΩΝΙΣΜΟΣ ΓΙΑ ΕΚΜΙΣΘΩΣΗ ΚΥΛΙΚΕΙΟΥ Γ.Ν.-Κ.Υ. ΛΗΜΝΟΥ",
+            "issueDate": "2023-10-10T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100076455"
+            ],
+            "unitIds": [
+                "78742"
+            ],
+            "decisionTypeId": "Δ.2.1",
+            "thematicCategoryIds": [
+                "10007"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-10T09:06:00.424000+00:00",
+            "publishTimestamp": "2023-10-10T09:06:00.424000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΓΤΕ469ΗΖΞ-ΩΜ1",
+            "versionId": "e7994140-3d36-4833-935d-4a99b994706c",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΓΤΕ469ΗΖΞ-ΩΜ1",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΓΤΕ469ΗΖΞ-ΩΜ1",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "cpv": [
+                    "70130000-1"
+                ],
+                "contestProgressType": "Ανοικτός",
+                "manifestSelectionCriterion": "Συμφερότερη από οικονομικής άποψης",
+                "manifestContractType": "Υπηρεσίες",
+                "orgBudgetCode": null,
+                "estimatedAmount": {
+                    "amount": null,
+                    "currency": "EUR"
+                },
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8351/4-10-2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΦΑΡΜΑΚΕΥΤΙΚΟΥ ΥΛΙΚΟΥ",
+            "issueDate": "2023-10-10T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-10T08:23:32.067000+00:00",
+            "publishTimestamp": "2023-10-10T08:23:32.067000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΙΑΥ469ΗΖΞ-ΧΒΑ",
+            "versionId": "d08826b5-bec4-408a-ac41-5e97345e9df6",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΙΑΥ469ΗΖΞ-ΧΒΑ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΙΑΥ469ΗΖΞ-ΧΒΑ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "403",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 200000.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8178/10-10-2023",
+            "subject": "Προκήρυξη Δημόσιου Ανοιχτού Πλειοδοτικού Διαγωνισμού για την ανάδειξη αναδόχου για την εκμίσθωση του Κυλικείου του Γ.Ν.-Κ.Υ. Λήμνου με σφραγισμένες προσφορές και με κριτήριο κατακύρωσης το υψηλότερο προσφερόμενο μηνιαίο μίσθωμα, για τρία (3) έτη με δικαίωμα παράτασης για άλλο δύο (2) έτη",
+            "issueDate": "2023-10-10T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-10T07:39:38.518000+00:00",
+            "publishTimestamp": "2023-10-10T07:39:38.518000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΩΧ7Ξ469ΗΖΞ-Α1Ω",
+            "versionId": "890a4fdb-506f-49b0-9c52-78e5ebfa0bed",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΩΧ7Ξ469ΗΖΞ-Α1Ω",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΩΧ7Ξ469ΗΖΞ-Α1Ω",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "8350/5-10-2023",
+            "subject": "ΤΗΛΕΦΩΝΙΚΑ ΤΕΛΗ",
+            "issueDate": "2023-10-09T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-09T09:13:21.987000+00:00",
+            "publishTimestamp": "2023-10-09T09:13:21.987000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΩΚ6469ΗΖΞ-ΞΘΗ",
+            "versionId": "4ec87062-ce98-4c5c-99e4-8fdc6400a4aa",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΩΚ6469ΗΖΞ-ΞΘΗ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΩΚ6469ΗΖΞ-ΞΘΗ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "402",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 5000.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8349/5-10-2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΥΠΟΔΗΜΑΤΩΝ",
+            "issueDate": "2023-10-09T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-09T06:59:01.455000+00:00",
+            "publishTimestamp": "2023-10-09T06:59:01.455000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΛΑΗ469ΗΖΞ-3ΝΧ",
+            "versionId": "5d60408f-b0dc-4e3e-99d4-86b38462fcab",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΛΑΗ469ΗΖΞ-3ΝΧ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΛΑΗ469ΗΖΞ-3ΝΧ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "401",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 4000.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8348/5-10-2023",
+            "subject": "ΔΙΑΦΟΡΕΣ ΠΡΟΜΗΘΕΙΕΣ ΠΟΥ ΔΕΝ ΚΑΤΑΝΟΜΑΖΟΝΤΑΙ ΕΙΔΙΚΑ",
+            "issueDate": "2023-10-09T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-09T05:33:23.128000+00:00",
+            "publishTimestamp": "2023-10-09T05:33:23.128000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΘΕΙ469ΗΖΞ-8ΧΜ",
+            "versionId": "52f3f823-ada2-443b-93b6-67072ab04631",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΘΕΙ469ΗΖΞ-8ΧΜ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΘΕΙ469ΗΖΞ-8ΧΜ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "400",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 90.4,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7357-29/08/2023",
+            "subject": "ΑΣΦΑΛΙΣΤΡΑ ΑΥΤΟΚΙΝΗΤΩΝ",
+            "issueDate": "2023-10-06T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-06T06:39:54.817000+00:00",
+            "publishTimestamp": "2023-10-06T06:39:54.817000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΚΒ9469ΗΖΞ-ΚΛΡ",
+            "versionId": "7558a09c-9f00-403f-a746-631a9a488a36",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΚΒ9469ΗΖΞ-ΚΛΡ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΚΒ9469ΗΖΞ-ΚΛΡ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "399",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 164.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 132/2023",
+            "subject": "∆ιαθεσιμότητα και άμεση ετοιμότητα για υπηρεσίες προστασίας του θαλάσσιου\nπεριβάλλοντος,δικαιοδοσίας ∆ΛΤ Λήμνου,μηνός Σεπτεμβρίου 2023 .",
+            "issueDate": "2023-10-03T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-03T09:18:37.861000+00:00",
+            "publishTimestamp": "2023-10-03T09:18:37.861000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΔΨΦΟΕΥΖ-ΧΧΠ",
+            "versionId": "812f9ba0-6cc5-4131-9379-afc28d7629b7",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΔΨΦΟΕΥΖ-ΧΧΠ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΔΨΦΟΕΥΖ-ΧΧΠ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "800805744",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "NORTH AEGEAN SLOPS ΕΜΠΟΡΙΚΗ ΜΟΝΟΜΕΤΟΧΙΚΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΙΑ"
+                        },
+                        "expenseAmount": {
+                            "amount": 744.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 131/2023",
+            "subject": "Εξόφληση 8ης δόσης της σύμβασης εργασιών  επισκευής-συντήρησης χερσαίων εγκαταστάσεων λιμένα Μύρινας (Σκίαστρα,κινητά και σταθερά κικλιδώματα,αίθουσα αναμονής επιβατών,διαγραμμίσεις κτλ)",
+            "issueDate": "2023-10-03T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-10-03T08:51:43.615000+00:00",
+            "publishTimestamp": "2023-10-03T08:51:43.615000+00:00",
+            "status": "PUBLISHED",
+            "ada": "61ΑΙΟΕΥΖ-ΤΔ3",
+            "versionId": "64d71a55-c829-40ff-a49c-114ad2b6f92a",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/61ΑΙΟΕΥΖ-ΤΔ3",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/61ΑΙΟΕΥΖ-ΤΔ3",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "058813634",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΣΤΕΙΡΟΣ,,ΤΡΥΦΩΝ,ΑΝΤΩΝΙΟΣ"
+                        },
+                        "expenseAmount": {
+                            "amount": 927.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 130/2023",
+            "subject": "Εξόφληση 1ης δόσης της σύμβασης ''Αμοιβές Λογιστών-Παροχή υπηρεσιών λογιστικής\nυποστήριξης του ∆ΛΤ Λήμνου''.",
+            "issueDate": "2023-10-03T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-10-03T07:16:39.172000+00:00",
+            "publishTimestamp": "2023-10-03T07:07:41.767000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΧΒ9ΟΕΥΖ-ΕΡΓ",
+            "versionId": "fac68678-33b6-44b2-b522-502f6e626447",
+            "correctedVersionId": "a14433ce-dd01-4ac6-a61e-3265e358684e",
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΧΒ9ΟΕΥΖ-ΕΡΓ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΧΒ9ΟΕΥΖ-ΕΡΓ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "075551130",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΘΑΝΟΥ,,ΣΟΦΙΑ,ΚΩΝΣΤΑΝΤΙΝΟΣ"
+                        },
+                        "expenseAmount": {
+                            "amount": 3500.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7356/29-08-2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΟΡΘΟΠΕΔΙΚΩΝ ΥΛΙΚΩΝ",
+            "issueDate": "2023-10-03T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-03T06:45:27.755000+00:00",
+            "publishTimestamp": "2023-10-03T06:45:27.755000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΗ8Ε469ΗΖΞ-ΝΥΨ",
+            "versionId": "e244af26-8f38-4427-adee-85850bd08ea7",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΗ8Ε469ΗΖΞ-ΝΥΨ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΗ8Ε469ΗΖΞ-ΝΥΨ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "398",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 13980.82,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7355/29-08-2023",
+            "subject": "ΑΜΟΙΒΕΣ ΙΔΙΩΤΙΚΩΝ ΓΡΑΦΕΙΩΝ ΚΑΙ ΙΔΙΩΤΩΝ",
+            "issueDate": "2023-10-02T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-10-02T10:43:02.215000+00:00",
+            "publishTimestamp": "2023-10-02T10:43:02.215000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΕΧΡ469ΗΖΞ-ΔΕΞ",
+            "versionId": "2c54e9aa-d12b-42ff-94e5-09405f5b473f",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΕΧΡ469ΗΖΞ-ΔΕΞ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΕΧΡ469ΗΖΞ-ΔΕΞ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "397",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 5583.41,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 129/2023.",
+            "subject": "Εξόφληση 5ης δόσης της σύμβασης εργασιών   καθαρισμού γραφείων του ΔΛΤ Λήμνου.",
+            "issueDate": "2023-10-02T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-10-02T06:32:19.667000+00:00",
+            "publishTimestamp": "2023-10-02T06:32:19.667000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΥΠΗΟΕΥΖ-Ω50",
+            "versionId": "36bd113d-3056-4465-9489-45573d32de9c",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΥΠΗΟΕΥΖ-Ω50",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΥΠΗΟΕΥΖ-Ω50",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "136488813",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΠΑΠΑΜΑΝΩΛΗ,,ΕΛΕΝΗ,ΔΗΜΗΤΡΙΟΣ"
+                        },
+                        "expenseAmount": {
+                            "amount": 1160.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7866/27-09-2023",
+            "subject": "Έγκριση Δ΄ Αναμόρφωσης προϋπολογισμού Γ.Ν.-Κ.Υ. Λήμνου Οικονομικού έτους 2023",
+            "issueDate": "2023-09-27T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-29T11:31:01.610000+00:00",
+            "publishTimestamp": "2023-09-27T05:38:37.145000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6Ε5Α469ΗΖΞ-8ΚΕ",
+            "versionId": "907cebcc-457b-484a-a1e7-a3d366714602",
+            "correctedVersionId": "31a42203-8685-44f5-b691-a2b52b7d439c",
+            "documentUrl": "https://diavgeia.gov.gr/doc/6Ε5Α469ΗΖΞ-8ΚΕ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6Ε5Α469ΗΖΞ-8ΚΕ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "259/2023",
+            "subject": "Απόφαση Προέδρου ΔΛΤ Λήμνου απευθείας ανάθεσης εργασίας τοποθέτησης ελαστικών παραβλημάτων.",
+            "issueDate": "2023-09-29T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100058315"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Δ.1",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-09-29T09:30:54.014000+00:00",
+            "publishTimestamp": "2023-09-29T09:30:54.014000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΕΘΤΟΕΥΖ-7Κ1",
+            "versionId": "117351f6-1fa7-4a11-8f99-12f024e8da08",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΕΘΤΟΕΥΖ-7Κ1",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΕΘΤΟΕΥΖ-7Κ1",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "person": [
+                    {
+                        "afm": "049856998",
+                        "name": "ΕΛΕΥΘΕΡΑΚΗΣ,,ΝΙΚΟΛ,ΔΗΜΗΤΡΙΟΣ",
+                        "enterName": false,
+                        "afmType": "EL"
+                    }
+                ],
+                "awardAmount": {
+                    "amount": 1240.0,
+                    "currency": "EUR"
+                },
+                "assignmentType": "Υπηρεσίες",
+                "cpv": null,
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "258/2023",
+            "subject": "AAY 86/2023",
+            "issueDate": "2023-09-29T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100058315"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "24"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-29T08:55:57.587000+00:00",
+            "publishTimestamp": "2023-09-29T08:55:57.587000+00:00",
+            "status": "PUBLISHED",
+            "ada": "62ΒΨΟΕΥΖ-ΑΧΔ",
+            "versionId": "336ace38-743f-4a46-a090-de2f422b4b84",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/62ΒΨΟΕΥΖ-ΑΧΔ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/62ΒΨΟΕΥΖ-ΑΧΔ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "86/2023",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 2300.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 106/2023",
+            "subject": "Προμήθειες Τραπεζών.",
+            "issueDate": "2023-09-29T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-29T07:55:13.259000+00:00",
+            "publishTimestamp": "2023-09-29T07:55:13.259000+00:00",
+            "status": "PUBLISHED",
+            "ada": "62ΧΝΟΕΥΖ-ΗΨ9",
+            "versionId": "c2fd031a-2802-4d27-adca-44952136864a",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/62ΧΝΟΕΥΖ-ΗΨ9",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/62ΧΝΟΕΥΖ-ΗΨ9",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "094014213",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΤΡΑΠΕΖΑ ΤΗΣ ΕΛΛΑΔΟΣ ΑΕ"
+                        },
+                        "expenseAmount": {
+                            "amount": 0.15,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8177/28-9-2023",
+            "subject": "ΣΥΜΒΑΣΗ ΣΥΝΤΗΡΗΣΗΣ ΑΝΑΛΥΤΩΝ ΑΕΡΙΩΝ ΑΙΜΑΤΟΣ",
+            "issueDate": "2023-09-29T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78742"
+            ],
+            "decisionTypeId": "Δ.2.2",
+            "thematicCategoryIds": [
+                "10007"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-29T06:07:56.753000+00:00",
+            "publishTimestamp": "2023-09-29T06:07:56.753000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΟΔΝ469ΗΖΞ-Σ9Λ",
+            "versionId": "77f472b8-6141-4687-8dfd-af37f57d03db",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΟΔΝ469ΗΖΞ-Σ9Λ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΟΔΝ469ΗΖΞ-Σ9Λ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "person": [],
+                "awardAmount": {
+                    "amount": 3720.0,
+                    "currency": "EUR"
+                },
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7354/29-8-202",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΟΡΘΟΠΕΔΙΚΩΝ ΥΛΙΚΩΝ",
+            "issueDate": "2023-09-29T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-29T06:04:30.448000+00:00",
+            "publishTimestamp": "2023-09-29T06:04:30.448000+00:00",
+            "status": "PUBLISHED",
+            "ada": "65ΜΑ469ΗΖΞ-ΚΘ9",
+            "versionId": "fc23ccae-bfe6-4f7e-a464-2cbf860a0bad",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/65ΜΑ469ΗΖΞ-ΚΘ9",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/65ΜΑ469ΗΖΞ-ΚΘ9",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "396",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 1632.69,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7353/29-8-2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΕΙΔΩΝ ΚΑΘΑΡΙΟΤΗΤΑΣ",
+            "issueDate": "2023-09-29T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-29T05:25:28.396000+00:00",
+            "publishTimestamp": "2023-09-29T05:25:28.396000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΜΞΑ469ΗΖΞ-Ζ0Φ",
+            "versionId": "066983d3-37ee-44a1-ad3a-82d7cf5b0c68",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΜΞΑ469ΗΖΞ-Ζ0Φ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΜΞΑ469ΗΖΞ-Ζ0Φ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "395",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 10000.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8164/28-09-2023",
+            "subject": "ΑΝΟΙΧΤΗ ΠΡΟΣΚΛΗΣΗ ΕΝΔΙΑΦΕΡΟΝΤΟΣ ΓΙΑ ΤΗΝ ΠΡΟΜΗΘΕΙΑ ΕΠΙΔΕΣΜΙΚΟΥ ΥΛΙΚΟΥ",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78742"
+            ],
+            "decisionTypeId": "Δ.2.1",
+            "thematicCategoryIds": [
+                "10007"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T09:42:21.551000+00:00",
+            "publishTimestamp": "2023-09-28T09:42:21.551000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΘΖΝ469ΗΖΞ-ΚΨΡ",
+            "versionId": "bfe14b0f-aa46-4447-9e9e-b92f9e655438",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΘΖΝ469ΗΖΞ-ΚΨΡ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΘΖΝ469ΗΖΞ-ΚΨΡ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "cpv": [
+                    "33141110-4"
+                ],
+                "contestProgressType": "Πρόχειρος",
+                "manifestSelectionCriterion": "Χαμηλότερη Τιμή",
+                "manifestContractType": "Προμήθειες",
+                "orgBudgetCode": "Τακτικός Προϋπολογισμός",
+                "estimatedAmount": {
+                    "amount": 33888.7,
+                    "currency": "EUR"
+                },
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8165/28-09-2023",
+            "subject": "ΑΝΟΙΧΤΗ ΠΡΟΣΚΛΗΣΗ ΕΝΔΙΑΦΕΡΟΝΤΟΣ ΓΙΑ ΤΗΝ ΠΡΟΜΗΘΕΙΑ ΜΟΣΧΕΥΜΑΤΩΝ-ΠΛΕΓΜΑΤΩΝ",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78742"
+            ],
+            "decisionTypeId": "Δ.2.1",
+            "thematicCategoryIds": [
+                "10007"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T09:40:16.017000+00:00",
+            "publishTimestamp": "2023-09-28T09:40:16.017000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΑΒΒ469ΗΖΞ-ΜΘΧ",
+            "versionId": "34d53659-0db5-4868-94de-1aab0cbb1659",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΑΒΒ469ΗΖΞ-ΜΘΧ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΑΒΒ469ΗΖΞ-ΜΘΧ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "cpv": [
+                    "33184100-4"
+                ],
+                "contestProgressType": "Πρόχειρος",
+                "manifestSelectionCriterion": "Χαμηλότερη Τιμή",
+                "manifestContractType": "Προμήθειες",
+                "orgBudgetCode": "Τακτικός Προϋπολογισμός",
+                "estimatedAmount": {
+                    "amount": 19173.84,
+                    "currency": "EUR"
+                },
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8166/28-9-2023",
+            "subject": "ΑΝΟΙΧΤΗ ΠΡΟΣΚΛΗΣΗ ΕΝΔΙΑΦΕΡΟΝΤΟΣ ΓΙΑ ΤΗΝ ΠΡΟΜΗΘΕΙΑ ΚΑΘΕΤΗΡΩΝ",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78742"
+            ],
+            "decisionTypeId": "Δ.2.1",
+            "thematicCategoryIds": [
+                "10007"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T09:38:02.909000+00:00",
+            "publishTimestamp": "2023-09-28T09:38:02.909000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9Γ14469ΗΖΞ-54Δ",
+            "versionId": "95de9a04-0909-4759-972d-5cd87e956e29",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9Γ14469ΗΖΞ-54Δ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9Γ14469ΗΖΞ-54Δ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "cpv": [
+                    "33141200-2"
+                ],
+                "contestProgressType": "Πρόχειρος",
+                "manifestSelectionCriterion": "Χαμηλότερη Τιμή",
+                "manifestContractType": "Προμήθειες",
+                "orgBudgetCode": "Τακτικός Προϋπολογισμός",
+                "estimatedAmount": {
+                    "amount": 33888.68,
+                    "currency": "EUR"
+                },
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8170/28-9-2023",
+            "subject": "ΑΠΟΦΑΣΗ ΠΡΟΕΓΚΡΙΣΗΣ ΠΡΟΜΗΘΕΙΑΣ ΧΕΙΡΟΥΡΓΙΚΩΝ ΜΟΣΧΕΥΜΑΤΩΝ -ΠΛΕΓΜΑΤΩΝ",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "10007"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T08:58:56.794000+00:00",
+            "publishTimestamp": "2023-09-28T08:58:56.794000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΣΑΛ469ΗΖΞ-Ζ4Δ",
+            "versionId": "4c16d0b1-2b2d-4fe2-a240-5f6d5dc88738",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΣΑΛ469ΗΖΞ-Ζ4Δ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΣΑΛ469ΗΖΞ-Ζ4Δ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "8170",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 19173.84,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8168/28-9-2023",
+            "subject": "ΑΠΟΦΑΣΗ ΠΡΟΕΓΚΡΙΣΗΣ ΠΡΟΜΗΘΕΙΑΣ ΚΑΘΕΤΗΡΩΝ",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "10007"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T08:56:09.787000+00:00",
+            "publishTimestamp": "2023-09-28T08:56:09.787000+00:00",
+            "status": "PUBLISHED",
+            "ada": "66ΧΛ469ΗΖΞ-Ν3Ω",
+            "versionId": "1f0249f8-c01f-46f0-8574-7ca7cb6d21d1",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/66ΧΛ469ΗΖΞ-Ν3Ω",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/66ΧΛ469ΗΖΞ-Ν3Ω",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "8168",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 33888.68,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8169/28-9-2023",
+            "subject": "ΑΠΟΦΑΣΗ ΠΡΟΕΓΚΡΙΣΗΣ ΠΡΟΜΗΘΕΙΑ ΕΠΙΔΕΣΜΙΚΟΥ ΥΛΙΚΟΥ",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "10007"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T08:52:38.558000+00:00",
+            "publishTimestamp": "2023-09-28T08:52:38.558000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ8ΥΔ469ΗΖΞ-ΗΦΓ",
+            "versionId": "22d5f839-809d-419e-a6e6-ea868b3191e4",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ8ΥΔ469ΗΖΞ-ΗΦΓ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ8ΥΔ469ΗΖΞ-ΗΦΓ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "8169",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 33888.7,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8169/28-9-2023",
+            "subject": "ΑΠΟΦΑΣΗ ΠΡΟΕΓΚΡΙΣΗΣ ΠΙΣΤΩΣΗΣ ΓΙΑ ΠΡΟΜΗΘΕΙΑ ΕΠΙΔΕΣΜΙΚΟΥ ΥΛΙΚΟΥ",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T08:34:44.181000+00:00",
+            "publishTimestamp": "2023-09-28T08:34:44.181000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΥΠΞ469ΗΖΞ-0ΚΘ",
+            "versionId": "4cf31a6b-f831-48ed-b5bc-af9b5c963689",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΥΠΞ469ΗΖΞ-0ΚΘ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΥΠΞ469ΗΖΞ-0ΚΘ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "8169",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 33888.7,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7346/26-09-2023",
+            "subject": "Εξέταση ενδεχομένου σύναψης συμβάσεων για τον έλεγχο του νερού και των τροφίμων.",
+            "issueDate": "2023-09-26T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T07:37:16.274000+00:00",
+            "publishTimestamp": "2023-09-26T10:07:17.361000+00:00",
+            "status": "PUBLISHED",
+            "ada": "60ΤΚ469ΗΖΞ-ΘΘ0",
+            "versionId": "993a4698-9803-49b1-a24a-0ec4cbc975a2",
+            "correctedVersionId": "7857edc2-e913-40ce-8935-4a55a3a16535",
+            "documentUrl": "https://diavgeia.gov.gr/doc/60ΤΚ469ΗΖΞ-ΘΘ0",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/60ΤΚ469ΗΖΞ-ΘΘ0",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "7352/29-8-2023",
+            "subject": "ΔΙΑΦΟΡΕΣ ΑΠΟΖΗΜΙΩΣΕΙΣ ΠΟΥ ΔΕΝ ΚΑΤΑΝΟΜΑΖΟΝΤΑΙ ΕΙΔΙΚΑ",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T06:35:20.413000+00:00",
+            "publishTimestamp": "2023-09-28T06:35:20.413000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΚ70469ΗΖΞ-ΛΝ9",
+            "versionId": "c9e4ccf5-9eac-4197-9b03-d1d988406f10",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΚ70469ΗΖΞ-ΛΝ9",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΚ70469ΗΖΞ-ΛΝ9",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "394",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 1755.08,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7351/28-9-2023",
+            "subject": "ΟΙΚΟΓΕΝΕΙΑΚΗ ΠΑΡΟΧΗ",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T06:29:30.628000+00:00",
+            "publishTimestamp": "2023-09-28T06:29:30.628000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΡΗΤ469ΗΖΞ-ΘΞΑ",
+            "versionId": "35aaf25b-c9aa-4b86-9186-c94be08dd027",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΡΗΤ469ΗΖΞ-ΘΞΑ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΡΗΤ469ΗΖΞ-ΘΞΑ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "393",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 10000.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "257/2023",
+            "subject": "ΑΑΥ 85/2023",
+            "issueDate": "2023-09-22T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100058315"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "24"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T06:01:56.971000+00:00",
+            "publishTimestamp": "2023-09-28T06:01:56.971000+00:00",
+            "status": "PUBLISHED",
+            "ada": "61Α6ΟΕΥΖ-ΥΧ3",
+            "versionId": "e53ba8ca-60eb-4536-9253-ff46038c92d7",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/61Α6ΟΕΥΖ-ΥΧ3",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/61Α6ΟΕΥΖ-ΥΧ3",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": null,
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 1387.4,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "256",
+            "subject": "ΑΑΥ 84/2023",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100058315"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "24"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T05:58:31.013000+00:00",
+            "publishTimestamp": "2023-09-28T05:58:31.013000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΡΛΣΟΕΥΖ-8ΘΝ",
+            "versionId": "aefa436d-4a72-4f2f-b06f-74be3ccf8d6d",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΡΛΣΟΕΥΖ-8ΘΝ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΡΛΣΟΕΥΖ-8ΘΝ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": null,
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 710.71,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 128/2023",
+            "subject": "Προμήθεια Τράπεζας της Ελλάδος για την απόδοση κρατήσεων .",
+            "issueDate": "2023-09-28T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-28T05:44:41.032000+00:00",
+            "publishTimestamp": "2023-09-28T05:44:41.032000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΥ95ΟΕΥΖ-Ξ6Λ",
+            "versionId": "f3e24683-db37-47f0-a9bb-ebfda8ba2276",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΥ95ΟΕΥΖ-Ξ6Λ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΥ95ΟΕΥΖ-Ξ6Λ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "094014213",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΤΡΑΠΕΖΑ ΤΗΣ ΕΛΛΑΔΟΣ ΑΕ"
+                        },
+                        "expenseAmount": {
+                            "amount": 0.15,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7780/27-09-2023",
+            "subject": "Μεταφορά ποσού έμμεσων δαπανών ως ποσοστό 15% επί των  πιστοποιημένων άμεσων δαπανών προσωπικού στο πλαίσιο υλοποίησης της Πράξης με τίτλο «Ενίσχυση των Φορέων Υγείας με επικουρικό προσωπικό για την ανταπόκριση στις ανάγκες λόγω της επιδημίας COVID-19 στην Περιφέρεια Βορείου Αιγαίου», κωδ. ΟΠΣ 5070508 και ενάριθμο κωδ. 2020ΕΠ08810024, Υποέργο 2, από τον λογαριασμό του έργου στην Τράπεζα της Ελλάδος σε λογαριασμό διαχείρισης του Γ. Ν. –Κ.Υ. Λήμνου σε εμπορική τράπεζα",
+            "issueDate": "2023-09-27T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-27T06:07:20.139000+00:00",
+            "publishTimestamp": "2023-09-27T06:07:20.139000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6Υ2Τ469ΗΖΞ-773",
+            "versionId": "21cf78b3-d4d7-45c4-9a76-b42f5534f55b",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6Υ2Τ469ΗΖΞ-773",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6Υ2Τ469ΗΖΞ-773",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "7695/26-09-2023",
+            "subject": "Έγκριση για ανοικτή πρόσκληση συλλογής προσφορών για την προμήθεια Χειρουργικών Μοσχευμάτων – Πλεγμάτων με σφραγισμένες προσφορές και με κριτήριο κατακύρωσης την πλέον συμφέρουσα από οικονομική άποψη προσφορά μόνο βάσει τιμής, προϋπολογισμού 19.173,84€, για ένα (1) έτος συμπεριλαμβανόμενου ΦΠΑ  13%",
+            "issueDate": "2023-09-26T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-26T09:35:44.277000+00:00",
+            "publishTimestamp": "2023-09-26T09:35:44.277000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΔΓΩ469ΗΖΞ-ΓΡ4",
+            "versionId": "078d2097-f9b5-4e45-81d9-45e8693ae4b6",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΔΓΩ469ΗΖΞ-ΓΡ4",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΔΓΩ469ΗΖΞ-ΓΡ4",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "7696/26-09-2023",
+            "subject": "Έγκριση για ανοικτή πρόσκληση συλλογής προσφορών για την προμήθεια ΕΠΙΔΕΣΜΙΚΟΥ ΥΛΙΚΟΥ με σφραγισμένες προσφορές και με κριτήριο κατακύρωσης την πλέον συμφέρουσα από οικονομική άποψη προσφορά μόνο βάσει τιμής, προϋπολογισμού 33.888,70€, για ένα (1) έτος συμπεριλαμβανόμενου ΦΠΑ  13%",
+            "issueDate": "2023-09-26T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-26T09:07:20.688000+00:00",
+            "publishTimestamp": "2023-09-26T09:07:20.688000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΔΜ1469ΗΖΞ-6ΣΑ",
+            "versionId": "6adbe918-ad47-4faa-bfc9-0ef504f854d1",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΔΜ1469ΗΖΞ-6ΣΑ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΔΜ1469ΗΖΞ-6ΣΑ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 127/2023",
+            "subject": "Εξόφληση 4ης δόσης της σύμβασης συντήρησης-καθαριότητας τουαλετών Λιμένα Μύρινας.",
+            "issueDate": "2023-09-26T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-09-26T08:54:44.716000+00:00",
+            "publishTimestamp": "2023-09-26T08:54:44.716000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΣ3ΦΟΕΥΖ-306",
+            "versionId": "8433f9e2-c9de-4038-9ae6-d923a8821957",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΣ3ΦΟΕΥΖ-306",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΣ3ΦΟΕΥΖ-306",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "028869330",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΚΑΤΗΣ,,ΑΡΙΣΤΟΤΕΛΗΣ,ΤΡΥΦΩΝΑΣ"
+                        },
+                        "expenseAmount": {
+                            "amount": 1650.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7851/26-09-2023",
+            "subject": "Έγκριση για ανοικτή πρόσκληση συλλογής προσφορών για ανάδειξη αναδόχου για «ΠΡΟΜΗΘΕΙΑ ΚΑΘΕΤΗΡΩΝ», CPV: 33141200-2 (Καθετήρες) συνολικής προϋπολογισθείσας δαπάνης 29.989,98€ χωρίς ΦΠΑ (33.888,68€ με ΦΠΑ13%), για ένα (1) έτος",
+            "issueDate": "2023-09-26T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-26T07:45:57.985000+00:00",
+            "publishTimestamp": "2023-09-26T07:45:57.985000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6Μ1Μ469ΗΖΞ-2ΒΓ",
+            "versionId": "9cde815c-d42f-4992-8b4f-e19720e66c7c",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6Μ1Μ469ΗΖΞ-2ΒΓ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6Μ1Μ469ΗΖΞ-2ΒΓ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "7350/29-08-2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΕΠΙΠΛΩΝ ΚΑΙ ΣΚΕΥΩΝ",
+            "issueDate": "2023-09-26T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-26T06:44:23.757000+00:00",
+            "publishTimestamp": "2023-09-26T06:44:23.757000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΑΒΙ469ΗΖΞ-ΛΦΝ",
+            "versionId": "70860119-89cd-4366-8faa-bd7a4ef12a44",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΑΒΙ469ΗΖΞ-ΛΦΝ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΑΒΙ469ΗΖΞ-ΛΦΝ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "392",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 3500.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7534/26-09-2023",
+            "subject": "Έγκριση ανανέωσης της σύμβασης συντήρησης και επισκευής  δύο (2) αναλυτών αερίων αίματος και ηλεκτρολυτών OPTI CCA με την εταιρία ΑΡΗΣ ΜΑΤΖΩΡΟΣ ΑΕ για ένα (1) έτος ποσού 3.720,00 €  συμπεριλαμβανομένου ΦΠΑ 24%.»",
+            "issueDate": "2023-09-26T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-26T05:19:44.504000+00:00",
+            "publishTimestamp": "2023-09-26T05:19:44.504000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ7Π8469ΗΖΞ-Η1Μ",
+            "versionId": "860c53d3-520d-442f-81f6-e5c9805edd06",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ7Π8469ΗΖΞ-Η1Μ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ7Π8469ΗΖΞ-Η1Μ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "7313/26-09-2023",
+            "subject": "Έγκριση των πρακτικών της Ανοικτής πρόσκλησης ενδιαφέροντος με συλλογή προσφορών για ανάδειξη αναδόχου για «ΠΡΟΜΗΘΕΙΑ ΓΡΑΦΙΚΗΣ ΥΛΗΣ» CPV: 30192700-8 προϋπολογισμού 32.116,00€ συμπεριλαμβανομένου ΦΠΑ  24%,",
+            "issueDate": "2023-09-26T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-26T04:58:41.069000+00:00",
+            "publishTimestamp": "2023-09-26T04:58:41.069000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΓΤΗ469ΗΖΞ-Π5Ι",
+            "versionId": "0e902918-ba6a-44a7-91b7-028842a52f93",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΓΤΗ469ΗΖΞ-Π5Ι",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΓΤΗ469ΗΖΞ-Π5Ι",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "7309/28-08-2023",
+            "subject": "Έγκριση του πρακτικού της επιτροπής της Ανοικτής Πρόσκλησης ενδιαφέροντος για τη συλλογή προσφορών για την ανάδειξη αναδόχου για «ΠΡΟΜΗΘΕΙΑ ΦΩΤΟΤΥΠΙΚΟΥ ΧΑΡΤΙΟΥ» CPV: 30197643-5 προϋπολογισμού 23.591,00€ συμπεριλαμβανομένου ΦΠΑ 24%  για ένα (1) έτος",
+            "issueDate": "2023-09-26T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-26T04:40:25.143000+00:00",
+            "publishTimestamp": "2023-09-26T04:40:25.143000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΩΜ8Χ469ΗΖΞ-ΣΔΧ",
+            "versionId": "26bd163d-52b8-4254-9703-e61b6d74ab9d",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΩΜ8Χ469ΗΖΞ-ΣΔΧ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΩΜ8Χ469ΗΖΞ-ΣΔΧ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 126/2023",
+            "subject": "Αμοιβή υπηρεσιών φύλαξης και ενίσχυσης της ασφάλειας  πλοίων ,λιμενικών εγκαταστάσεων και λιμένων ,κατά την προσέγγιση του Κ/Ζ CLUB MED II ,την 31/08/2023.",
+            "issueDate": "2023-09-25T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-25T07:48:53.468000+00:00",
+            "publishTimestamp": "2023-09-25T07:48:53.468000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΞΣΚΟΕΥΖ-5ΗΜ",
+            "versionId": "c0413b84-e059-442e-9c98-80451fd83dc9",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΞΣΚΟΕΥΖ-5ΗΜ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΞΣΚΟΕΥΖ-5ΗΜ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "800495842",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "OVIT ΙΔΙΩΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΑΣΦΑΛΕΙΑΣ ΙΚΕ"
+                        },
+                        "expenseAmount": {
+                            "amount": 736.56,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7446/25-09-2023",
+            "subject": "Έγκριση του πρακτικού της επιτροπής της Ανοικτής Πρόσκλησης ενδιαφέροντος για τη συλλογή προσφορών για την ανάδειξη αναδόχου για «ΠΡΟΜΗΘΕΙΑ ΧΕΙΡΟΥΡΓΙΚΩΝ ΡΑΜΜΑΤΩΝ» CPV33141126-9 προϋπολογισμού 22.606,15€ συμπεριλαμβανομένου ΦΠΑ 13% για ένα (1) έτος",
+            "issueDate": "2023-09-25T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-25T06:49:41.686000+00:00",
+            "publishTimestamp": "2023-09-25T06:49:41.686000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΕΘΜ469ΗΖΞ-ΠΔ4",
+            "versionId": "f14d0a05-2680-4338-9575-1902d15b5d0b",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΕΘΜ469ΗΖΞ-ΠΔ4",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΕΘΜ469ΗΖΞ-ΠΔ4",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "7405/25-09-2023",
+            "subject": "Έγκριση του πρακτικού της επιτροπής της Ανοικτής Πρόσκλησης ενδιαφέροντος για τη συλλογή προσφορών για την ανάδειξη αναδόχου για «ΠΡΟΜΗΘΕΙΑ ΓΑΝΤΙΩΝ Μ.Χ» του Γενικού  Νοσοκομείου – Κέντρου Υγείας Λήμνου CPV: 18424300-0 προϋπολογισμού 31.694,00€ συμπεριλαμβανομένου ΦΠΑ 6% για ένα (1) έτος",
+            "issueDate": "2023-09-25T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-25T06:24:42.430000+00:00",
+            "publishTimestamp": "2023-09-25T06:24:42.430000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΕΙΞ469ΗΖΞ-Δ6Τ",
+            "versionId": "2e553e66-9da7-4605-9289-40a1f8cee6b9",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΕΙΞ469ΗΖΞ-Δ6Τ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΕΙΞ469ΗΖΞ-Δ6Τ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "7349/29-8-2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΟΡΘΟΠΕΔΙΚΩΝ ΥΛΙΚΩΝ",
+            "issueDate": "2023-09-25T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-25T06:21:30.955000+00:00",
+            "publishTimestamp": "2023-09-25T06:21:30.955000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΒΓΓ469ΗΖΞ-ΓΜ3",
+            "versionId": "50de1b33-d622-44f0-a313-9bfba7c5330f",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΒΓΓ469ΗΖΞ-ΓΜ3",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΒΓΓ469ΗΖΞ-ΓΜ3",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "391",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 2860.94,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 119/2023",
+            "subject": "Αμοιβή υπηρεσιών φύλαξης και ενίσχυσης της ασφάλειας  πλοίων ,λιμενικών εγκαταστάσεων και λιμένων ,κατά την προσέγγιση του Κ/Ζ STAR FLYER,την 19/09/2023.",
+            "issueDate": "2023-09-21T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-22T10:23:18.404000+00:00",
+            "publishTimestamp": "2023-09-21T07:16:44.912000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ7ΛΠΟΕΥΖ-9ΦΕ",
+            "versionId": "0807a55d-1535-4b5d-8710-14d5187a39c5",
+            "correctedVersionId": "3186c47b-618a-4b31-9367-d010571798d4",
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ7ΛΠΟΕΥΖ-9ΦΕ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ7ΛΠΟΕΥΖ-9ΦΕ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "800495842",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "OVIT ΙΔΙΩΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΑΣΦΑΛΕΙΑΣ ΙΚΕ"
+                        },
+                        "expenseAmount": {
+                            "amount": 915.12,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 125/2023",
+            "subject": "ΕΞΟΦΛΗΣΗ ΚΡΑΤΗΣΕΩΝ ΜΗΝΟΣ ΣΕΠΤΕΜΒΡΙΟΥ 2022.",
+            "issueDate": "2023-09-22T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "24"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-22T10:19:54.368000+00:00",
+            "publishTimestamp": "2023-09-22T10:19:54.368000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΛΦΨΟΕΥΖ-ΒΟΩ",
+            "versionId": "b8c13162-81fb-489c-8984-b324ecbe4ac1",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΛΦΨΟΕΥΖ-ΒΟΩ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΛΦΨΟΕΥΖ-ΒΟΩ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "997422729",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΕΝΙΑΙΑ ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΣΥΜΒΑΣΕΩΝ"
+                        },
+                        "expenseAmount": {
+                            "amount": 1387.4,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "8046/22-9-2023",
+            "subject": "ΣΥΜΒΑΣΗ ΜΙΚΡΟΠΡΟΜΗΘΕΙΑΣ ΓΙΑ ΤΗΝ ΑΠΟΚΟΜΙΔΗ, ΜΕΤΑΦΟΡΑ & ΚΑΥΣΗ ΝΟΣΟΚΟΜΕΙΑΚΩΝ ΑΠΟΒΛΗΤΩΝ",
+            "issueDate": "2023-09-22T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78742"
+            ],
+            "decisionTypeId": "Δ.2.2",
+            "thematicCategoryIds": [
+                "10007"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-22T09:39:15.129000+00:00",
+            "publishTimestamp": "2023-09-22T09:39:15.129000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9Ε2Ψ469ΗΖΞ-95Ω",
+            "versionId": "b06fca63-d0bd-460c-8ade-0d0d393ff129",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9Ε2Ψ469ΗΖΞ-95Ω",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9Ε2Ψ469ΗΖΞ-95Ω",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "person": [],
+                "awardAmount": {
+                    "amount": 7985.6,
+                    "currency": "EUR"
+                },
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "XEP 120/2023",
+            "subject": "ΕΞΟΦΛΗΣΗ ΚΡΑΤΗΣΕΩΝ  ΜΙΣΘΟΔΟΣΙΑΣ ΜΗΝΟΣ ΣΕΠΤΕΜΒΡΙΟΥ 2023",
+            "issueDate": "2023-09-21T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "44"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-22T09:30:08.121000+00:00",
+            "publishTimestamp": "2023-09-22T09:30:08.121000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΒΕΑΟΕΥΖ-Ξ1Υ",
+            "versionId": "02e55f98-6a5d-4b49-b31a-a33a6858b1b9",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΒΕΑΟΕΥΖ-Ξ1Υ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΒΕΑΟΕΥΖ-Ξ1Υ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": "SKIP_VAT_REASON_1",
+                "sponsor": [],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 124/2023",
+            "subject": "Εξόφληση οφειλόμενων λογαριασμών ηλεκτρικού ρεύματος για φωτισμό οδών, πλατειών και κοινόχρηστων χώρων και παραγωγικής διαδικασίας.",
+            "issueDate": "2023-09-22T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-22T07:39:16.627000+00:00",
+            "publishTimestamp": "2023-09-22T07:39:16.627000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΣ83ΟΕΥΖ-ΞΔΣ",
+            "versionId": "b0412c5f-cf73-420c-a982-1a8185f46b95",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΣ83ΟΕΥΖ-ΞΔΣ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΣ83ΟΕΥΖ-ΞΔΣ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "090000045",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΔΗΜΟΣΙΑ ΕΠΙΧΕΙΡΗΣΗ ΗΛΕΚΤΡΙΣΜΟΥ ΑΝΩΝΥΜΗ ΕΤΑΙΡΙΑ"
+                        },
+                        "expenseAmount": {
+                            "amount": 3631.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 123/2023",
+            "subject": "Εξόφληση  συνδρομής COSMOTE INTERNET BACK UP,Περιόδου  04/08/2023-03/09/2023  (ΚΩΔ.ΗΛΕΚΤΡ.ΠΛΗΡΩΜΗΣ RF12903108000000015074759)",
+            "issueDate": "2023-09-22T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-22T05:38:21.943000+00:00",
+            "publishTimestamp": "2023-09-22T05:38:21.943000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ6ΓΖΟΕΥΖ-97Ο",
+            "versionId": "b94a0e42-b9f4-43de-b110-f7088a8a14b5",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ6ΓΖΟΕΥΖ-97Ο",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ6ΓΖΟΕΥΖ-97Ο",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "094493766",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "COSMOTE ΚΙΝΗΤΕΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΕΣ ΜΟΝΟΠΡΟΣΩΠΗ ΑΝΩΝΥΜΟΣ ΕΤΑΙΡΕΙΑ"
+                        },
+                        "expenseAmount": {
+                            "amount": 15.6,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7966/21-09-2023",
+            "subject": "Έγκριση σύναψης σύμβασης μικροπρομήθειας με την εταιρία ΓΕΝΙΚΗ ΧΗΜΙΚΩΝ ΕΦΑΡΜΟΓΩΝ Ε.Π.Ε. για τις υπηρεσίες συλλογής-μεταφοράς και επεξεργασίας (αποστείρωσης-αποτέφρωσης) Επικίνδυνων Αποβλήτων Υγειονομικών Μονάδων (ΕΑΥΜ),",
+            "issueDate": "2023-09-21T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-21T10:42:53.724000+00:00",
+            "publishTimestamp": "2023-09-21T10:42:53.724000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΞΤΙ469ΗΖΞ-ΒΚΥ",
+            "versionId": "d9e50641-5b3c-490e-a805-82ce38e60280",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΞΤΙ469ΗΖΞ-ΒΚΥ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΞΤΙ469ΗΖΞ-ΒΚΥ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 122/2023",
+            "subject": "Προμήθεια λοιπών ειδών υγιεινής και καθαριότητας.",
+            "issueDate": "2023-09-21T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-21T10:08:31.980000+00:00",
+            "publishTimestamp": "2023-09-21T10:08:31.980000+00:00",
+            "status": "PUBLISHED",
+            "ada": "925ΔΟΕΥΖ-273",
+            "versionId": "96426954-acc3-4973-b9d2-ed95436c67d3",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/925ΔΟΕΥΖ-273",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/925ΔΟΕΥΖ-273",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "082812047",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΔΗΜΗΤΡΙΟΣ ΣΦΕΝΔΥΛΗΣ  ΣΤΑΥΡΟΣ ΑΣΒΕΣΤΑΣ EE"
+                        },
+                        "expenseAmount": {
+                            "amount": 198.65,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 121/2023",
+            "subject": "Προμήθεια χρωμάτων και εργαλείων βαφής.",
+            "issueDate": "2023-09-21T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-21T09:28:25.383000+00:00",
+            "publishTimestamp": "2023-09-21T09:28:25.383000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ3ΥΕΟΕΥΖ-6Β4",
+            "versionId": "fe693e5d-a346-4c7f-b7ea-e64ea1cc2edc",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ3ΥΕΟΕΥΖ-6Β4",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ3ΥΕΟΕΥΖ-6Β4",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "800188737",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΜΑΡΙΑ ΜΑΥΡΟΘΑΛΑΣΣΙΤΟΥ ΚΑΙ ΣΙΑ ΟΕ"
+                        },
+                        "expenseAmount": {
+                            "amount": 573.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "248/2023",
+            "subject": "Απόφαση Προέδρου ΔΛΤ Λήμνου απευθείας ανάθεσης προμήθειας.",
+            "issueDate": "2023-09-19T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100058315"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Δ.1",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-21T05:16:32.587000+00:00",
+            "publishTimestamp": "2023-09-19T10:53:48.383000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΨΞ4ΟΕΥΖ-Η4Ι",
+            "versionId": "4b1f3e60-643b-4c86-8487-e1ffca17e45b",
+            "correctedVersionId": "181dda30-7f72-4657-b420-12428bc696e5",
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΨΞ4ΟΕΥΖ-Η4Ι",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΨΞ4ΟΕΥΖ-Η4Ι",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "person": [
+                    {
+                        "afm": "082812047",
+                        "name": "ΔΗΜΗΤΡΙΟΣ ΣΦΕΝΔΥΛΗΣ  ΣΤΑΥΡΟΣ ΑΣΒΕΣΤΑΣ EE",
+                        "enterName": false,
+                        "afmType": "EL"
+                    }
+                ],
+                "awardAmount": {
+                    "amount": 198.65,
+                    "currency": "EUR"
+                },
+                "assignmentType": "Προμήθειες",
+                "cpv": null,
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 118/2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΣΩΛΗΝΑΣ  HYDROPAL ΜΑΥΡΟ Φ90 10ΑΤΜ.",
+            "issueDate": "2023-09-20T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-20T05:29:45.095000+00:00",
+            "publishTimestamp": "2023-09-20T05:29:45.095000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΟΙΤΟΕΥΖ-ΜΤ3",
+            "versionId": "98d4b8bd-0754-44df-b694-8c98be84fa76",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΟΙΤΟΕΥΖ-ΜΤ3",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΟΙΤΟΕΥΖ-ΜΤ3",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "082812047",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΔΗΜΗΤΡΙΟΣ ΣΦΕΝΔΥΛΗΣ  ΣΤΑΥΡΟΣ ΑΣΒΕΣΤΑΣ EE"
+                        },
+                        "expenseAmount": {
+                            "amount": 1450.8,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 117/2023",
+            "subject": "Εξόφληση οφειλόμενων λογαριασμών ηλεκτρικού ρεύματος για φωτισμό οδών, πλατειών και κοινόχρηστων χώρων και παραγωγικής διαδικασίας.",
+            "issueDate": "2023-09-20T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-20T04:52:53.663000+00:00",
+            "publishTimestamp": "2023-09-20T04:52:53.663000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΘ6ΝΟΕΥΖ-ΣΧΝ",
+            "versionId": "0bd4bced-ac0f-4e47-8b85-7d92aa5682e2",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΘ6ΝΟΕΥΖ-ΣΧΝ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΘ6ΝΟΕΥΖ-ΣΧΝ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "090000045",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΔΗΜΟΣΙΑ ΕΠΙΧΕΙΡΗΣΗ ΗΛΕΚΤΡΙΣΜΟΥ ΑΝΩΝΥΜΗ ΕΤΑΙΡΙΑ"
+                        },
+                        "expenseAmount": {
+                            "amount": 4061.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 116/2023",
+            "subject": "Αμοιβή υπηρεσιών φύλαξης και ενίσχυσης της ασφάλειας  πλοίων ,λιμενικών εγκαταστάσεων και λιμένων ,κατά την προσέγγιση του Κ/Ζ LE LYRIAL,την 05/08/2023.",
+            "issueDate": "2023-09-19T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-19T09:42:30.292000+00:00",
+            "publishTimestamp": "2023-09-19T09:42:30.292000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΔΑΞΟΕΥΖ-ΩΧΤ",
+            "versionId": "962a1357-1614-4b07-bf30-58510358192d",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΔΑΞΟΕΥΖ-ΩΧΤ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΔΑΞΟΕΥΖ-ΩΧΤ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "800495842",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "OVIT ΙΔΙΩΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΠΑΡΟΧΗΣ ΥΠΗΡΕΣΙΩΝ ΑΣΦΑΛΕΙΑΣ ΙΚΕ"
+                        },
+                        "expenseAmount": {
+                            "amount": 970.92,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 115/2023",
+            "subject": "Εξόφληση λογαριασμού τηλεφωνικών τελών:   Αρ.σύνδεσης 22540-22383 & 22540-29892,περιόδου 8/7-07/09/2023 (Κωδ.πληρωμής RF44903018000000008617354)",
+            "issueDate": "2023-09-19T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-19T08:36:31.362000+00:00",
+            "publishTimestamp": "2023-09-19T08:36:31.362000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΥΧΑΟΕΥΖ-Π9Ι",
+            "versionId": "2366e51b-359f-473e-ac75-0f854b4c8d4b",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΥΧΑΟΕΥΖ-Π9Ι",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΥΧΑΟΕΥΖ-Π9Ι",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "094019245",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ"
+                        },
+                        "expenseAmount": {
+                            "amount": 410.4,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7348/29-8-2023",
+            "subject": "ΔΑΠΑΝΕΣ ΑΠΟΚΟΜΙΔΗΣ ΚΑΙΕΠΕΞΕΡΓΑΣΙΑΣ ΙΑΤΡΙΚΩΝ ΑΠΟΒΛΗΤΩΝ",
+            "issueDate": "2023-09-19T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-19T08:31:41.144000+00:00",
+            "publishTimestamp": "2023-09-19T08:31:41.144000+00:00",
+            "status": "PUBLISHED",
+            "ada": "97Λ3469ΗΖΞ-936",
+            "versionId": "580a0b27-2d74-4358-851e-010b2269d883",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/97Λ3469ΗΖΞ-936",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/97Λ3469ΗΖΞ-936",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "390",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 9028.94,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 114/2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΤΡΑΠΕΖΑΣ.",
+            "issueDate": "2023-09-19T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-19T07:31:08.522000+00:00",
+            "publishTimestamp": "2023-09-19T07:31:08.522000+00:00",
+            "status": "PUBLISHED",
+            "ada": "94ΛΘΟΕΥΖ-61Θ",
+            "versionId": "0f6039a5-1330-4f22-9c58-f1d3608ab9e2",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/94ΛΘΟΕΥΖ-61Θ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/94ΛΘΟΕΥΖ-61Θ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "094014213",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΤΡΑΠΕΖΑ ΤΗΣ ΕΛΛΑΔΟΣ ΑΕ"
+                        },
+                        "expenseAmount": {
+                            "amount": 0.05,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "244/2023",
+            "subject": "Απόφαση Προέδρου ΔΛΤ Λήμνου απευθείας ανάθεσης προμήθειας.",
+            "issueDate": "2023-09-19T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100058315"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Δ.1",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-09-19T07:12:53.411000+00:00",
+            "publishTimestamp": "2023-09-19T07:12:53.411000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΔΖ5ΟΕΥΖ-4ΓΖ",
+            "versionId": "1896b859-c467-443b-b2c3-958ddc818fd5",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΔΖ5ΟΕΥΖ-4ΓΖ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΔΖ5ΟΕΥΖ-4ΓΖ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "person": [
+                    {
+                        "afm": "800188737",
+                        "name": "ΜΑΡΙΑ ΜΑΥΡΟΘΑΛΑΣΣΙΤΟΥ ΚΑΙ ΣΙΑ ΟΕ",
+                        "enterName": false,
+                        "afmType": "EL"
+                    }
+                ],
+                "awardAmount": {
+                    "amount": 573.0,
+                    "currency": "EUR"
+                },
+                "assignmentType": "Προμήθειες",
+                "cpv": null,
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7852/18-09-2023",
+            "subject": "Εξέταση υποβολής αιτήματος για πρόσληψη λοιπού  Επικουρικού παραϊατρικού προσωπικού",
+            "issueDate": "2023-09-18T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-18T11:24:37.477000+00:00",
+            "publishTimestamp": "2023-09-18T11:24:37.477000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΧΧΗ469ΗΖΞ-2Θ1",
+            "versionId": "91aaeccf-1bcc-4bbc-9a63-5d1d9610e2db",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΧΧΗ469ΗΖΞ-2Θ1",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΧΧΗ469ΗΖΞ-2Θ1",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "7347/29-8-2023",
+            "subject": "ΕΚΤΥΠΩΣΕΙΣ ΕΚΔΟΣΕΙΣ",
+            "issueDate": "2023-09-15T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-15T07:09:17.284000+00:00",
+            "publishTimestamp": "2023-09-15T07:09:17.284000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΥΑΕ469ΗΖΞ-3ΒΑ",
+            "versionId": "8d08fa51-c870-4b01-afa0-dc0cc888ecd0",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΥΑΕ469ΗΖΞ-3ΒΑ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΥΑΕ469ΗΖΞ-3ΒΑ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "389",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 329.1,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7771/13-9-2023",
+            "subject": "ΣΥΜΒΑΣΗ ΜΙΚΡΟΠΡΟΜΗΘΕΙΑΣ ΓΙΑ ΤΗ ΣΥΛΛΟΓΗ-ΜΕΤΑΦΟΡΑ ΚΑΙ ΕΠΕΞΕΡΓΑΣΙΑ ΕΠΙΚΙΝΔΥΝΩΝ ΑΠΟΒΛΗΤΩΝ ΤΟΥ ΓΕΝΙΚΟΥ ΝΟΣΟΚΟΜΕΙΟΥ-ΚΕΝΤΡΟΥ ΥΓΕΙΑΣ ΛΗΜΝΟΥ",
+            "issueDate": "2023-09-13T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78742"
+            ],
+            "decisionTypeId": "Δ.2.2",
+            "thematicCategoryIds": [
+                "10007"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-13T10:38:10.114000+00:00",
+            "publishTimestamp": "2023-09-13T10:38:10.114000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΟΠΧ469ΗΖΞ-9ΟΩ",
+            "versionId": "1a629d83-1a10-4106-9316-9a5bb6a098b0",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΟΠΧ469ΗΖΞ-9ΟΩ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΟΠΧ469ΗΖΞ-9ΟΩ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "person": [],
+                "awardAmount": {
+                    "amount": 9159.14,
+                    "currency": "EUR"
+                },
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "242/2023",
+            "subject": "Απόφαση Προέδρου ΔΛΤ Λήμνου απευθείας ανάθεσης προμήθειας.",
+            "issueDate": "2023-09-12T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100058315"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Δ.1",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-12T07:48:41.378000+00:00",
+            "publishTimestamp": "2023-09-12T07:48:41.378000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΙΒΒΟΕΥΖ-ΕΙΓ",
+            "versionId": "6c082aa3-d1c3-4e13-9417-195c68b12040",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΙΒΒΟΕΥΖ-ΕΙΓ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΙΒΒΟΕΥΖ-ΕΙΓ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "person": [
+                    {
+                        "afm": "082812047",
+                        "name": "ΔΗΜΗΤΡΙΟΣ ΣΦΕΝΔΥΛΗΣ  ΣΤΑΥΡΟΣ ΑΣΒΕΣΤΑΣ EE",
+                        "enterName": false,
+                        "afmType": "EL"
+                    }
+                ],
+                "awardAmount": {
+                    "amount": 1450.8,
+                    "currency": "EUR"
+                },
+                "assignmentType": "Προμήθειες",
+                "cpv": null,
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7346/29-08-2023",
+            "subject": "ΛΟΙΠΕΣ ΠΡΟΜΗΘΕΙΕΣ ΣΥΝΤΗΡΗΣΗΣ ΚΑΙ ΕΠΙΣΚΕΥΗΣ ΛΟΙΠΟΥ ΕΞΟΠΛΙΣΜΟΥ",
+            "issueDate": "2023-09-12T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-12T07:01:04.779000+00:00",
+            "publishTimestamp": "2023-09-12T07:01:04.779000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΨ62469ΗΖΞ-ΙΩ3",
+            "versionId": "b094686d-ba4c-4d94-b6cd-64441b7b87d0",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΨ62469ΗΖΞ-ΙΩ3",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΨ62469ΗΖΞ-ΙΩ3",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "388",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 10000.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "241",
+            "subject": "ΑΑΥ 83 /2023",
+            "issueDate": "2023-09-12T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100058315"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "24"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-12T06:44:14.584000+00:00",
+            "publishTimestamp": "2023-09-12T06:44:14.584000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ω83ΙΟΕΥΖ-ΨΚΒ",
+            "versionId": "8afaf652-7f4d-4adf-99b5-07894bfe20ad",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ω83ΙΟΕΥΖ-ΨΚΒ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ω83ΙΟΕΥΖ-ΨΚΒ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": null,
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 2500.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 113/2023",
+            "subject": "Εξόφληση  συνδρομής COSMOTE INTERNET BACK UP,Περιόδου  04/06-03/07/2023  (ΚΩΔ.ΗΛΕΚΤΡ.ΠΛΗΡΩΜΗΣ RF12903108000000015074759)",
+            "issueDate": "2023-09-12T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-12T06:15:14.535000+00:00",
+            "publishTimestamp": "2023-09-12T06:15:14.535000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΥΡΟΟΕΥΖ-ΥΝΔ",
+            "versionId": "6fe1ae25-b6ad-4e38-a540-aee1d479ddd1",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΥΡΟΟΕΥΖ-ΥΝΔ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΥΡΟΟΕΥΖ-ΥΝΔ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "094493766",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "COSMOTE ΚΙΝΗΤΕΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΕΣ ΜΟΝΟΠΡΟΣΩΠΗ ΑΝΩΝΥΜΟΣ ΕΤΑΙΡΕΙΑ"
+                        },
+                        "expenseAmount": {
+                            "amount": 5.6,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 112/2023",
+            "subject": "Προμήθεια ηλεκτρολογικού υλικού.",
+            "issueDate": "2023-09-12T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-09-12T05:47:40.122000+00:00",
+            "publishTimestamp": "2023-09-12T05:47:40.122000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΙ73ΟΕΥΖ-Τ03",
+            "versionId": "81e0294e-e5e6-4097-8510-2ff537db4586",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΙ73ΟΕΥΖ-Τ03",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΙ73ΟΕΥΖ-Τ03",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "301438957",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΧΡΥΣΑΦΗΣ,,ΑΝΤΩΝΙΟΣ,ΔΗΜΗΤΡΙΟΣ"
+                        },
+                        "expenseAmount": {
+                            "amount": 1810.39,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 111/2023",
+            "subject": "Διαθεσιμότητα και άμεση ετοιμότητα για υπηρεσίες προστασίας του θαλάσσιου περιβάλλοντος,δικαιοδοσίας ΔΛΤ Λήμνου,μηνός Αυγούστου  2023 .",
+            "issueDate": "2023-09-11T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-11T07:28:24.142000+00:00",
+            "publishTimestamp": "2023-09-11T07:28:24.142000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΟΣΘΟΕΥΖ-Ρ3Η",
+            "versionId": "f95d61be-0fbc-4e97-a762-55e341424941",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΟΣΘΟΕΥΖ-Ρ3Η",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΟΣΘΟΕΥΖ-Ρ3Η",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "800805744",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "NORTH AEGEAN SLOPS ΕΜΠΟΡΙΚΗ ΜΟΝΟΜΕΤΟΧΙΚΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΙΑ"
+                        },
+                        "expenseAmount": {
+                            "amount": 744.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "236/2023",
+            "subject": "Απόφαση Προέδρου ΔΛΤ Λήμνου απευθείας ανάθεσης προμήθειας ηλεκτρολογικού υλικού.",
+            "issueDate": "2023-09-11T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100058315"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Δ.1",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-09-11T06:39:42.526000+00:00",
+            "publishTimestamp": "2023-09-11T06:39:42.526000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6Ω8ΦΟΕΥΖ-ΝΗΟ",
+            "versionId": "95524f50-e832-43a2-beb4-b889f49457ef",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6Ω8ΦΟΕΥΖ-ΝΗΟ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6Ω8ΦΟΕΥΖ-ΝΗΟ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "person": [
+                    {
+                        "afm": "301438957",
+                        "name": "ΧΡΥΣΑΦΗΣ,,ΑΝΤΩΝΙΟΣ,ΔΗΜΗΤΡΙΟΣ",
+                        "enterName": false,
+                        "afmType": "EL"
+                    }
+                ],
+                "awardAmount": {
+                    "amount": 1810.39,
+                    "currency": "EUR"
+                },
+                "assignmentType": "Προμήθειες",
+                "cpv": null,
+                "textRelatedADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 110/2023",
+            "subject": "Αποδοχές και  εργοδοτικές εισφορές υπαλλήλου Οικονομικής-Διοικητικής Υπηρεσίας Σεπτεμβρίου 2023.",
+            "issueDate": "2023-09-08T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "44"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-09-11T05:04:06.229000+00:00",
+            "publishTimestamp": "2023-09-11T05:04:06.229000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΨΚΥΟΕΥΖ-ΚΤΛ",
+            "versionId": "7b5b03d0-ed1a-4a68-b86e-2ae4f0227229",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΨΚΥΟΕΥΖ-ΚΤΛ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΨΚΥΟΕΥΖ-ΚΤΛ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": "SKIP_VAT_REASON_1",
+                "sponsor": [],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7345/29-08-2023",
+            "subject": "ΤΑΧΥΔΡΟΜΙΚΑ ΤΕΛΗ",
+            "issueDate": "2023-09-08T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-08T11:43:16.963000+00:00",
+            "publishTimestamp": "2023-09-08T11:43:16.963000+00:00",
+            "status": "PUBLISHED",
+            "ada": "69Δ0469ΗΖΞ-ΧΞ7",
+            "versionId": "40a6f192-b7e7-4d6b-b5f2-60f3e1773131",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/69Δ0469ΗΖΞ-ΧΞ7",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/69Δ0469ΗΖΞ-ΧΞ7",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "387",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 10000.0,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7344/29-08-2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΦΑΡΜΑΚΕΥΤΙΚΟΥ ΥΛΙΚΟΥ",
+            "issueDate": "2023-09-08T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-08T11:00:30.006000+00:00",
+            "publishTimestamp": "2023-09-08T11:00:30.006000+00:00",
+            "status": "PUBLISHED",
+            "ada": "97ΓΥ469ΗΖΞ-ΦΡΣ",
+            "versionId": "3402a04d-486b-4018-a333-b5b57964423d",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/97ΓΥ469ΗΖΞ-ΦΡΣ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/97ΓΥ469ΗΖΞ-ΦΡΣ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "386",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 5792.3,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 109/2023",
+            "subject": "Εξόφληση 4ης δόσης της σύμβασης εργασιών   καθαρισμού γραφείων του ΔΛΤ Λήμνου.",
+            "issueDate": "2023-09-07T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-09-07T16:40:57.025000+00:00",
+            "publishTimestamp": "2023-09-07T16:40:57.025000+00:00",
+            "status": "PUBLISHED",
+            "ada": "60Ε4ΟΕΥΖ-ΙΙΣ",
+            "versionId": "31b8fd54-7d4d-4740-a3c5-12d9a398a5f9",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/60Ε4ΟΕΥΖ-ΙΙΣ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/60Ε4ΟΕΥΖ-ΙΙΣ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "136488813",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΠΑΠΑΜΑΝΩΛΗ,,ΕΛΕΝΗ,ΔΗΜΗΤΡΙΟΣ"
+                        },
+                        "expenseAmount": {
+                            "amount": 1160.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "ΧΕΠ 108/2023",
+            "subject": "Εξόφληση 7ης δόσης της σύμβασης εργασιών  επισκευής-συντήρησης χερσαίων εγκαταστάσεων λιμένα Μύρινας (Σκίαστρα,κινητά και σταθερά κικλιδώματα,αίθουσα αναμονής επιβατών,διαγραμμίσεις κτλ).",
+            "issueDate": "2023-09-07T00:00:00+00:00",
+            "organizationId": "51611",
+            "signerIds": [
+                "100041957"
+            ],
+            "unitIds": [
+                "83487"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": true,
+            "submissionTimestamp": "2023-09-07T16:08:19.627000+00:00",
+            "publishTimestamp": "2023-09-07T16:08:19.627000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ω8Π0ΟΕΥΖ-ΙΩ2",
+            "versionId": "6dbcea19-6ffe-4105-b937-7cbbd2fc3a9f",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ω8Π0ΟΕΥΖ-ΙΩ2",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ω8Π0ΟΕΥΖ-ΙΩ2",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "800186744",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΛΗΜΝΟΥ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "058813634",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ΣΤΕΙΡΟΣ,,ΤΡΥΦΩΝ,ΑΝΤΩΝΙΟΣ"
+                        },
+                        "expenseAmount": {
+                            "amount": 927.0,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "7230/23-08-2023",
+            "subject": "Έγκριση εφημεριών γιατρών  Ε.Σ.Υ., επικουρικών, ειδικευόμενων και αγροτικών γιατρών μηνός  ΙΟΥΛΙΟΥ 2023",
+            "issueDate": "2023-08-28T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100072693"
+            ],
+            "unitIds": [
+                "100050865"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-06T09:31:18.419000+00:00",
+            "publishTimestamp": "2023-08-28T06:37:21.221000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6Ω97469ΗΖΞ-ΩΕΦ",
+            "versionId": "0244a34e-5d74-4bf3-b1e7-b3d87ddaa779",
+            "correctedVersionId": "0bc9912d-4b2d-4cda-a8e0-8b37fcd68eb6",
+            "documentUrl": "https://diavgeia.gov.gr/doc/6Ω97469ΗΖΞ-ΩΕΦ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6Ω97469ΗΖΞ-ΩΕΦ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "7342/29-8-2023",
+            "subject": "ΠΡΟΜΗΘΕΙΑ ΕΙΔΩΝ ΚΑΘΑΡΙΟΤΗΤΑΣ",
+            "issueDate": "2023-09-05T00:00:00+00:00",
+            "organizationId": "99221771",
+            "signerIds": [
+                "100061175"
+            ],
+            "unitIds": [
+                "78741"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2023-09-05T11:34:26.845000+00:00",
+            "publishTimestamp": "2023-09-05T11:34:26.845000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ5ΒΒ469ΗΖΞ-7ΨΚ",
+            "versionId": "78063a1e-1723-4b1e-b86d-866e55df6101",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ5ΒΒ469ΗΖΞ-7ΨΚ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ5ΒΒ469ΗΖΞ-7ΨΚ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2023,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "384",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 2810.11,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [],
+                "relatedPartialADA": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        }
+    ],
+    "info": {
+        "query": "submissionTimestamp:[DT(2023-04-20T00:00:00+03:00) TO DT(2025-04-21T00:00:00+03:00)] AND issueDate:[DT(2023-04-20T00:00:00+03:00) TO DT(2023-10-17T00:00:00+03:00)] AND (organizationUid:\"51611\" OR organizationLatinName:\"nosokomeio_limnou\") AND status:\"Αναρτημένη\"",
+        "page": 0,
+        "size": 100,
+        "actualSize": 100,
+        "total": 491,
+        "order": "recent"
+    }
+}
