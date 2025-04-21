@@ -1,5 +1,13 @@
 import json
 from pathlib import Path
+from datetime import datetime
+
+
+def custom_serializer(obj):
+    """Custom serializer for datetime objects."""
+    if isinstance(obj, datetime):
+        return obj.isoformat()  # Convert datetime to ISO 8601 string
+    raise TypeError(f"Type {type(obj)} not serializable")
 
 
 def write_to_json(data, file_path):
@@ -18,6 +26,8 @@ def write_to_json(data, file_path):
 
     # Open the file and write the data as JSON
     with open(path, "w", encoding="utf-8") as json_file:
-        json.dump(data, json_file, ensure_ascii=False, indent=4)
+        json.dump(
+            data, json_file, ensure_ascii=False, indent=4, default=custom_serializer
+        )
 
     print(f"Data has been written to {file_path}")

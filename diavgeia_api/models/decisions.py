@@ -1,6 +1,16 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import Any, List, Optional
 from datetime import datetime
+from enum import Enum
+
+
+class DecisionStatus(str, Enum):
+    """Κατάσταση πράξης."""
+
+    PUBLISHED = "PUBLISHED"
+    REVOKED = "REVOKED"  # Ανακληθείσα
+    PENDING_REVOCATION = "PENDING_REVOCATION"  # Εν αναμονή ανάκλησης
+    ALL = "ALL"
 
 
 class Attachment(BaseModel):
@@ -9,6 +19,31 @@ class Attachment(BaseModel):
     filename: str
     mimeType: str
     checksum: str
+
+
+class AmountWithKAE(BaseModel):
+    """Amount with KAE (Κωδικός Αριθμού Εξόδου)."""
+
+    kae: str
+    amountWithVAT: float
+
+
+class Amount(BaseModel):
+    """Amount with currency."""
+
+    amount: float
+    currency: str
+
+
+class ExtraFieldValues(BaseModel):
+    """Extra fields that may be present in a decision."""
+
+    financialYear: Optional[int] = None
+    budgettype: Optional[str] = None
+    amountWithVAT: Optional[Amount] = None
+    amountWithKae: Optional[List[AmountWithKAE]] = None
+    partialead: Optional[bool] = None
+    relatedDecisions: List[Any] = Field(default_factory=list)
 
 
 class Decision(BaseModel):
@@ -23,7 +58,7 @@ class Decision(BaseModel):
     privateData: bool
     submissionTimestamp: datetime
     publishTimestamp: Optional[datetime] = None
-    status: str
+    status: DecisionStatus
     ada: Optional[str] = None
     versionId: str
     correctedVersionId: Optional[str] = None
@@ -46,6 +81,7 @@ class PageInfo(BaseModel):
 
 class DecisionList(BaseModel):
     decisions: List[Decision]
+    # TODO: Implement pagination mechanism
     info: PageInfo
 
 

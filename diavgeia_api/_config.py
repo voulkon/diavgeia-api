@@ -15,3 +15,5 @@ SIGNERS = "signers"
 POSITIONS = "positions"
 DICTIONARIES = "dictionaries"
 UNITS = "units"
+
+WANTED_DATE_FORMAT = "%Y-%m-%d"

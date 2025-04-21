@@ -1,0 +1,877 @@
+{
+    "decisions": [
+        {
+            "protocolNumber": "72/2025 ΑΔΣ",
+            "subject": "Έγκριση 2ης παράτασης συμβατικής προθεσμίας εκτέλεσης του έργου: «ΕΡΓΑ ΣΥΝΤΗΡΗΣΗΣ ΣΧΟΛΙΚΩΝ ΚΤΙΡΙΩΝ ΚΑΙ ΑΥΛΕΙΩΝ ΧΩΡΩΝ».",
+            "issueDate": "2025-04-15T00:00:00+00:00",
+            "organizationId": "6302",
+            "signerIds": [
+                "100084405"
+            ],
+            "unitIds": [
+                "100038567"
+            ],
+            "decisionTypeId": "Α.2",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T20:45:15.422000+00:00",
+            "publishTimestamp": "2025-04-20T20:45:15.422000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ6Δ1ΩΗΚ-ΗΚΞ",
+            "versionId": "eb26aae5-bda3-4f8a-8548-381a524038a7",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ6Δ1ΩΗΚ-ΗΚΞ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ6Δ1ΩΗΚ-ΗΚΞ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "fek": {},
+                "kanonistikipraxiaa": null,
+                "kanonistikipraxitype": null,
+                "co_competent": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "71/2025 ΑΔΣ",
+            "subject": "Έγκριση παράτασης συμβατικής προθεσμίας εκτέλεσης του έργου: «ΚΑΤΑΣΚΕΥΗ ΚΑΤΑΦΥΓΙΟΥ ΑΔΕΣΠΟΤΩΝ ΣΚΥΛΩΝ ΚΑΙ ΓΑΤΙΩΝ ΜΕ ΚΤΗΝΙΑΤΡΕΙΟ ΚΑΙ ΧΩΡΟ ΝΟΣΗΛΕΙΑΣ».",
+            "issueDate": "2025-04-15T00:00:00+00:00",
+            "organizationId": "6302",
+            "signerIds": [
+                "100084405"
+            ],
+            "unitIds": [
+                "100038567"
+            ],
+            "decisionTypeId": "Α.2",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T20:21:10.259000+00:00",
+            "publishTimestamp": "2025-04-20T20:21:10.259000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΡΑΤΑΩΗΚ-ΘΤΖ",
+            "versionId": "c4059b6f-667d-475c-b0e6-b3bba7a24715",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΡΑΤΑΩΗΚ-ΘΤΖ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΑΤΑΩΗΚ-ΘΤΖ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "fek": {},
+                "kanonistikipraxiaa": null,
+                "kanonistikipraxitype": null,
+                "co_competent": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "070/2025 ΑΔΣ",
+            "subject": "Εξέταση αιτήσεων πολιτών για την παραχώρηση πολυετούς χρήσης οστεοθηκών στα Κοιμητήρια του Δήμου Τυρνάβου.",
+            "issueDate": "2025-04-15T00:00:00+00:00",
+            "organizationId": "6302",
+            "signerIds": [
+                "100084405"
+            ],
+            "unitIds": [
+                "100038567"
+            ],
+            "decisionTypeId": "Α.2",
+            "thematicCategoryIds": [
+                "10004"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T20:02:03.630000+00:00",
+            "publishTimestamp": "2025-04-20T20:02:03.630000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΕΛΝ7ΩΗΚ-0ΕΓ",
+            "versionId": "b761549c-afc4-4d9d-a794-1cf8248ee6a9",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΕΛΝ7ΩΗΚ-0ΕΓ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΕΛΝ7ΩΗΚ-0ΕΓ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "fek": {},
+                "kanonistikipraxiaa": null,
+                "kanonistikipraxitype": null,
+                "co_competent": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "537",
+            "subject": "Προμήθεια υγρών καυσίμων και λιπαντικών ",
+            "issueDate": "2025-04-08T00:00:00+00:00",
+            "organizationId": "99221443",
+            "signerIds": [
+                "100082965"
+            ],
+            "unitIds": [
+                "75981"
+            ],
+            "decisionTypeId": "Β.1.3",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T19:19:13.980000+00:00",
+            "publishTimestamp": "2025-04-20T19:19:13.980000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΡΕΟΙ469Η32-Ω46",
+            "versionId": "23d657af-354c-49ad-91d0-5bcca01af4bd",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΡΕΟΙ469Η32-Ω46",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΕΟΙ469Η32-Ω46",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "financialYear": 2025,
+                "budgettype": "Τακτικός Προϋπολογισμός",
+                "entryNumber": "Α/73",
+                "partialead": false,
+                "recalledExpenseDecision": false,
+                "amountWithVAT": {
+                    "amount": 203.86,
+                    "currency": "EUR"
+                },
+                "amountWithKae": [
+                    {
+                        "amountWithVAT": 203.86,
+                        "kae": "1611.0000",
+                        "kaeBudgetRemainder": 7016.5,
+                        "kaeCreditRemainder": 5259.63
+                    }
+                ],
+                "relatedPartialADA": null,
+                "relatedDecisions": null,
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "562",
+            "subject": "Θέμα 9: «Λήψη απόφασης ανάθεσης προμήθειας βενζίνης και λιπαντικών για τα χορτοκοπτικά μηχανήματα για τις ανάγκες των αθλητικών εγκαταστάσεων του ΠΕΑΚ ΠΑΤΡΑΣ",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "99221443",
+            "signerIds": [
+                "100082965"
+            ],
+            "unitIds": [
+                "75981"
+            ],
+            "decisionTypeId": "2.4.7.1",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T18:43:57.248000+00:00",
+            "publishTimestamp": "2025-04-20T18:43:57.248000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΡΞ01469Η32-ΧΑ9",
+            "versionId": "14ce11bd-74f3-4c86-bbd4-30f05014ffd3",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΡΞ01469Η32-ΧΑ9",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΞ01469Η32-ΧΑ9",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "kanonistikipraxitype": null,
+                "kanonistikiPraxiPublishMedium": null,
+                "fek": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ",
+                "co_competent": null
+            }
+        },
+        {
+            "protocolNumber": "4ο/19-3-2024",
+            "subject": "Πρακτικό της 2ης ΕΠ.Ε.Α. Π.Ε. Μαγνησίας & Σποράδων που αφορά τη συνεδρίαση της 19ης Μαρτίου 2024",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "100015996",
+            "signerIds": [
+                "100074991"
+            ],
+            "unitIds": [
+                "100074986"
+            ],
+            "decisionTypeId": "2.4.6.1",
+            "thematicCategoryIds": [
+                "56"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T16:06:29.215000+00:00",
+            "publishTimestamp": "2025-04-20T16:06:29.215000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΕΑΑΛ4653Π8-0ΣΗ",
+            "versionId": "b80f874b-bf8f-4f90-a5f5-4531adb265fb",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΕΑΑΛ4653Π8-0ΣΗ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΕΑΑΛ4653Π8-0ΣΗ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "xorotaxikipraxitype": null,
+                "municipality": null,
+                "co_competent": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "3ο/15-3-2024",
+            "subject": "Πρακτικό της 2ης ΕΠ.Ε.Α. Π.Ε. Μαγνησίας & Σποράδων που αφορά τη συνεδρίαση της 15ης Μαρτίου 2024",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "100015996",
+            "signerIds": [
+                "100074991"
+            ],
+            "unitIds": [
+                "100074986"
+            ],
+            "decisionTypeId": "2.4.6.1",
+            "thematicCategoryIds": [
+                "56"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T16:01:48.947000+00:00",
+            "publishTimestamp": "2025-04-20T16:01:48.947000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ7Ψ34653Π8-45Η",
+            "versionId": "be60b5ad-8ab1-434a-b84a-f8dd0ffadf0c",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ7Ψ34653Π8-45Η",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ7Ψ34653Π8-45Η",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "xorotaxikipraxitype": null,
+                "municipality": null,
+                "co_competent": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "2ο/11-3-2024",
+            "subject": "Πρακτικό της 2ης ΕΠ.Ε.Α. Π.Ε. Μαγνησίας & Σποράδων που αφορά τη συνεδρίαση της 11ης Μαρτίου 2024",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "100015996",
+            "signerIds": [
+                "100074991"
+            ],
+            "unitIds": [
+                "100074986"
+            ],
+            "decisionTypeId": "2.4.6.1",
+            "thematicCategoryIds": [
+                "56"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T15:58:35.384000+00:00",
+            "publishTimestamp": "2025-04-20T15:58:35.384000+00:00",
+            "status": "PUBLISHED",
+            "ada": "9ΣΤ24653Π8-ΕΧΣ",
+            "versionId": "4db876c3-22e9-485f-938a-41cb8b1b5bc9",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/9ΣΤ24653Π8-ΕΧΣ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΣΤ24653Π8-ΕΧΣ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "xorotaxikipraxitype": null,
+                "municipality": null,
+                "co_competent": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "1ο/8-3-2024",
+            "subject": "Πρακτικό της 2ης ΕΠ.Ε.Α. Π.Ε. Μαγνησίας & Σποράδων που αφορά τη συνεδρίαση της 8ης Μαρτίου 2024",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "100015996",
+            "signerIds": [
+                "100074991"
+            ],
+            "unitIds": [
+                "100074986"
+            ],
+            "decisionTypeId": "2.4.6.1",
+            "thematicCategoryIds": [
+                "56"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T15:55:08.325000+00:00",
+            "publishTimestamp": "2025-04-20T15:55:08.325000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΕΕΝΖ4653Π8-ΗΕΖ",
+            "versionId": "ad7fb709-fe23-474a-acf3-cb25399d7703",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΕΕΝΖ4653Π8-ΗΕΖ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΕΕΝΖ4653Π8-ΗΕΖ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "xorotaxikipraxitype": null,
+                "municipality": null,
+                "co_competent": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "1742/9-4-2025",
+            "subject": "Συγκρότηση Επιτροπής Παρακολούθησης Παραλαβών (ΕΠΠ) των Συβάσεων προς Υλοποίηση Έτους 2025 της ΕΜΥ",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "6",
+            "signerIds": [
+                "100096159"
+            ],
+            "unitIds": [
+                "86050"
+            ],
+            "decisionTypeId": "Γ.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T14:51:14.282000+00:00",
+            "publishTimestamp": "2025-04-20T14:51:14.282000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ε9ΞΩ6-7ΧΖ",
+            "versionId": "786c5ea6-93c3-4f55-97bf-80916cbfe3f2",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ε9ΞΩ6-7ΧΖ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ε9ΞΩ6-7ΧΖ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "eidosPraxisSyllogikou": "Συγκρότηση",
+                "typeOfSullogiko": "Επιτροπή",
+                "positionSalary": {
+                    "currency": null,
+                    "amount": null
+                },
+                "fek": {},
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "681-α",
+            "subject": "Έγκριση δαπάνης για την κάλυψη τους κόστους παροχής συμβουλευτικών υπηρεσιών ορκωτού ελεγκτή λογιστή, στο πλαίσιο του ερευνητικού ευρωπαϊκού έργου «Integrated Technological and Information Platform for wildfire Management’ —  Project acronym: SILVANUS",
+            "issueDate": "2025-04-15T00:00:00+00:00",
+            "organizationId": "50004",
+            "signerIds": [
+                "100089501"
+            ],
+            "unitIds": [
+                "75848"
+            ],
+            "decisionTypeId": "Β.2.1",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T13:42:05.961000+00:00",
+            "publishTimestamp": "2025-04-20T13:42:05.961000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΣΦΜΟΡ9Δ-ΞΨ0",
+            "versionId": "47d7bef9-6477-4afc-b73d-8b3cc891b25c",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΣΦΜΟΡ9Δ-ΞΨ0",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΣΦΜΟΡ9Δ-ΞΨ0",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "999333507",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΚΕΝΤΡΟ ΜΕΛΕΤΩΝ ΑΣΦΑΛΕΙΑΣ"
+                },
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {},
+                        "expenseAmount": {
+                            "amount": 4588.0,
+                            "currency": "EUR"
+                        },
+                        "cpv": "79212100-4"
+                    }
+                ],
+                "relatedAnalipsiYpoxreosis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "389-στ",
+            "subject": "Εντολή πληρωμής της δαπάνης για τη μετακίνηση και διαμονή επιστημονικών συνεργατών με σκοπό τη συμμετοχή τους στη 1η Συνάντηση των Εταίρων του Έργου «COURAGEOUS 2», που θα διεξαχθεί στις Βρυξέλλες στις 17 Μαρτίου 2025",
+            "issueDate": "2025-04-15T00:00:00+00:00",
+            "organizationId": "50004",
+            "signerIds": [
+                "100089501"
+            ],
+            "unitIds": [
+                "75848"
+            ],
+            "decisionTypeId": "Β.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T13:28:10.551000+00:00",
+            "publishTimestamp": "2025-04-20T13:28:10.551000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΔ44ΟΡ9Δ-2ΓΨ",
+            "versionId": "36f1a2cc-e253-4155-85b4-778f9b019560",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΔ44ΟΡ9Δ-2ΓΨ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΔ44ΟΡ9Δ-2ΓΨ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "999333507",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΚΕΝΤΡΟ ΜΕΛΕΤΩΝ ΑΣΦΑΛΕΙΑΣ"
+                },
+                "skipVatReason": null,
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {
+                            "afm": "800540669",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ALBA EXPRESS TRAVEL ΤΟΥΡΙΣΤΙΚΕΣ ΕΠΙΧΕΙΡΗΣΕΙΣ ΜΟΝΟΠΡΟΣΩΠΗ ΕΤΑΙΡΙΑ ΠΕΡΙΟΡΙΣΜΕΝΗΣ ΕΥΘΥΝΗΣ"
+                        },
+                        "expenseAmount": {
+                            "amount": 1604.0,
+                            "currency": "EUR"
+                        },
+                        "cpv": "63512000-1"
+                    },
+                    {
+                        "sponsorAFMName": {
+                            "afm": "800540669",
+                            "afmType": "EL",
+                            "afmCountry": "EL",
+                            "enterName": false,
+                            "name": "ALBA EXPRESS TRAVEL ΤΟΥΡΙΣΤΙΚΕΣ ΕΠΙΧΕΙΡΗΣΕΙΣ ΜΟΝΟΠΡΟΣΩΠΗ ΕΤΑΙΡΙΑ ΠΕΡΙΟΡΙΣΜΕΝΗΣ ΕΥΘΥΝΗΣ"
+                        },
+                        "expenseAmount": {
+                            "amount": 1308.0,
+                            "currency": "EUR"
+                        },
+                        "cpv": "55130000-0"
+                    }
+                ],
+                "relatedEkgrisiDapanis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "3820",
+            "subject": "Τροποποίηση Π.Υ. για την εγγραφή πίστωσης της Προγραμματικής Σύμβασης μεταξύ του Υπουργείου Πολιτισμού, της Περιφέρειας Κρήτης, του Δήμου Αγίου Βασιλείου και   της Ιεράς Μητρόπολης  Λάμπης, Συβρίτου και Σφακίων για την υλοποίηση του έργου ‘ΑΝΑΣΤΗΛΩΣΗ ΑΝΑΤΟΛΙΚΗΣ ΠΤΕΡΥΓΑΣ Ι.Μ. ΑΓΙΟΥ ΠΝΕΥΜΑΤΟΣ ΚΙΣΣΟΥ’ και τροποποίηση του Τεχνικού Προγράμματος για την ένταξη του έργου σε αυτό.",
+            "issueDate": "2025-03-14T00:00:00+00:00",
+            "organizationId": "6006",
+            "signerIds": [
+                "100002137"
+            ],
+            "unitIds": [
+                "83413"
+            ],
+            "decisionTypeId": "Β.2.1",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T09:04:24.394000+00:00",
+            "publishTimestamp": "2025-04-20T09:04:24.394000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΥΝ1Ω6Τ-Ι7Δ",
+            "versionId": "6fdd6bb8-4302-40ea-958e-ff8df37e5647",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΥΝ1Ω6Τ-Ι7Δ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΥΝ1Ω6Τ-Ι7Δ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "997820848",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΣ ΑΓΙΟΥ ΒΑΣΙΛΕΙΟΥ"
+                },
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {},
+                        "expenseAmount": {
+                            "amount": 95732.8,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedAnalipsiYpoxreosis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "3800",
+            "subject": "Αποδοχή χρηματοδότησης εκ μέρους της Περιφέρειας Κρήτης για την υλοποίηση του έργου ‘ΑΝΑΣΤΗΛΩΣΗ ΑΝΑΤΟΛΙΚΗΣ ΠΤΕΡΥΓΑΣ Ι.Μ. ΑΓΙΟΥ ΠΝΕΥΜΑΤΟΣ ΚΙΣΣΟΥ’, κατόπιν έγκρισης της σχετικής Προγραμματικής Σύμβασης, δεσμευτική εισήγηση προς το Δημοτικό Συμβούλιο τροποποίησης του π/υ για την εγγραφή της πίστωσης και εισήγηση για τροποποίηση του Τεχνικού Προγράμματος Εκτελεστέων Έργων έτους 2025",
+            "issueDate": "2025-03-14T00:00:00+00:00",
+            "organizationId": "6006",
+            "signerIds": [
+                "100002137"
+            ],
+            "unitIds": [
+                "83413"
+            ],
+            "decisionTypeId": "Β.2.1",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T09:01:58.670000+00:00",
+            "publishTimestamp": "2025-04-20T09:01:58.670000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΩ0ΙΩ6Τ-ΧΒΠ",
+            "versionId": "9e659905-e1dd-4374-9de5-7c723ea0db33",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΩ0ΙΩ6Τ-ΧΒΠ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΩ0ΙΩ6Τ-ΧΒΠ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "997820848",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΣ ΑΓΙΟΥ ΒΑΣΙΛΕΙΟΥ"
+                },
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {},
+                        "expenseAmount": {
+                            "amount": 95732.8,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedAnalipsiYpoxreosis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "3144",
+            "subject": "Έγκριση σύναψης Προγραμματικής Σύμβασης μεταξύ του Υπουργείου Πολιτισμού, της Περιφέρειας Κρήτης, του Δήμου Αγίου Βασιλείου και   της Ιεράς Μητρόπολης  Λάμπης, Συβρίτου και Σφακίων για την υλοποίηση του έργου ‘ΑΝΑΣΤΗΛΩΣΗ ΑΝΑΤΟΛΙΚΗΣ ΠΤΕΡΥΓΑΣ Ι.Μ. ΑΓΙΟΥ ΠΝΕΥΜΑΤΟΣ ΚΙΣΣΟΥ’ και ορισμός εκπροσώπου στην Επιτροπή Παρακολούθησης αυτής",
+            "issueDate": "2025-03-10T00:00:00+00:00",
+            "organizationId": "6006",
+            "signerIds": [
+                "100002137"
+            ],
+            "unitIds": [
+                "83413"
+            ],
+            "decisionTypeId": "Β.2.1",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T08:28:17.512000+00:00",
+            "publishTimestamp": "2025-04-20T08:28:17.512000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΘΘΚΩ6Τ-Ξ1Ρ",
+            "versionId": "618c8bc6-fb60-4c6b-bc96-dd93a8540d95",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΘΘΚΩ6Τ-Ξ1Ρ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΘΘΚΩ6Τ-Ξ1Ρ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "org": {
+                    "afm": "997820848",
+                    "afmType": "EL",
+                    "enterName": false,
+                    "name": "ΔΗΜΟΣ ΑΓΙΟΥ ΒΑΣΙΛΕΙΟΥ"
+                },
+                "sponsor": [
+                    {
+                        "sponsorAFMName": {},
+                        "expenseAmount": {
+                            "amount": 95732.8,
+                            "currency": "EUR"
+                        }
+                    }
+                ],
+                "relatedAnalipsiYpoxreosis": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "2132.15/429/25",
+            "subject": "ΠΡΟΣΩΡΙΝΑ ΜΕΤΡΑ ΡΥΘΜΙΣΗΣ  ΤΗΣ ΚΥΚΛΟΦΟΡΙΑΣ ΣΤΗ Χ.Ζ.ΛΙΜΕΝΑ ΤΗΝΟΥ",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "100015969",
+            "signerIds": [
+                "100089800"
+            ],
+            "unitIds": [
+                "91223"
+            ],
+            "decisionTypeId": "Α.2",
+            "thematicCategoryIds": [
+                "48",
+                "10004",
+                "28"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T07:52:47.640000+00:00",
+            "publishTimestamp": "2025-04-20T07:52:47.640000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΤΙ94653ΠΩ-9ΥΗ",
+            "versionId": "b0e0187b-8b6e-4ac6-bf26-eef3b760514e",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΤΙ94653ΠΩ-9ΥΗ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΤΙ94653ΠΩ-9ΥΗ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "fek": {},
+                "kanonistikipraxiaa": null,
+                "kanonistikipraxitype": null,
+                "co_competent": null,
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "4ο/9-2-2024",
+            "subject": "Πρακτικό της 2ης ΕΠ.Ε.Α. Π.Ε. Μαγνησίας & Σποράδων που αφορά τη συνεδρίαση της 9ης-2-2024",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "100015996",
+            "signerIds": [
+                "100074991"
+            ],
+            "unitIds": [
+                "100074986"
+            ],
+            "decisionTypeId": "2.4.6.1",
+            "thematicCategoryIds": [
+                "56"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T06:49:11.904000+00:00",
+            "publishTimestamp": "2025-04-20T06:49:11.904000+00:00",
+            "status": "PUBLISHED",
+            "ada": "6ΘΓΘ4653Π8-Ο95",
+            "versionId": "25f17e34-2b9b-4ac4-9f9a-83341ded1f48",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/6ΘΓΘ4653Π8-Ο95",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΘΓΘ4653Π8-Ο95",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "xorotaxikipraxitype": null,
+                "municipality": null,
+                "co_competent": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "3ο/6-2-2024",
+            "subject": "Πρακτικό της 2ης ΕΠ.Ε.Α. Π.Ε. Μαγνησίας & Σποράδων που αφορά τη συνεδρίαση της 6ης-2-2024",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "100015996",
+            "signerIds": [
+                "100074991"
+            ],
+            "unitIds": [
+                "100074986"
+            ],
+            "decisionTypeId": "2.4.6.1",
+            "thematicCategoryIds": [
+                "56"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T06:42:14.073000+00:00",
+            "publishTimestamp": "2025-04-20T06:42:14.073000+00:00",
+            "status": "PUBLISHED",
+            "ada": "ΨΙΨΝ4653Π8-ΣΦ9",
+            "versionId": "34ea54ff-7ffb-4581-af21-cd5546fd4860",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/ΨΙΨΝ4653Π8-ΣΦ9",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΙΨΝ4653Π8-ΣΦ9",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "xorotaxikipraxitype": null,
+                "municipality": null,
+                "co_competent": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "2ο/5-2-2024",
+            "subject": "Πρακτικό της 2ης ΕΠ.Ε.Α. Π.Ε. Μαγνησίας & Σποράδων κατά τη συνεδρίαση της 5ης -2-2024",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "100015996",
+            "signerIds": [
+                "100074991"
+            ],
+            "unitIds": [
+                "100074986"
+            ],
+            "decisionTypeId": "2.4.6.1",
+            "thematicCategoryIds": [
+                "56"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T06:39:32.969000+00:00",
+            "publishTimestamp": "2025-04-20T06:39:32.969000+00:00",
+            "status": "PUBLISHED",
+            "ada": "Ψ2Β34653Π8-Μ7Ο",
+            "versionId": "49be6fd2-884f-4b68-89e5-0b660b9bcca9",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/Ψ2Β34653Π8-Μ7Ο",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ2Β34653Π8-Μ7Ο",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "xorotaxikipraxitype": null,
+                "municipality": null,
+                "co_competent": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "1ο/2-2-2024",
+            "subject": "Πρακτικό της 2ης ΕΠ.Ε.Α. Π.Ε. Μαγνησίας & Σποράδων που αφορά τη συνεδρίαση της 2-2-2024",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "100015996",
+            "signerIds": [
+                "100074991"
+            ],
+            "unitIds": [
+                "100074986"
+            ],
+            "decisionTypeId": "2.4.6.1",
+            "thematicCategoryIds": [
+                "56"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T06:37:04.762000+00:00",
+            "publishTimestamp": "2025-04-20T06:37:04.762000+00:00",
+            "status": "PUBLISHED",
+            "ada": "60ΩΩ4653Π8-ΗΙΠ",
+            "versionId": "1de77fdc-b6d7-4b1b-9539-392f1a4a3ccc",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/60ΩΩ4653Π8-ΗΙΠ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/60ΩΩ4653Π8-ΗΙΠ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "xorotaxikipraxitype": null,
+                "municipality": null,
+                "co_competent": [],
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        },
+        {
+            "protocolNumber": "132931",
+            "subject": "ΑΠΟΦΑΣΗ ΚΑΤΑΚΥΡΩΣΗΣ 11/2025 ΜΕΡΥΠ ΠΡΟΜΗΘΕΙΑ ΠΑΓΩΤΩΝ ΓΙΑ ΤΟ ΣΠ ΚΙΛΚΙΣ ΚΑΙ ΣΠ ΣΕΡΡΩΝ",
+            "issueDate": "2025-04-20T00:00:00+00:00",
+            "organizationId": "6",
+            "signerIds": [
+                "100095742"
+            ],
+            "unitIds": [
+                "84924"
+            ],
+            "decisionTypeId": "Δ.2.2",
+            "thematicCategoryIds": [
+                "20"
+            ],
+            "privateData": false,
+            "submissionTimestamp": "2025-04-20T05:35:41.611000+00:00",
+            "publishTimestamp": "2025-04-20T05:35:41.611000+00:00",
+            "status": "PUBLISHED",
+            "ada": "99ΕΙ6-ΝΩΒ",
+            "versionId": "87ec2727-2ce2-43ef-8682-aa9897841709",
+            "correctedVersionId": null,
+            "documentUrl": "https://diavgeia.gov.gr/doc/99ΕΙ6-ΝΩΒ",
+            "documentChecksum": null,
+            "url": "https://diavgeia.gov.gr/luminapi/api/decisions/99ΕΙ6-ΝΩΒ",
+            "attachments": [],
+            "warnings": null,
+            "extraFieldValues": {
+                "person": [
+                    {
+                        "afm": "090153025",
+                        "name": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
+                        "enterName": false,
+                        "afmType": "EL"
+                    },
+                    {
+                        "afm": "094289571",
+                        "name": "ΚΡΙ ΚΡΙ ΒΙΟΜΗΧΑΝΙΑ ΓΑΛΑΚΤΟΣ ΑΒΕΕ",
+                        "enterName": false,
+                        "afmType": "EL"
+                    }
+                ],
+                "awardAmount": {
+                    "amount": 63000.0,
+                    "currency": "EUR"
+                },
+                "textRelatedADA": "ΨΣΞΕ6-ΟΑ8",
+                "relatedDecisions": [],
+                "documentType": "ΠΡΑΞΗ"
+            }
+        }
+    ],
+    "info": {
+        "query": "submissionTimestamp:[DT(2025-04-20T00:00:00+03:00) TO DT(2025-04-21T00:00:00+03:00)] AND issueDate:[DT(2024-10-23T16:58:35+03:00) TO DT(2025-04-21T16:58:35+03:00)] AND status:\"Αναρτημένη\"",
+        "page": 0,
+        "size": 100,
+        "actualSize": 21,
+        "total": 21,
+        "order": "recent"
+    }
+}

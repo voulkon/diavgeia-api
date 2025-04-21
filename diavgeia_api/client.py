@@ -12,14 +12,12 @@ from ._config import (
     POSITIONS,
     DICTIONARIES,
     UNITS,
+    WANTED_DATE_FORMAT,
 )
-from typing import Type, TypeVar, Optional
+from typing import Type, TypeVar, Optional, List, Optional, Union
 from pydantic import BaseModel
 from .models.dictionaries import DictionariesListResponse, DictionaryValuesResponse
-from .models.decisions import (
-    Decision,
-    DecisionVersions,
-)
+from .models.decisions import Decision, DecisionVersions, DecisionStatus
 from .models.organizations import (
     OrganizationsResponse,
     OrganizationStatus,
@@ -29,6 +27,8 @@ from .models.organizations import (
     PositionsResponse,
 )
 from .models.types import TypeSummaries, TypeSummary, TypeDetails
+from .models.search import SearchResponse, SortOrder
+import datetime
 from loguru import logger
 
 T = TypeVar("T", bound=BaseModel)
@@ -216,3 +216,124 @@ class DiavgeiaClient:
             The unique identifier of the types_uid.
         """
         return self._get_and_parse(TypeDetails, TYPES, types_uid, "details")
+
+    def search_decisions(
+        self,
+        ada: Optional[str] = None,
+        subject: Optional[str] = None,
+        protocol: Optional[str] = None,
+        term: Optional[str] = None,
+        org: Optional[Union[str, List[str]]] = None,
+        unit: Optional[Union[str, List[str]]] = None,
+        signer: Optional[Union[str, List[str]]] = None,
+        type: Optional[Union[str, List[str]]] = None,
+        tag: Optional[Union[str, List[str]]] = None,
+        from_date: Optional[Union[str, datetime.date]] = None,
+        to_date: Optional[Union[str, datetime.date]] = None,
+        from_issue_date: Optional[Union[str, datetime.date]] = None,
+        to_issue_date: Optional[Union[str, datetime.date]] = None,
+        status: Optional[DecisionStatus] = DecisionStatus.PUBLISHED,
+        page: int = 0,
+        size: Optional[int] = None,
+        sort: SortOrder = SortOrder.RECENT,
+    ) -> SearchResponse:
+        """
+        Search for decisions with simple parameters.
+
+        Args:
+            ada: Αριθμός Διαδικτυακής Ανάρτησης
+            subject: Θέμα πράξης
+            protocol: Αριθμός Πρωτοκόλλου
+            term: Γενικός όρος αναζήτησης
+            org: Κωδικός ή latin name φορέα (can be multiple values separated by ';')
+            unit: Κωδικός οργανωτικής μονάδας (can be multiple values separated by ';')
+            signer: Κωδικός υπογράφοντα (can be multiple values separated by ';')
+            type: Κωδικός τύπου πράξεων (can be multiple values separated by ';')
+            tag: Κωδικός θεματικών ενοτήτων (can be multiple values separated by ';')
+            from_date: Ημερομηνία τελευταίας τροποποίησης - Από (format: YYYY-MM-DD)
+            to_date: Ημερομηνία τελευταίας τροποποίησης - Έως (format: YYYY-MM-DD)
+            from_issue_date: Ημερομηνία έκδοσης - Από (format: YYYY-MM-DD)
+            to_issue_date: Ημερομηνία έκδοσης - Έως (format: YYYY-MM-DD)
+            status: Κατάσταση πράξης (published, revoked, pending_revocation, all)
+            page: Αριθμός σελίδας αποτελεσμάτων (0-based)
+            size: Μέγεθος σελίδας αποτελεσμάτων
+            sort: Είδος ταξινόμησης (recent, relative)
+
+        Returns:
+            SearchResponse: The search results
+        """
+        params = {}
+
+        # Add parameters only if they're provided
+        if ada:
+            params["ada"] = ada
+        if subject:
+            params["subject"] = subject
+        if protocol:
+            params["protocol"] = protocol
+        if term:
+            params["term"] = term
+
+        # Handle list parameters that can have multiple values
+        for param_name, param_value in [
+            ("org", org),
+            ("unit", unit),
+            ("signer", signer),
+            ("type", type),
+            ("tag", tag),
+        ]:
+            if param_value:
+                if isinstance(param_value, list):
+                    # Join multiple values with Greek question mark
+                    params[param_name] = ";".join(param_value)
+                else:
+                    params[param_name] = param_value
+
+        # Handle date parameters
+        for param_name, param_value in [
+            ("from_date", from_date),
+            ("to_date", to_date),
+            ("from_issue_date", from_issue_date),
+            ("to_issue_date", to_issue_date),
+        ]:
+            if param_value:
+                if isinstance(param_value, datetime.date):
+                    # Convert date object to string format
+                    params[param_name] = param_value.strftime(WANTED_DATE_FORMAT)
+                else:
+                    params[param_name] = param_value
+
+        # Add remaining parameters
+        if status:
+            params["status"] = (
+                status.value if isinstance(status, DecisionStatus) else status
+            )
+
+        params["page"] = page
+        if size:
+            params["size"] = size
+
+        params["sort"] = sort.value if isinstance(sort, SortOrder) else sort
+
+        return self._get_and_parse(SearchResponse, SEARCH, params=params)
+
+    def search_advanced(
+        self, q: str, page: int = 0, size: Optional[int] = None
+    ) -> SearchResponse:
+        """
+        Search for decisions with advanced query syntax.
+
+        Args:
+            q: Advanced search query using the Diavgeia query syntax
+            page: Page number (0-based)
+            size: Page size
+
+        Returns:
+            SearchResponse: The search results
+        """
+        params = {"q": q, "page": page}
+
+        if size:
+            params["size"] = size
+
+        return self._get_and_parse(SearchResponse, SEARCH, "advanced", params=params)
