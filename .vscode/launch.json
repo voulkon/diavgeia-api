@@ -8,9 +8,24 @@
             "module": "pytest",
             "justMyCode": false,
             "console": "integratedTerminal",
+            "env": {
+                "LOGURU_LEVEL": "DEBUG"
+            },
             "args": [
                 "--live"
             ]
+        },
+        {
+            "name": "pytest (unit only)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "env": {
+                "LOGURU_LEVEL": "DEBUG"
+            },
+            "args": []
         },
         {
             "name": "pytest (Poetry)",
