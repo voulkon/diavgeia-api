@@ -6,8 +6,7 @@ def pytest_addoption(parser):
     parser.addoption(
         "--live",
         action="store_true",
-        # default=False,
-        default=True,
+        default=False,
         help="Run integration tests with real Diavgeia API",
     )
 

@@ -17,11 +17,11 @@ def test_get_all_types(all_types_expected_result):
     ), f"Label '{label_to_look_for}' not found in response."
 
 
-# @pytest.mark.skipif(
-#     "not config.getoption('--live')",
-#     reason="Run with --live to hit the real API",
-# )
-# @pytest.mark.integration
+@pytest.mark.skipif(
+    "not config.getoption('--live')",
+    reason="Run with --live to hit the real API",
+)
+@pytest.mark.integration
 def test_get_details_of_type(
     details_of_a_type_result, details_of_a_type, type_to_target
 ):
