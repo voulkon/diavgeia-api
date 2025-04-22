@@ -14,7 +14,7 @@ from ._config import (
     UNITS,
     WANTED_DATE_FORMAT,
 )
-from typing import Type, TypeVar, Optional, List, Optional, Union
+from typing import Type, TypeVar, Optional, List, Union
 from pydantic import BaseModel
 from .models.dictionaries import DictionariesListResponse, DictionaryValuesResponse
 from .models.decisions import Decision, DecisionVersions, DecisionStatus
@@ -56,59 +56,88 @@ class DiavgeiaClient:
         self.session = session or requests.Session()
         self.session.headers.update(DEFAULT_HEADERS)
 
+        logger.debug(f"Initializing DiavgeiaClient with base_url: {self.base_url}")
+
         if username and password:
             # requests will add the correct `Authorization: Basic …` header
             self.session.auth = HTTPBasicAuth(username, password)
+            logger.debug("Authentication configured with provided credentials")
         elif username or password:
+            logger.error("Authentication error: Only one credential provided")
             raise ValueError("Both username and password must be provided, or neither.")
 
     def _build_url(self, *parts: str) -> str:
-        return "/".join([self.base_url.rstrip("/")] + [p.strip("/") for p in parts])
-
-    def _get_and_parse(
-        self,
-        model: Type[T],
-        *url_parts: str,
-        params: Optional[dict] = None,
-    ) -> T:
-        raw = self._request("GET", self._build_url(*url_parts), params=params)
-        return model(**raw)
+        url = "/".join([self.base_url.rstrip("/")] + [p.strip("/") for p in parts])
+        logger.trace(f"Built URL: {url}")  # Using trace for very detailed logging
+        return url
 
     # main low‑level request wrapper
     def _request(self, method: str, url: str, **kwargs):
+        logger.debug(f"{method} request to: {url}")
+        if kwargs.get("params"):
+            logger.debug(f"Request parameters: {kwargs['params']}")
+
         try:
             resp = self.session.request(method, url, **kwargs)
+            logger.debug(f"Response status: {resp.status_code}")
         except requests.RequestException as exc:
+            logger.error(f"Network error during {method} request to {url}: {exc}")
             raise DiavgeiaNetworkError(f"Network error: {exc}") from exc
 
         if not resp.ok:
+            logger.warning(f"API error: {resp.status_code} - {resp.text[:200]}")
             raise DiavgeiaAPIError(resp.status_code, resp.text)
+
+        logger.debug(f"Successful response from {url}")
         return resp.json()
 
     def _get_and_parse(self, model: Type[T], *path_parts: str, params=None) -> T:
+        endpoint = "/".join(path_parts)
+        logger.debug(f"Fetching data from endpoint: {endpoint}")
+
         raw = self._request("GET", self._build_url(*path_parts), params=params)
-        # You can insert logging/debugging here
-        # logger.debug(f"Raw response for {'/'.join(path_parts)}: {raw}")
-        return model(**raw)
+
+        # Log response size for debugging
+        logger.debug(f"Response size: {len(str(raw))} characters")
+
+        # Log with a sample of the data for debugging purposes
+        if isinstance(raw, dict):
+            sample = {k: v for i, (k, v) in enumerate(raw.items()) if i < 3}
+            logger.debug(f"Sample response data: {sample}")
+        elif isinstance(raw, list) and raw:
+            logger.debug(f"Response contains a list with {len(raw)} items")
+
+        try:
+            result = model(**raw)
+            logger.debug(f"Successfully parsed response into {model.__name__}")
+            return result
+        except Exception as e:
+            logger.error(f"Error parsing response into {model.__name__}: {e}")
+            raise
 
     def get_dictionaries(self) -> DictionariesListResponse:
         """Return the list of available dictionaries."""
+        logger.info("Fetching available dictionaries")
         return self._get_and_parse(DictionariesListResponse, DICTIONARIES)
 
     def get_dictionary(self, uid: str) -> DictionaryValuesResponse:
         """Return all items for a specific dictionary."""
+        logger.info(f"Fetching dictionary items for: {uid}")
         return self._get_and_parse(DictionaryValuesResponse, DICTIONARIES, uid)
 
     def get_a_decision(self, uid: str) -> Decision:
         """Return a specific decision's details."""
+        logger.info(f"Fetching decision with ADA: {uid}")
         return self._get_and_parse(Decision, DECISIONS, uid)
 
     def get_a_decisions_specific_version(self, versionId: str) -> Decision:
         """Returns details of a specific version of a decision."""
+        logger.info(f"Fetching decision version: {versionId}")
         return self._get_and_parse(Decision, DECISIONS, "v", versionId)
 
     def get_a_decisions_version_log(self, decisions_uid: str) -> DecisionVersions:
         """Returns details of a specific version of a decision."""
+        logger.info(f"Fetching version log for decision: {decisions_uid}")
         return self._get_and_parse(
             DecisionVersions, DECISIONS, decisions_uid, "versionlog"
         )
@@ -128,6 +157,8 @@ class DiavgeiaClient:
         category : str, optional
             Filter by organization category code (from ORG_CATEGORY dictionary).
         """
+        logger.info(f"Fetching organizations (status={status}, category={category})")
+
         params = {}
         if status:
             params["status"] = status.value  # Use the enum's value
@@ -151,6 +182,7 @@ class DiavgeiaClient:
         organization_id : str
             The unique identifier of the organization.
         """
+        logger.info(f"Fetching organization details: {organization_id}")
         return self._get_and_parse(Organization, ORGANIZATIONS, organization_id)
 
     def get_organization_units(
@@ -165,6 +197,7 @@ class DiavgeiaClient:
         organization_id : str
             The unique identifier of the organization.
         """
+        logger.info(f"Fetching units for organization: {organization_id}")
         return self._get_and_parse(UnitsResponse, ORGANIZATIONS, organization_id, UNITS)
 
     def get_organization_signers(
@@ -179,6 +212,7 @@ class DiavgeiaClient:
         organization_id : str
             The unique identifier of the organization.
         """
+        logger.info(f"Fetching signers for organization: {organization_id}")
         return self._get_and_parse(
             SignersResponse, ORGANIZATIONS, organization_id, SIGNERS
         )
@@ -196,6 +230,7 @@ class DiavgeiaClient:
         organization_id : str
             The unique identifier of the organization.
         """
+        logger.info(f"Fetching positions for organization: {organization_id}")
         return self._get_and_parse(
             PositionsResponse, ORGANIZATIONS, organization_id, POSITIONS
         )
@@ -211,6 +246,7 @@ class DiavgeiaClient:
         organization_id : str
             The unique identifier of the organization.
         """
+        logger.info("Fetching all decision types")
         return self._get_and_parse(TypeSummaries, TYPES)
 
     def get_a_types_summary(
@@ -225,7 +261,7 @@ class DiavgeiaClient:
         types_uid : str
             The unique identifier of the type.
         """
-
+        logger.info(f"Fetching summary for type: {types_uid}")
         return self._get_and_parse(TypeSummary, TYPES, types_uid)
 
     def get_a_types_details(
@@ -240,6 +276,7 @@ class DiavgeiaClient:
         types_uid : str
             The unique identifier of the types_uid.
         """
+        logger.info(f"Fetching details for type: {types_uid}")
         return self._get_and_parse(TypeDetails, TYPES, types_uid, "details")
 
     def search_decisions(
@@ -287,6 +324,11 @@ class DiavgeiaClient:
         Returns:
             SearchResponse: The search results
         """
+        logger.info("Searching for decisions with simple parameters")
+        logger.debug(
+            f"Search parameters: ada={ada}, subject={subject}, term={term}, page={page}, size={size}"
+        )
+
         params = {}
 
         # Add parameters only if they're provided
@@ -340,10 +382,17 @@ class DiavgeiaClient:
 
         params["sort"] = sort.value if isinstance(sort, SortOrder) else sort
 
-        return self._get_and_parse(SearchResponse, SEARCH, params=params)
+        logger.debug(f"Final search parameters: {params}")
+        response = self._get_and_parse(SearchResponse, SEARCH, params=params)
+        logger.info(f"Search returned {response.info.total} results")
+        return response
 
     def search_advanced(
-        self, q: str, page: int = 0, size: Optional[int] = None
+        self,
+        q: str,
+        page: int = 0,
+        size: Optional[int] = None,
+        sort: Optional[str] = None,
     ) -> SearchResponse:
         """
         Search for decisions with advanced query syntax.
@@ -352,13 +401,24 @@ class DiavgeiaClient:
             q: Advanced search query using the Diavgeia query syntax
             page: Page number (0-based)
             size: Page size
+            sort: Sort order (e.g., "issueDate:desc")
 
         Returns:
             SearchResponse: The search results
         """
+        logger.info("Performing advanced search")
+        logger.debug(f"Advanced query: {q}")
+
         params = {"q": q, "page": page}
 
         if size:
             params["size"] = size
 
-        return self._get_and_parse(SearchResponse, SEARCH, "advanced", params=params)
+        if sort:
+            params["sort"] = sort
+
+        response = self._get_and_parse(
+            SearchResponse, SEARCH, "advanced", params=params
+        )
+        logger.info(f"Advanced search returned {response.info.total} results")
+        return response
