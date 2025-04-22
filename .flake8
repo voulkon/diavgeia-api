@@ -1,0 +1,8 @@
+[flake8]
+exclude = .git,.venv,venv,env,build,dist,*.egg-info,__pycache__,site-packages
+select = E9,F63,F7,F82
+count = True
+max-complexity = 10
+max-line-length = 127
+statistics = True
+show-source = True
