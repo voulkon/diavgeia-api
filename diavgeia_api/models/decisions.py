@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 from typing import Any, List, Optional
 from datetime import datetime
 from enum import Enum

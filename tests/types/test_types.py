@@ -1,5 +1,4 @@
 import pytest
-from tests.utils import assert_deep_equal
 
 
 @pytest.mark.integration

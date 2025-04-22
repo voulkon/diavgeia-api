@@ -1,5 +1,4 @@
 import requests
-import pytest
 from diavgeia_api.client import DiavgeiaClient
 from diavgeia_api._config import BASE_URL
 
