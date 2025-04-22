@@ -31,8 +31,8 @@ class AmountWithKAE(BaseModel):
 class Amount(BaseModel):
     """Amount with currency."""
 
-    amount: float
-    currency: str
+    amount: Optional[float] = None
+    currency: Optional[str] = None
 
 
 class ExtraFieldValues(BaseModel):
@@ -47,6 +47,7 @@ class ExtraFieldValues(BaseModel):
     partialead: Optional[bool] = None
     relatedDecisions: Optional[List[Any]] = None
     documentType: Optional[str] = None
+    awardAmount: Optional[Amount] = None
 
 
 class Decision(BaseModel):

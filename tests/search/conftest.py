@@ -131,8 +131,10 @@ def complex_searches_fetched_result(
 #     client,
 # ):
 #     result = client.search_decisions(
-#         org="6115;dimosthivas",
-#         from_date="2023-01-01",
+#         org="municipality_of_athens",
+#         # term="περίπατος", # This brings the awardAmount field
+#         # term="διαμόρφωση", # This brings the missing amount in amountWithVAT: Optional[Amount] = None
+#         from_date="2021-01-01",
 #         to_date="2025-04-01",
 #     )
 #     return result
