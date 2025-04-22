@@ -23,6 +23,21 @@ mypy = "^1.10"
 vcrpy = "^6.0"
 pytest-cov = "^5.0"
 
+[tool.ruff]
+# Exclude directories
+exclude = [
+    ".git",
+    ".venv",
+    "venv", 
+    "env",
+    "build",
+    "dist",
+    "__pycache__",
+]
+# Target Python versions
+target-version = "py311"
+line-length = 127
+
 [tool.poetry.extras]
 dev = ["pytest", "pytest-lazy-fixtures", "responses", "black", "isort", "mypy", "vcrpy", "pytest-cov"]
 
