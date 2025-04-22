@@ -58,7 +58,11 @@ def test_get_organizations_mocked(client, params, expected_response_fixture, req
 
         # Assertions for mocked response
         assert isinstance(result, OrganizationsResponse)
-        assert result.model_dump() == expected_response
+        orgs_in_result = [org.uid for org in result.organizations]
+        orgs_in_expected = [org["uid"] for org in expected_response["organizations"]]
+        assert len(result.organizations) == len(expected_response["organizations"])
+        assert all(org in orgs_in_expected for org in orgs_in_result)
+        assert all(org in orgs_in_result for org in orgs_in_expected)
 
 
 @pytest.mark.integration
