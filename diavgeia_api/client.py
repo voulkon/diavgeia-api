@@ -102,8 +102,16 @@ class DiavgeiaClient:
 
         # Log with a sample of the data for debugging purposes
         if isinstance(raw, dict):
+            # Create a sample of keys and truncate large output
             sample = {k: v for i, (k, v) in enumerate(raw.items()) if i < 3}
-            logger.debug(f"Sample response data: {sample}")
+            log_data = str(raw)
+            if len(log_data) > 5000:
+                logger.debug(
+                    f"Large response truncated: {log_data[:2500]}...{log_data[-2500:]} "
+                    f"(total length: {len(log_data)} characters)"
+                )
+            else:
+                logger.debug(f"Sample response data: {sample}")
         elif isinstance(raw, list) and raw:
             logger.debug(f"Response contains a list with {len(raw)} items")
 
