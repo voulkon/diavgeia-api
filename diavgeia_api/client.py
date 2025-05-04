@@ -25,6 +25,7 @@ from .models.organizations import (
     UnitsResponse,
     SignersResponse,
     PositionsResponse,
+    Signer,
 )
 from .models.types import TypeSummaries, TypeSummary, TypeDetails
 from .models.search import SearchResponse, SortOrder
@@ -207,6 +208,21 @@ class DiavgeiaClient:
         """
         logger.info(f"Fetching units for organization: {organization_id}")
         return self._get_and_parse(UnitsResponse, ORGANIZATIONS, organization_id, UNITS)
+
+    def get_specific_signer(
+        self,
+        signer_id: str,
+    ) -> Signer:
+        """
+        Returns signer of a specific id.
+
+        Parameters
+        ----------
+        signers_id : str
+            The unique identifier of the signer.
+        """
+        logger.info(f"Fetching signers with id: {signer_id}")
+        return self._get_and_parse(Signer, SIGNERS, signer_id)
 
     def get_organization_signers(
         self,

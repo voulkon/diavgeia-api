@@ -1,0 +1,17 @@
+{
+    "uid": "100047871",
+    "firstName": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+    "lastName": "ΤΣΙΑΡΑΣ",
+    "active": false,
+    "activeFrom": 1562630400000,
+    "activeUntil": 1704067200000,
+    "organizationId": "5",
+    "hasOrganizationSignRights": true,
+    "units": [
+        {
+            "uid": "5",
+            "positionId": "POS_10001",
+            "positionLabel": "Υπουργός"
+        }
+    ]
+}

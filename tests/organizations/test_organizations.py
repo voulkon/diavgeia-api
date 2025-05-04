@@ -140,3 +140,18 @@ def test_get_organizations_positions(an_orgs_positions_expected_result, a_dummy_
     assert (
         label_exists_in_response
     ), f"Label '{label_to_look_for}' not found in positions."
+
+
+@pytest.mark.integration
+@pytest.mark.skipif(
+    "not config.getoption('--live')",
+    reason="Run with --live to hit the real API",
+)
+def test_get_specific_signer(
+    a_specific_signers_expected_result, specific_signers_unique_id
+):
+
+    data_to_look_for = {"firstName": "ΚΩΝΣΤΑΝΤΙΝΟΣ", "lastName": "ΤΣΙΑΡΑΣ"}
+    for field, datum_to_look_for in data_to_look_for.items():
+        # Assert that the pydantic model a_specific_signers_expected_result has the same values as described in data_to_look_for
+        assert getattr(a_specific_signers_expected_result, field) == datum_to_look_for

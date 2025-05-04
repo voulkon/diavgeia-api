@@ -2,7 +2,7 @@ from pathlib import Path
 import pytest
 import responses
 from tests.utils import load_json_fixture
-from diavgeia_api._config import ORGANIZATIONS
+from diavgeia_api._config import ORGANIZATIONS, SIGNERS
 
 # Keep other necessary imports like responses, urllib.parse, ORGANIZATIONS if needed elsewhere
 
@@ -90,6 +90,20 @@ def an_orgs_positions_expected_response():
 
 
 @pytest.fixture
+def specific_signers_expected_response():
+    """Expected response for default call (no params)"""
+
+    return load_json_fixture(HERE, "specific_signer.json")
+
+
+@pytest.fixture
+def specific_signers_unique_id() -> str:
+    """Expected response for default call (no params)"""
+
+    return "100047871"
+
+
+@pytest.fixture
 def an_org_expected_result(client, an_orgs_expected_response, a_dummy_org_id, live):
     ...
     if not live:
@@ -171,5 +185,26 @@ def an_orgs_positions_expected_result(
     else:
         # If live, make the call outside the responses context
         result = client.get_organization_positions(organization_id=a_dummy_org_id)
+
+    return result
+
+
+@pytest.fixture
+def a_specific_signers_expected_result(
+    client, specific_signers_expected_response, specific_signers_unique_id, live
+):
+    if not live:
+        with responses.RequestsMock() as rs:
+            rs.add(
+                method=responses.GET,
+                url=client._build_url(SIGNERS, specific_signers_unique_id),
+                json=specific_signers_expected_response,
+                status=200,
+            )
+            # The call must happen *inside* the context manager when mocking
+            result = client.get_specific_signer(signer_id=specific_signers_unique_id)
+    else:
+        # If live, make the call outside the responses context
+        result = client.get_specific_signer(signer_id=specific_signers_unique_id)
 
     return result
