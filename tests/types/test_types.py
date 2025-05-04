@@ -23,17 +23,19 @@ def test_get_all_types(all_types_expected_result):
 )
 @pytest.mark.integration
 def test_get_details_of_type(
-    details_of_a_type_result, details_of_a_type, type_to_target
+    details_of_a_type_result,
+    details_of_a_type,
+    type_to_target,
+    general_label_of_type_details_to_look_for,
 ):
-    label_to_look_for = "ΠΡΑΞΕΙΣ ΧΩΡΟΤΑΞΙΚΟΥ - ΠΟΛΕΟΔΟΜΙΚΟΥ ΠΕΡΙΕΧΟΜΕΝΟΥ"
     main_label = details_of_a_type_result.label
 
     assert (
-        main_label == label_to_look_for
+        main_label == general_label_of_type_details_to_look_for
     ), f"""
         Main label is not as expected. 
         Actual: {main_label}
-        Expected: {label_to_look_for}
+        Expected: {general_label_of_type_details_to_look_for}
         """
 
     main_types_uid = details_of_a_type_result.uid
@@ -44,22 +46,33 @@ def test_get_details_of_type(
         Actual: {main_types_uid}
         Expected: {type_to_target}
         """
+    if type_to_target == "Β.6":
+        # Find a field in the fixture that has type: null
+        null_type_fields = [
+            field
+            for field in details_of_a_type["extraFields"]
+            if field.get("type") is None
+        ]
 
-    # TODO: Make this work
-    # for key, value in details_of_a_type.items():
-    #     assert hasattr(details_of_a_type_result, key), f"Missing attribute: {key}"
-    #     actual_value = getattr(details_of_a_type_result, key)
-    #     assert_deep_equal(actual_value, value, key)
+        # Ensure at least one field with null type exists in the fixture
+        assert (
+            null_type_fields
+        ), "Test fixture for B.6 should have at least one field with type: null"
 
-    # Check if the details_of_a_type dictionary is the same as details_of_a_type_result
-    # for key, value in details_of_a_type.items():
-    #     assert hasattr(
-    #         details_of_a_type_result, key
-    #     ), f"Missing attribute: {key} in response"
-    #     assert (
-    #         getattr(details_of_a_type_result, key) == value
-    #     ), f"""
-    #         Attribute {key} value does not match.
-    #         Actual: {getattr(details_of_a_type_result, key)}
-    #         Expected: {value}
-    #         """
+        # Check if the model correctly handles the null type
+        for null_field in null_type_fields:
+            uid = null_field["uid"]
+            # Find the corresponding field in the result
+            result_field = next(
+                (
+                    field
+                    for field in details_of_a_type_result.extraFields
+                    if field.uid == uid
+                ),
+                None,
+            )
+
+            assert result_field is not None, f"Field with uid {uid} not found in result"
+            assert (
+                result_field.type is None
+            ), f"Field {uid} should have type=None, but got {result_field.type}"

@@ -46,7 +46,9 @@ class ExtraField(BaseModel):
     #         "fixedValueList": null,
     #         "nestedFields": []
     #     }
-    type: str = Field(..., description="Τύπος δεδομένων πεδίου (π.χ., string, object)")
+    type: Optional[str] = Field(
+        None, description="Τύπος δεδομένων πεδίου (π.χ., string, object)"
+    )
     validation: Optional[str] = Field(
         None, description="Κανόνας επικύρωσης (π.χ., ada)"
     )

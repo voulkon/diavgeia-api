@@ -4,11 +4,21 @@ import responses
 from tests.utils import load_json_fixture
 from diavgeia_api._config import TYPES
 
-# Keep other necessary imports like responses, urllib.parse, ORGANIZATIONS if needed elsewhere
-
 HERE = Path(__file__).parent
 
 # --- Data Fixtures ---
+
+# Define type mapping configuration
+TYPE_FIXTURES = {
+    "2.4.6.1": {
+        "fixture_filename": "details_of_2_4_6_1_type.json",
+        "label_to_look_for": "ΠΡΑΞΕΙΣ ΧΩΡΟΤΑΞΙΚΟΥ - ΠΟΛΕΟΔΟΜΙΚΟΥ ΠΕΡΙΕΧΟΜΕΝΟΥ",
+    },
+    "Β.6": {
+        "fixture_filename": "details_of_b_6_type.json",
+        "label_to_look_for": "ΠΡΟΓΡΑΜΜΑΤΙΚΗ ΣΥΜΦΩΝΙΑ ΟΙΚΟΝΟΜΙΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ",
+    },
+}
 
 
 @pytest.fixture
@@ -17,21 +27,23 @@ def all_types_expected_response():
     return load_json_fixture(HERE, "all_types.json")
 
 
-@pytest.fixture
-def type_to_target():
-    # {
-    #         "uid": "2.4.2",
-    #         "label": "ΠΡΑΞΕΙΣ ΟΙΚΟΝΟΜΙΚΟΥ ΠΕΡΙΕΧΟΜΕΝΟΥ",
-    #         "parent": null,
-    #         "allowedInDecisions": false
-    # },
-    return "2.4.6.1"
+@pytest.fixture(params=list(TYPE_FIXTURES.keys()))
+def type_to_target(request):
+    """Provides different type IDs to test"""
+    return request.param
 
 
 @pytest.fixture
-def details_of_a_type():
-    """Expected response for all types"""
-    return load_json_fixture(HERE, "details_of_2_4_6_1_type.json")
+def details_of_a_type(type_to_target):
+    """Expected response for type details based on the selected type"""
+    fixture_filename = TYPE_FIXTURES[type_to_target]["fixture_filename"]
+    return load_json_fixture(HERE, fixture_filename)
+
+
+@pytest.fixture
+def general_label_of_type_details_to_look_for(type_to_target):
+    """Returns the expected label for the current type being tested"""
+    return TYPE_FIXTURES[type_to_target]["label_to_look_for"]
 
 
 @pytest.fixture
