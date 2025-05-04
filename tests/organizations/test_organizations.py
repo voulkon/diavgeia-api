@@ -155,3 +155,28 @@ def test_get_specific_signer(
     for field, datum_to_look_for in data_to_look_for.items():
         # Assert that the pydantic model a_specific_signers_expected_result has the same values as described in data_to_look_for
         assert getattr(a_specific_signers_expected_result, field) == datum_to_look_for
+
+
+@pytest.mark.integration
+@pytest.mark.skipif(
+    "not config.getoption('--live')",
+    reason="Run with --live to hit the real API",
+)
+def test_get_signer_without_position_id(
+    signers_without_position_id_expected_result, signers_without_position_id_unique_id
+):
+    assert (
+        signers_without_position_id_expected_result.uid
+        == signers_without_position_id_unique_id
+    )
+    # Check that at least one unit has null position data
+    units_with_null_position = [
+        unit
+        for unit in signers_without_position_id_expected_result.units
+        if unit.positionId is None and unit.positionLabel is None
+    ]
+
+    assert (
+        units_with_null_position
+    ), "Expected to find at least one unit with null position data"
+    assert units_with_null_position[0].uid == "100081533"  # Verify the specific unit ID

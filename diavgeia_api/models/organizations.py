@@ -107,8 +107,8 @@ class SignerUnit(BaseModel):
     """Represents a unit associated with a signer."""
 
     uid: str
-    positionId: str
-    positionLabel: str
+    positionId: Optional[str] = None
+    positionLabel: Optional[str] = None
 
 
 class Signer(BaseModel):
