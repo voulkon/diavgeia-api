@@ -97,6 +97,20 @@ def specific_signers_expected_response():
 
 
 @pytest.fixture
+def signer_no_position_id_expected_response():
+    """Expected response for default call (no params)"""
+
+    return load_json_fixture(HERE, "signer_without_poisitionid.json")
+
+
+@pytest.fixture
+def signers_without_position_id_unique_id() -> str:
+    """Expected response for default call (no params)"""
+
+    return "100058444"
+
+
+@pytest.fixture
 def specific_signers_unique_id() -> str:
     """Expected response for default call (no params)"""
 
@@ -206,5 +220,33 @@ def a_specific_signers_expected_result(
     else:
         # If live, make the call outside the responses context
         result = client.get_specific_signer(signer_id=specific_signers_unique_id)
+
+    return result
+
+
+@pytest.fixture
+def signers_without_position_id_expected_result(
+    client,
+    signer_no_position_id_expected_response,
+    signers_without_position_id_unique_id,
+    live,
+):
+    if not live:
+        with responses.RequestsMock() as rs:
+            rs.add(
+                method=responses.GET,
+                url=client._build_url(SIGNERS, signers_without_position_id_unique_id),
+                json=signer_no_position_id_expected_response,
+                status=200,
+            )
+            # The call must happen *inside* the context manager when mocking
+            result = client.get_specific_signer(
+                signer_id=signers_without_position_id_unique_id
+            )
+    else:
+        # If live, make the call outside the responses context
+        result = client.get_specific_signer(
+            signer_id=signers_without_position_id_unique_id
+        )
 
     return result

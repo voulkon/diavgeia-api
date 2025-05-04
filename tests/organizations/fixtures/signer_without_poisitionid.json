@@ -1,0 +1,22 @@
+{
+    "uid": "100058444",
+    "firstName": "ΜΑΤΘΟΥΛΑ",
+    "lastName": "ΤΡΙΑΝΤΑΦΥΛΛΟΥ",
+    "active": true,
+    "activeFrom": 1687824000000,
+    "activeUntil": 1687824000000,
+    "organizationId": "100081533",
+    "hasOrganizationSignRights": false,
+    "units": [
+        {
+            "uid": "100054498",
+            "positionId": "100058432",
+            "positionLabel": "Υπηρεσιακός Γραμματέας"
+        },
+        {
+            "uid": "100081533",
+            "positionId": null,
+            "positionLabel": null
+        }
+    ]
+}
