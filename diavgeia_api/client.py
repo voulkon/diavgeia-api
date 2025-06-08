@@ -138,6 +138,11 @@ class DiavgeiaClient:
         """Return a specific decision's details."""
         logger.info(f"Fetching decision with ADA: {uid}")
         return self._get_and_parse(Decision, DECISIONS, uid)
+    
+    def get_a_unit(self, uid: str) -> Decision:
+        """Return a specific decision's details."""
+        logger.info(f"Fetching decision with ADA: {uid}")
+        return self._get_and_parse(Decision, DECISIONS, uid)
 
     def get_a_decisions_specific_version(self, versionId: str) -> Decision:
         """Returns details of a specific version of a decision."""
