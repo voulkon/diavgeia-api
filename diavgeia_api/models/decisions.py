@@ -1,5 +1,5 @@
 from pydantic import BaseModel, ConfigDict
-from typing import Any, List, Optional
+from typing import Any, List, Optional, Union
 from datetime import datetime
 from enum import Enum
 
@@ -20,37 +20,45 @@ class Attachment(BaseModel):
     mimeType: str
     checksum: str
 
+# FLEXIBLE TYPE for fields that might vary
+FlexibleValue = Union[str, int, float, bool, dict, list, None]
 
 class AmountWithKAE(BaseModel):
-    """Amount with KAE (Κωδικός Αριθμού Εξόδου)."""
+    """Amount with KAE - flexible because Diavgeia is chaos."""
 
-    kae: str
-    amountWithVAT: float
+    # Core fields - prefer expected types but accept anything
+    kae: Union[str, FlexibleValue] = None  # Usually string, but might be complex
+    amountWithVAT: Union[float, FlexibleValue] = None  # Usually float, but might be dict
+    
+    # Capture everything else
+    model_config = ConfigDict(extra='allow')
 
 
 class Amount(BaseModel):
-    """Amount with currency."""
+    """Amount - flexible for unexpected structures."""
 
-    amount: Optional[float] = None
-    currency: Optional[str] = None
+    amount: Union[float, FlexibleValue] = None  # Could be {"value": 100, "formatted": "100.00 EUR"}
+    currency: Union[str, FlexibleValue] = None  # Could be {"code": "EUR", "symbol": "€"}
+    
+    model_config = ConfigDict(extra='allow')
 
 
 class ExtraFieldValues(BaseModel):
-    """Extra fields that may be present in a decision."""
+    """Extra fields - maximum flexibility with intelligent defaults."""
 
-    financialYear: Optional[int] = None
-    budgettype: Optional[str] = None
-    entryNumber: Optional[str] = None
-    recalledExpenseDecision: Optional[bool] = None
-    amountWithVAT: Optional[Amount] = None
-    amountWithKae: Optional[List[AmountWithKAE]] = None
-    partialead: Optional[bool] = None
-    relatedDecisions: Optional[List[Any]] = None
-    documentType: Optional[str] = None
-    awardAmount: Optional[Amount] = None
+    # Known fields with flexible typing
+    financialYear: Union[int, FlexibleValue] = None  # Usually int, but could be {"year": 2025, "quarter": 1}
+    budgettype: Union[str, FlexibleValue] = None     # Usually string, but could be {"type": "regular", "subtype": "main"}
+    entryNumber: Union[str, FlexibleValue] = None    # CONCERN: could be {"primary": "1802", "secondary": "1497"}
+    recalledExpenseDecision: Union[bool, FlexibleValue] = None
+    amountWithVAT: Union[Amount, FlexibleValue] = None
+    amountWithKae: Union[List[AmountWithKAE], FlexibleValue] = None  # Could be dict with metadata
+    partialead: Union[bool, FlexibleValue] = None
+    relatedDecisions: Union[List[Any], FlexibleValue] = None
+    documentType: Union[str, FlexibleValue] = None
+    awardAmount: Union[Amount, FlexibleValue] = None
     
-    # ✅ CAPTURE EVERYTHING ELSE
-    model_config = ConfigDict(extra='allow')  # Pydantic v2
+    model_config = ConfigDict(extra='allow')
 
 
 class Decision(BaseModel):
