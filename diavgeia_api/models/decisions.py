@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from typing import Any, List, Optional
 from datetime import datetime
 from enum import Enum
@@ -48,6 +48,9 @@ class ExtraFieldValues(BaseModel):
     relatedDecisions: Optional[List[Any]] = None
     documentType: Optional[str] = None
     awardAmount: Optional[Amount] = None
+    
+    # ✅ CAPTURE EVERYTHING ELSE
+    model_config = ConfigDict(extra='allow')  # Pydantic v2
 
 
 class Decision(BaseModel):
